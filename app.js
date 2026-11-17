@@ -13,7 +13,9 @@ const FEEDS = [
   ['ews','Apocalypse EWS','Kísérleti magánrepülőgép-indikátor'],
   ['official_news','Európai Bizottság / GDACS','Hivatalos hírek és események'],
   ['gie_storage','GIE AGSI+','Opcionális magyar gáztárolói adatok'],
-  ['entsoe_hu_load','ENTSO-E','Opcionális magyar terhelés-előrejelzés']
+  ['entsoe_hu_load','ENTSO-E','Opcionális magyar terhelés-előrejelzés'],
+  ['grid_context','Energy-Charts v2','Európai hálózati kontextus (adatfüggő)'],
+  ['cap_warnings','Meteoalarm CAP','Aktív, időbélyegzett hivatalos riasztások']
 ];
 function n(x) { if(x===null||x===undefined||x==='')return null; const t=Number(x);return Number.isFinite(t)?t:null; }
 function safeUrl(s){return typeof s==='string' && /^https:\/\//.test(s) ? esc(s) : '#';}
@@ -77,7 +79,7 @@ function fillSources(){const enabled=FEEDS.filter(([k])=>!['gie_storage','entsoe
 }
 function draw(){
  if(!signalHours().length){$('score').textContent='—';$('risk-label').textContent='Nincs friss előrejelzés';$('peak-day').textContent='—';$('peak-detail').textContent='—';$('peak-reason').textContent='—';$('precip-prob').textContent='—';$('scenarios').innerHTML='<div class="empty">Előbb szükség van friss időjárási adatokra.</div>';}
- graph();fillMarket();fillKp();fillSources();fillCategories();fillEurope();fillNews();fillAlternatives();fillCross();
+ graph();fillMarket();fillKp();fillSources();fillCategories();fillEurope();fillNews();fillAlternatives();fillCross();fillWindows();fillGridContext();fillCAP();
  $('last-checked').textContent=state.generated_at?fmtDate(state.generated_at):'—';
 }
 function isoEpoch(s){return new Date(Number(s)*1000).toISOString();}
@@ -98,7 +100,7 @@ async function refresh(){const button=$('refresh');button.disabled=true;button.t
   ['space_weather','https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json',mapSpace]
  ];
  let got=0;await Promise.all(queries.map(async ([key,url,parse])=>{try{state.feeds[key]=parse(await getJSON(url));got++;}catch(e){state.errors[key]=String(e.message||e);} }));
- if(got)state.generated_at=new Date().toISOString();draw();button.disabled=false;button.textContent='⟳  Frissítés most';
+ if(got)state.generated_at=new Date().toISOString();draw();button.disabled=false;button.textContent='⟳  3 élő forrás frissítése';
  if(!got){$('overall-status').textContent='Élő lekérdezés sikertelen · ellenőrizd a forrásokat';$('overall-status').className='pill warn';}
 }
 async function main(){
@@ -119,7 +121,7 @@ function fillCategories(){
   const score=n(c.score), over=score!==null&&score>=50;
   const scoreText=score===null?'Nem becsülhető':`${score}/100${over?' ⚠':''}`;
   const evidence=(Array.isArray(c.evidence)?c.evidence:[]).slice(0,2).map(e=>`<div class="category-evidence">${esc(e.detail||'')} · <a href="${safeUrl(e.url)}" rel="noopener noreferrer" target="_blank">${esc(e.source||'Forrás')} ↗</a></div>`).join('');
-  const note=c.status==='verified_notice'?'Ellenőrzött hivatalos figyelmeztetés':c.status==='estimated_index'?'Szabályalapú indikátor':'Nincs megbízható 24h modell vagy ellenőrzött riasztás';
+  const note=c.status==='verified_notice'?'Ellenőrzött hivatalos figyelmeztetés':c.status==='official_cap'?'Érvényes hivatalos CAP riasztás (a jelölt térségre)':c.status==='estimated_index'?'Szabályalapú indikátor':'Nincs megbízható 24h modell vagy ellenőrzött riasztás';
   return `<article class="category-row"><div class="category-head"><strong>${esc(c.name)}</strong><span class="category-score ${over?'trigger':score===null?'category-unknown':''}">${esc(scoreText)}</span></div><div class="category-detail">${esc(note)}. ${esc(c.method||'')}${c.peak_time?`<br>Jelzési csúcs: ${esc(fmtDate(c.peak_time))}`:''}</div>${evidence}</article>`;
  }).join('');
 }
@@ -163,4 +165,41 @@ function fillCross(){
  const nfeed=state.feeds.official_news;
  if(nfeed&&ageHours(nfeed.updated_at)<36)items.push({title:'Hírek → ellenőrzendő események',text:`${nfeed.items?.length||0} hivatalos híresemény lekérve. Címekből nem képezünk terror-, háború- vagy blackout-esélyt.`,note:'Hírek validálása, nincs automatikus előrejelzési súly'});
  $('cross-signals').innerHTML=items.length?items.map(x=>`<div class="cross-item"><div class="signal-title">${esc(x.title)}</div><div class="signal-body">${esc(x.text)}</div><div class="signal-foot">${esc(x.note)}</div></div>`).join(''):'<div class="empty">Az összefüggésekhez friss adat szükséges.</div>';
+}
+
+// V4: independent 24/48/72 windows, data quality and independent power context.
+function fillWindows(){
+ const a=state.assessment, root=$('window-summaries'),h=$('v4-health');
+ if(!root || !h)return;
+ const fresh=a&&ageHours(a.generated_at)<30;
+ if(!fresh){root.innerHTML='<div class="empty">Nincs friss szerveroldali értékelés. GitHub → Actions → Run workflow.</div>';h.textContent='N/A · az utolsó értékelés hiányzik vagy régi';return;}
+ const wins=a.windows||{'24':a};
+ root.innerHTML=[24,48,72].map(hours=>{
+   const b=wins[String(hours)],overall=b?.overall||{},value=n(overall.score);
+   const names=(b?.categories||[]).filter(x=>x.score!==null).sort((x,y)=>y.score-x.score);
+   const top=names[0];
+   return `<div class="v4-window"><div class="v4-window-label">Következő ${hours} óra</div><div class="v4-window-score">${value===null?'N/A':esc(value)+'/100'}</div><div class="smallmuted">${top?esc(top.name):'Nincs becsülhető jel'}${top?.peak_time?' · '+esc(fmtDate(top.peak_time)):''}</div><div class="smallmuted">Lefedettség: ${n(overall.coverage)||0}/${n(overall.total_categories)||13}</div></div>`;
+ }).join('');
+ const status=a.health;
+ if(status){
+  h.innerHTML=`<strong>${status.important_fresh}/${status.important_total} fontos adatforrás friss</strong>${status.degraded?' · HIBÁS / HIÁNYOS':' · figyelés aktív'}<br>${status.important_missing?.length?'Hiányzik: '+esc(status.important_missing.join(', ')):'A fontos források adatai frissek.'}<br>GitHub Actions ütemezés késhet; elmaradt futást önmagában nem tud észlelni.`;
+ } else h.textContent='Nincs adatminőségi jelentés. V4 szerveroldali futtatás szükséges.';
+}
+function fillGridContext(){
+ const el=$('v4-grid-context');if(!el)return;
+ const feed=state.feeds.grid_context;
+ if(!feed||ageHours(feed.updated_at)>36){el.innerHTML='<div class="empty">Nincs friss, ellenőrzött EU hálózati adat. Ez nem jelent alacsony kockázatot.</div>';return;}
+ const readings=Array.isArray(feed.readings)?feed.readings:[];
+ el.innerHTML=readings.length?readings.map(r=>{
+  const series=(r.series||[]).slice(0,4).map(s=>`${esc(s.name)}: ${n(s.latest?.value)?.toLocaleString('hu-HU',{maximumFractionDigits:2})??'—'} ${esc(s.unit||'')} (${esc(fmtDate(s.latest?.time))})`).join('<br>');
+  return `<div class="eu-row"><div><strong>${esc(r.name)}</strong><p>${series}</p><a href="${safeUrl(r.source_url)}" target="_blank" rel="noopener noreferrer">Adatforrás ↗</a></div></div>`;
+ }).join(''):'<div class="empty">A lekért adat formátuma nem volt feldolgozható.</div>';
+ if(feed.partial_errors?.length)el.innerHTML+=`<div class="smallmuted">Részleges adathiány: ${esc(feed.partial_errors.map(x=>x.key).join(', '))}</div>`;
+}
+function fillCAP(){
+ const el=$('v4-cap');if(!el)return;
+ const f=state.feeds.cap_warnings;
+ if(!f||ageHours(f.updated_at)>36){el.innerHTML='<div class="empty">Nincs friss CAP adat; használd a hivatalos Meteoalarm/VÉSZ oldalt.</div>';return;}
+ const alerts=(f.alerts||[]).filter(x=>Date.parse(x.expires)>Date.now()).slice(0,12);
+ el.innerHTML=alerts.length?alerts.map(a=>`<div class="eu-row"><div><strong>${esc(a.country)} · ${esc(a.title||a.event)}</strong><p>Erősség: ${esc(a.severity)} · ${esc(a.area)}<br>${esc(fmtDate(a.onset))} – ${esc(fmtDate(a.expires))}</p><a href="${safeUrl(a.url)}" target="_blank" rel="noopener noreferrer">Hivatalos CAP ↗</a></div></div>`).join(''):'<div class="empty">Nincs a feldolgozott országokra vonatkozó aktív, időben érvényes CAP-üzenet. Ez nem kizárólagos hatósági riasztási csatorna.</div>';
 }

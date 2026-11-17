@@ -67,16 +67,16 @@ def weather_score(h):
     compound=10 if gust>=65 and (snow>.3 or mm>5) else 0
     return cap(max(wind,snowfall,rain,frost)+compound)
 
-def baseline(now):
+def baseline(now,horizon_hours=24):
     return {key:{'key':key,'name':name,'method':method,'score':None,'status':'not_estimated',
-                 'peak_time':None,'evidence':[],'scope':'Magyarország / 24 óra',
+                 'peak_time':None,'evidence':[],'scope':f'Magyarország / {horizon_hours} óra',
                  'probability_pct':None,'why_unavailable':'Nincs validált, 24 órás eseményvalószínűségi modell.'}
             for key,name,method in CATEGORIES}
 
-def evaluate(data, official, now=None):
+def evaluate(data, official, now=None, horizon_hours=24):
     now=now or dt.datetime.now(UTC)
-    end=now+dt.timedelta(hours=24)
-    categories=baseline(now)
+    end=now+dt.timedelta(hours=horizon_hours)
+    categories=baseline(now,horizon_hours)
     feeds=data.get('feeds',{})
     # Weather is a local weather-exposure indicator. Not outage likelihood.
     w=feeds.get('weather')
@@ -96,7 +96,7 @@ def evaluate(data, official, now=None):
                 'time':t.isoformat()}
             for key in ('local_power','extreme_weather'):
                 c=categories[key];c.update(score=s,peak_time=t.isoformat(),status='estimated_index',evidence=[evidence],why_unavailable=None)
-                c['scope']='Nyíregyháza / 24 óra'
+                c['scope']=f'Nyíregyháza / {horizon_hours} óra'
     # Space weather: severity of predicted NOAA signal. Not blackout likelihood.
     f=feeds.get('space_weather')
     if age_ok(f,now) and isinstance(f.get('kp'),list):
@@ -109,6 +109,24 @@ def evaluate(data, official, now=None):
             s=0 if v<5 else 40 if v<6 else 55 if v<7 else 70 if v<8 else 90 if v<9 else 100
             c=categories['geomagnetic'];c.update(score=s,peak_time=t.isoformat(),status='estimated_index',why_unavailable=None,
                 evidence=[{'source':'NOAA SWPC','url':'https://www.swpc.noaa.gov/','detail':f'Előrejelzett Kp {v:g}', 'time':t.isoformat()}])
+    # Official CAP warnings from Meteoalarm: only a real active HU severity alert.
+    # Valid region may be unrelated to Nyiregyhaza: never score local_power.
+    fw=feeds.get('cap_warnings')
+    if age_ok(fw,now) and isinstance(fw.get('alerts'),list):
+        levels={'moderate':35,'severe':65,'extreme':85}
+        for notice in fw['alerts']:
+            if notice.get('country')!='HU':continue
+            start=parse_iso(notice.get('onset'));expiry=parse_iso(notice.get('expires'))
+            score=levels.get(str(notice.get('severity','')).lower())
+            if not score or not start or not expiry or start>end or expiry<=now:continue
+            c=categories['extreme_weather']
+            evidence={'source':'Meteoalarm CAP – hivatalos','url':notice.get('url','https://www.meteoalarm.org/'),
+                'detail':str(notice.get('title','Időjárási riasztás'))[:110]+' – '+str(notice.get('area','Terület ismeretlen'))[:145],
+                'time':start.isoformat()}
+            if c['score'] is None or score>c['score']:
+                c.update(score=score,status='official_cap',peak_time=start.isoformat(),evidence=[evidence],
+                    why_unavailable=None,scope='Magyarországi riasztási térség (nem feltétlen Nyíregyháza)')
+            elif len(c['evidence'])<4:c['evidence'].append(evidence)
     # Operator-maintained, explicitly verified notices from official sources only.
     # No unverified media and no EWS signal ever turn into an emergency score.
     accepted=[];rejected=[]
@@ -134,11 +152,11 @@ def evaluate(data, official, now=None):
     scored=[x for x in categories.values() if x['score'] is not None]
     high=[x for x in scored if x['score']>=THRESHOLD]
     primary=max(scored,key=lambda c:c['score']) if scored else None
-    return {'generated_at':now.isoformat(),'horizon_hours':24,'threshold':THRESHOLD,
+    return {'generated_at':now.isoformat(),'horizon_hours':horizon_hours,'threshold':THRESHOLD,
         'threshold_unit':'index_points_not_probability',
         'probability_note':'Nem számolunk validált bekövetkezési százalékot. 50/100 pont ≠ 50% eseményesély.',
         'overall':{'score':primary['score'] if primary else None,'category':primary['key'] if primary else None,
-            'method':'Legmagasabb elérhető kategóriaindex; hiányzó kategóriák NEM nulla kockázat.',
+            'method':'Az elérhető jelzések legmagasabb, nem kalibrált intenzitásindexe. Az eltérő kategóriák nem összehasonlítható eseményvalószínűségek.',
             'coverage':len(scored),'total_categories':len(categories),'complete':len(scored)==len(categories)},
         'categories':list(categories.values()),'alerts':[x['key'] for x in high],
         'official_notices_accepted':accepted,'official_notices_rejected_count':len(rejected)}
@@ -146,8 +164,16 @@ def evaluate(data, official, now=None):
 def main():
     data=json.loads(DATA.read_text(encoding='utf8'))
     official=json.loads(OFFICIAL.read_text(encoding='utf8')) if OFFICIAL.exists() else {'alerts':[]}
-    evaluation=evaluate(data,official)
+    from health import inspect
+    stamp=dt.datetime.now(UTC)
+    evaluation=evaluate(data,official,stamp,24)
+    evaluation['windows']={str(h):evaluate(data,official,stamp,h) for h in (24,48,72)}
+    evaluation['health']=inspect(data,stamp)
+    evaluation['validation']={'status':'not_calibrated',
+        'notice':'Történeti áramszünet-eseményekkel nem kalibrált; az index nem százalékos valószínűség.'}
     data['assessment']=evaluation
+    from history import record
+    record(evaluation)
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print('Kategóriák:',evaluation['overall']['coverage'],'/',evaluation['overall']['total_categories'],
           '; riasztási indexek:',evaluation['alerts'])

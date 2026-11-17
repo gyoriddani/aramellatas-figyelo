@@ -13,6 +13,8 @@ from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from extra import eu_news, gie_storage, entsoe_hu_load
+from grid import europe_grid
+from cap import official_cap
 
 ROOT = Path(__file__).resolve().parents[1]
 TARGET = ROOT / 'data' / 'latest.json'
@@ -219,7 +221,7 @@ def main():
     successes=set()
     jobs=[('weather',weather),('electricity',electricity),('space_weather',space_weather),
           ('european_prices',european_prices),('europe_weather',europe_weather),
-          ('meteoalarm',meteoalarm),('ews',ews),('official_news',eu_news),('gie_storage',gie_storage),('entsoe_hu_load',entsoe_hu_load)]
+          ('meteoalarm',meteoalarm),('ews',ews),('official_news',eu_news),('gie_storage',gie_storage),('entsoe_hu_load',entsoe_hu_load),('grid_context',europe_grid),('cap_warnings',official_cap)]
     with ThreadPoolExecutor(max_workers=6) as pool:
         futures={pool.submit(fn):name for name,fn in jobs}
         for fut in as_completed(futures):
