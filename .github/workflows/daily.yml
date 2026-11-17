@@ -1,7 +1,7 @@
-name: Automatikus ellátásbiztonsági figyelés és e-mail
+name: Ellátásbiztonsági V4 – automatikus figyelés és e-mail
 on:
   schedule:
-    - cron: '17 */3 * * *' # kb. 3 óránként; Actions ütemezés csúszhat
+    - cron: '23 */3 * * *' # UTC; GitHub késhet és futásokat kihagyhat
   workflow_dispatch:
 permissions:
   contents: write
@@ -11,37 +11,59 @@ concurrency:
 jobs:
   monitor:
     runs-on: ubuntu-24.04
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
-      - name: Repo
+      - name: Forráskód letöltése
         uses: actions/checkout@v5
         with:
           persist-credentials: true
-      - name: Python
+      - name: Python telepítése
         uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Nyilvános adatok lekérése
+      - name: Automatikus tesztek
+        run: python -m unittest discover -s tests -v
+      - name: Adatok lekérése
         env:
           GIE_API_KEY: ${{ secrets.GIE_API_KEY }}
           ENTSOE_API_TOKEN: ${{ secrets.ENTSOE_API_TOKEN }}
         run: python scripts/collect.py
-      - name: 24 órás kategória-indexek számítása
+      - name: Kockázati ablakok és adatminőség ellenőrzése
         run: python scripts/assess.py
-      - name: Figyelmeztető e-mail, ha index >=50/100 és van SMTP beállítás
+      - name: 24 órás indexriasztás és adatgyűjtési hibaértesítés
         env:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
           ALERT_TO: ${{ secrets.ALERT_TO }}
         run: python scripts/notify.py
-      - name: Adatpillanatkép és riasztási napló mentése
+      - name: Legutóbbi adatok és riasztási napló visszaírása
         if: always()
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/latest.json data/alert_state.json
+          git add data/latest.json data/alert_state.json data/predictions.csv
           if ! git diff --cached --quiet; then
-            git commit -m 'Friss ellátásbiztonsági adatok és riasztásnapló'
+            git commit -m 'V4: friss adatok és riasztási napló'
             git pull --rebase origin main
             git push origin main
+          fi
+      - name: GitHub-futási hiba e-mailben
+        if: failure()
+        continue-on-error: true
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+          MONITOR_JOB_STATUS: failure
+          RUN_LINK: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python scripts/notify_failure.py
+      - name: Független heartbeat (opcionális)
+        if: success()
+        env:
+          HEALTHCHECKS_PING_URL: ${{ secrets.HEALTHCHECKS_PING_URL }}
+        run: |
+          if [ -n "$HEALTHCHECKS_PING_URL" ]; then
+            curl --max-time 15 --fail --retry 2 -sS -X POST "$HEALTHCHECKS_PING_URL" >/dev/null
+          else
+            echo 'Nincs HEALTHCHECKS_PING_URL, külső futásfelügyelet nincs bekapcsolva.'
           fi
