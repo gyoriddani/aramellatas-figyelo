@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:55:47Z",
+  "generated_at": "2026-11-17T13:02:17Z",
   "location": "Nyíregyháza, Magyarország",
   "timezone": "Europe/Budapest",
   "feeds": {
@@ -1458,7 +1458,7 @@
       "scope_note": "Representative city per country, not entire national grid"
     },
     "ews": {
-      "updated_at": "2026-11-17T12:55:47Z",
+      "updated_at": "2026-11-17T13:02:17Z",
       "level": 1.0,
       "airborne_count": null,
       "source_timestamp": null,
@@ -1467,7 +1467,7 @@
       "url": "https://ews.kylemcdonald.net/"
     },
     "european_prices": {
-      "updated_at": "2026-11-17T12:55:51Z",
+      "updated_at": "2026-11-17T13:02:20Z",
       "countries": [
         {
           "code": "AT",
@@ -1488,15 +1488,6 @@
           "sample_count": 288
         },
         {
-          "code": "DE",
-          "name": "Németország",
-          "zone": "DE-LU",
-          "recent_eur_mwh": 171.29,
-          "latest_time": "2026-11-18T22:45:00Z",
-          "mean_eur_mwh": 184.1,
-          "sample_count": 288
-        },
-        {
           "code": "HU",
           "name": "Magyarország",
           "zone": "HU",
@@ -1506,13 +1497,13 @@
           "sample_count": 288
         },
         {
-          "code": "PL",
-          "name": "Lengyelország",
-          "zone": "PL",
-          "recent_eur_mwh": 152.03,
+          "code": "RO",
+          "name": "Románia",
+          "zone": "RO",
+          "recent_eur_mwh": 147.57,
           "latest_time": "2026-11-18T22:45:00Z",
-          "mean_eur_mwh": 178.7,
-          "sample_count": 288
+          "mean_eur_mwh": 222.9,
+          "sample_count": 292
         },
         {
           "code": "SK",
@@ -1525,15 +1516,16 @@
         }
       ],
       "partial_errors": [
-        "RO: HTTP Error 429: Too Many Requests",
+        "PL: HTTP Error 429: Too Many Requests",
         "FR: HTTP Error 429: Too Many Requests",
+        "DE: HTTP Error 429: Too Many Requests",
         "HR: HTTP Error 429: Too Many Requests",
         "SI: HTTP Error 429: Too Many Requests"
       ],
       "metric": "Spot market price context, not shortage evidence"
     },
     "official_news": {
-      "updated_at": "2026-11-17T12:55:49Z",
+      "updated_at": "2026-11-17T13:02:23Z",
       "items": [
         {
           "title": "Joint press statement by Michael McGrath, Commissioner for Democracy, Justice, the Rule of Law and Consumer Protection and Immaculate Kassait, Data Commissioner of Kenya",
@@ -1635,7 +1627,7 @@
       "note": "Hivatalos hírek, nem riasztások; automatikusan nem kapnak kockázati pontot."
     },
     "meteoalarm": {
-      "updated_at": "2026-11-17T12:55:53Z",
+      "updated_at": "2026-11-17T13:02:25Z",
       "countries_checked": [
         "AT",
         "BE",
@@ -1666,6 +1658,97 @@
         "UA"
       ],
       "recent_entries": [
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Wind Warning issued for Finland - Selkämeren pohjoisosa, Merenkurkku",
+          "published_at": "2026-11-17T12:49:40Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI801"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Wind Warning issued for Finland - Selkämeren pohjoisosa, Merenkurkku",
+          "published_at": "2026-11-17T12:49:40Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI802"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Wind Warning issued for Finland - Perämeren eteläosa, Perämeren pohjoisosa",
+          "published_at": "2026-11-17T12:49:40Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI809"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Wind Warning issued for Finland - Perämeren eteläosa, Perämeren pohjoisosa",
+          "published_at": "2026-11-17T12:49:40Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI810"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Inari, Utsjoki, Enontekiö",
+          "published_at": "2026-11-17T12:49:40Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI004"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Inari, Utsjoki, Enontekiö",
+          "published_at": "2026-11-17T12:49:40Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI002"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Inari, Utsjoki, Enontekiö",
+          "published_at": "2026-11-17T12:49:40Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI003"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Keski-Suomi, Etelä-Pohjanmaa, Keski-Pohjanmaa, Pohjois-Pohjanmaan Eteläosa, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Pos",
+          "published_at": "2026-11-17T12:49:40Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI004"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Keski-Suomi, Etelä-Pohjanmaa, Keski-Pohjanmaa, Pohjois-Pohjanmaan Eteläosa, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Pos",
+          "published_at": "2026-11-17T12:49:40Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI002"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Keski-Suomi, Etelä-Pohjanmaa, Keski-Pohjanmaa, Pohjois-Pohjanmaan Eteläosa, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Pos",
+          "published_at": "2026-11-17T12:49:40Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI003"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Keski-Suomi, Etelä-Pohjanmaa, Keski-Pohjanmaa, Pohjois-Pohjanmaan Eteläosa, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Pos",
+          "published_at": "2026-11-17T12:49:40Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI042"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Keski-Suomi, Etelä-Pohjanmaa, Keski-Pohjanmaa, Pohjois-Pohjanmaan Eteläosa, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Pos",
+          "published_at": "2026-11-17T12:49:40Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI006"
+        },
+        {
+          "country": "NO",
+          "name": "Norvégia",
+          "title": "Yellow Wind Warning issued for Norway - Vardoe - Russian border",
+          "published_at": "2026-11-17T12:45:56Z",
+          "url": "https://meteoalarm.org?polygon=d3cc53dc-1087-45ae-8408-ebb7cf7c9d53,1,0,0"
+        },
         {
           "country": "HR",
           "name": "Horvátország",
@@ -2029,113 +2112,668 @@
           "title": "Yellow Rain Warning issued for Spain - Norte de Cáceres",
           "published_at": "2026-11-17T10:20:09Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:ES198"
-        },
-        {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Yellow Rain Warning issued for Spain - Sur de Salamanca",
-          "published_at": "2026-11-17T10:20:09Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES152"
-        },
-        {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Yellow Rain Warning issued for Spain - Sur de Ávila",
-          "published_at": "2026-11-17T10:20:09Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES139"
-        },
-        {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Yellow Rain Warning issued for Spain - Sistema Central de Salamanca",
-          "published_at": "2026-11-17T10:20:09Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES151"
-        },
-        {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Rain Warning issued for Portugal - Portalegre",
-          "published_at": "2026-11-17T10:11:15Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT018"
-        },
-        {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Rain Warning issued for Portugal - Lisboa",
-          "published_at": "2026-11-17T10:11:15Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT016"
-        },
-        {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Rain Warning issued for Portugal - Santarém",
-          "published_at": "2026-11-17T10:11:15Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT017"
-        },
-        {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Rain Warning issued for Portugal - Coimbra",
-          "published_at": "2026-11-17T10:11:15Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT013"
-        },
-        {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Rain Warning issued for Portugal - Leiria",
-          "published_at": "2026-11-17T10:11:15Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT015"
-        },
-        {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Rain Warning issued for Portugal - Castelo Branco",
-          "published_at": "2026-11-17T10:11:15Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT014"
-        },
-        {
-          "country": "AT",
-          "name": "Ausztria",
-          "title": "Yellow Wind Warning issued for Austria - Wien Liesing",
-          "published_at": "2026-11-17T10:10:45Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT923"
-        },
-        {
-          "country": "AT",
-          "name": "Ausztria",
-          "title": "Yellow Wind Warning issued for Austria - Wien Donaustadt",
-          "published_at": "2026-11-17T10:10:45Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT922"
-        },
-        {
-          "country": "AT",
-          "name": "Ausztria",
-          "title": "Yellow Wind Warning issued for Austria - Wien Floridsdorf",
-          "published_at": "2026-11-17T10:10:45Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT921"
-        },
-        {
-          "country": "AT",
-          "name": "Ausztria",
-          "title": "Yellow Wind Warning issued for Austria - Wien Brigittenau",
-          "published_at": "2026-11-17T10:10:45Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT920"
         }
       ],
       "partial_errors": [
         "DE: Oversized response"
       ],
       "note": "Recently published Atom entries, not verified active alerts or blackouts"
+    },
+    "electricity": {
+      "updated_at": "2026-11-17T13:02:18Z",
+      "prices": [
+        {
+          "time": "2026-11-17T07:00:00Z",
+          "eur_mwh": 274.99
+        },
+        {
+          "time": "2026-11-17T07:15:00Z",
+          "eur_mwh": 271.8
+        },
+        {
+          "time": "2026-11-17T07:30:00Z",
+          "eur_mwh": 271.15
+        },
+        {
+          "time": "2026-11-17T07:45:00Z",
+          "eur_mwh": 269.98
+        },
+        {
+          "time": "2026-11-17T08:00:00Z",
+          "eur_mwh": 275.65
+        },
+        {
+          "time": "2026-11-17T08:15:00Z",
+          "eur_mwh": 274.88
+        },
+        {
+          "time": "2026-11-17T08:30:00Z",
+          "eur_mwh": 266.29
+        },
+        {
+          "time": "2026-11-17T08:45:00Z",
+          "eur_mwh": 256.2
+        },
+        {
+          "time": "2026-11-17T09:00:00Z",
+          "eur_mwh": 272.72
+        },
+        {
+          "time": "2026-11-17T09:15:00Z",
+          "eur_mwh": 260.92
+        },
+        {
+          "time": "2026-11-17T09:30:00Z",
+          "eur_mwh": 262.65
+        },
+        {
+          "time": "2026-11-17T09:45:00Z",
+          "eur_mwh": 250.78
+        },
+        {
+          "time": "2026-11-17T10:00:00Z",
+          "eur_mwh": 260.25
+        },
+        {
+          "time": "2026-11-17T10:15:00Z",
+          "eur_mwh": 255.87
+        },
+        {
+          "time": "2026-11-17T10:30:00Z",
+          "eur_mwh": 255.66
+        },
+        {
+          "time": "2026-11-17T10:45:00Z",
+          "eur_mwh": 248.31
+        },
+        {
+          "time": "2026-11-17T11:00:00Z",
+          "eur_mwh": 257.8
+        },
+        {
+          "time": "2026-11-17T11:15:00Z",
+          "eur_mwh": 247.63
+        },
+        {
+          "time": "2026-11-17T11:30:00Z",
+          "eur_mwh": 247.35
+        },
+        {
+          "time": "2026-11-17T11:45:00Z",
+          "eur_mwh": 239.45
+        },
+        {
+          "time": "2026-11-17T12:00:00Z",
+          "eur_mwh": 245.03
+        },
+        {
+          "time": "2026-11-17T12:15:00Z",
+          "eur_mwh": 263.62
+        },
+        {
+          "time": "2026-11-17T12:30:00Z",
+          "eur_mwh": 264.99
+        },
+        {
+          "time": "2026-11-17T12:45:00Z",
+          "eur_mwh": 282.02
+        },
+        {
+          "time": "2026-11-17T13:00:00Z",
+          "eur_mwh": 259.98
+        },
+        {
+          "time": "2026-11-17T13:15:00Z",
+          "eur_mwh": 300.0
+        },
+        {
+          "time": "2026-11-17T13:30:00Z",
+          "eur_mwh": 334.54
+        },
+        {
+          "time": "2026-11-17T13:45:00Z",
+          "eur_mwh": 313.49
+        },
+        {
+          "time": "2026-11-17T14:00:00Z",
+          "eur_mwh": 319.03
+        },
+        {
+          "time": "2026-11-17T14:15:00Z",
+          "eur_mwh": 308.29
+        },
+        {
+          "time": "2026-11-17T14:30:00Z",
+          "eur_mwh": 290.22
+        },
+        {
+          "time": "2026-11-17T14:45:00Z",
+          "eur_mwh": 289.74
+        },
+        {
+          "time": "2026-11-17T15:00:00Z",
+          "eur_mwh": 269.67
+        },
+        {
+          "time": "2026-11-17T15:15:00Z",
+          "eur_mwh": 264.3
+        },
+        {
+          "time": "2026-11-17T15:30:00Z",
+          "eur_mwh": 270.24
+        },
+        {
+          "time": "2026-11-17T15:45:00Z",
+          "eur_mwh": 270.46
+        },
+        {
+          "time": "2026-11-17T16:00:00Z",
+          "eur_mwh": 260.3
+        },
+        {
+          "time": "2026-11-17T16:15:00Z",
+          "eur_mwh": 258.53
+        },
+        {
+          "time": "2026-11-17T16:30:00Z",
+          "eur_mwh": 260.09
+        },
+        {
+          "time": "2026-11-17T16:45:00Z",
+          "eur_mwh": 265.85
+        },
+        {
+          "time": "2026-11-17T17:00:00Z",
+          "eur_mwh": 263.69
+        },
+        {
+          "time": "2026-11-17T17:15:00Z",
+          "eur_mwh": 266.6
+        },
+        {
+          "time": "2026-11-17T17:30:00Z",
+          "eur_mwh": 264.82
+        },
+        {
+          "time": "2026-11-17T17:45:00Z",
+          "eur_mwh": 264.05
+        },
+        {
+          "time": "2026-11-17T18:00:00Z",
+          "eur_mwh": 268.0
+        },
+        {
+          "time": "2026-11-17T18:15:00Z",
+          "eur_mwh": 256.84
+        },
+        {
+          "time": "2026-11-17T18:30:00Z",
+          "eur_mwh": 254.5
+        },
+        {
+          "time": "2026-11-17T18:45:00Z",
+          "eur_mwh": 246.17
+        },
+        {
+          "time": "2026-11-17T19:00:00Z",
+          "eur_mwh": 255.16
+        },
+        {
+          "time": "2026-11-17T19:15:00Z",
+          "eur_mwh": 238.2
+        },
+        {
+          "time": "2026-11-17T19:30:00Z",
+          "eur_mwh": 224.48
+        },
+        {
+          "time": "2026-11-17T19:45:00Z",
+          "eur_mwh": 209.87
+        },
+        {
+          "time": "2026-11-17T20:00:00Z",
+          "eur_mwh": 216.45
+        },
+        {
+          "time": "2026-11-17T20:15:00Z",
+          "eur_mwh": 209.21
+        },
+        {
+          "time": "2026-11-17T20:30:00Z",
+          "eur_mwh": 208.6
+        },
+        {
+          "time": "2026-11-17T20:45:00Z",
+          "eur_mwh": 199.14
+        },
+        {
+          "time": "2026-11-17T21:00:00Z",
+          "eur_mwh": 212.43
+        },
+        {
+          "time": "2026-11-17T21:15:00Z",
+          "eur_mwh": 208.72
+        },
+        {
+          "time": "2026-11-17T21:30:00Z",
+          "eur_mwh": 196.58
+        },
+        {
+          "time": "2026-11-17T21:45:00Z",
+          "eur_mwh": 183.28
+        },
+        {
+          "time": "2026-11-17T22:00:00Z",
+          "eur_mwh": 199.05
+        },
+        {
+          "time": "2026-11-17T22:15:00Z",
+          "eur_mwh": 190.01
+        },
+        {
+          "time": "2026-11-17T22:30:00Z",
+          "eur_mwh": 178.04
+        },
+        {
+          "time": "2026-11-17T22:45:00Z",
+          "eur_mwh": 171.69
+        },
+        {
+          "time": "2026-11-17T23:00:00Z",
+          "eur_mwh": 145.48
+        },
+        {
+          "time": "2026-11-17T23:15:00Z",
+          "eur_mwh": 149.51
+        },
+        {
+          "time": "2026-11-17T23:30:00Z",
+          "eur_mwh": 161.39
+        },
+        {
+          "time": "2026-11-17T23:45:00Z",
+          "eur_mwh": 158.4
+        },
+        {
+          "time": "2026-11-18T00:00:00Z",
+          "eur_mwh": 156.21
+        },
+        {
+          "time": "2026-11-18T00:15:00Z",
+          "eur_mwh": 158.96
+        },
+        {
+          "time": "2026-11-18T00:30:00Z",
+          "eur_mwh": 158.76
+        },
+        {
+          "time": "2026-11-18T00:45:00Z",
+          "eur_mwh": 159.44
+        },
+        {
+          "time": "2026-11-18T01:00:00Z",
+          "eur_mwh": 157.51
+        },
+        {
+          "time": "2026-11-18T01:15:00Z",
+          "eur_mwh": 155.81
+        },
+        {
+          "time": "2026-11-18T01:30:00Z",
+          "eur_mwh": 154.11
+        },
+        {
+          "time": "2026-11-18T01:45:00Z",
+          "eur_mwh": 150.41
+        },
+        {
+          "time": "2026-11-18T02:00:00Z",
+          "eur_mwh": 154.34
+        },
+        {
+          "time": "2026-11-18T02:15:00Z",
+          "eur_mwh": 147.3
+        },
+        {
+          "time": "2026-11-18T02:30:00Z",
+          "eur_mwh": 150.75
+        },
+        {
+          "time": "2026-11-18T02:45:00Z",
+          "eur_mwh": 148.23
+        },
+        {
+          "time": "2026-11-18T03:00:00Z",
+          "eur_mwh": 152.99
+        },
+        {
+          "time": "2026-11-18T03:15:00Z",
+          "eur_mwh": 147.26
+        },
+        {
+          "time": "2026-11-18T03:30:00Z",
+          "eur_mwh": 144.33
+        },
+        {
+          "time": "2026-11-18T03:45:00Z",
+          "eur_mwh": 147.29
+        },
+        {
+          "time": "2026-11-18T04:00:00Z",
+          "eur_mwh": 141.96
+        },
+        {
+          "time": "2026-11-18T04:15:00Z",
+          "eur_mwh": 152.7
+        },
+        {
+          "time": "2026-11-18T04:30:00Z",
+          "eur_mwh": 165.24
+        },
+        {
+          "time": "2026-11-18T04:45:00Z",
+          "eur_mwh": 183.86
+        },
+        {
+          "time": "2026-11-18T05:00:00Z",
+          "eur_mwh": 172.79
+        },
+        {
+          "time": "2026-11-18T05:15:00Z",
+          "eur_mwh": 197.84
+        },
+        {
+          "time": "2026-11-18T05:30:00Z",
+          "eur_mwh": 210.42
+        },
+        {
+          "time": "2026-11-18T05:45:00Z",
+          "eur_mwh": 208.97
+        },
+        {
+          "time": "2026-11-18T06:00:00Z",
+          "eur_mwh": 240.03
+        },
+        {
+          "time": "2026-11-18T06:15:00Z",
+          "eur_mwh": 241.64
+        },
+        {
+          "time": "2026-11-18T06:30:00Z",
+          "eur_mwh": 237.02
+        },
+        {
+          "time": "2026-11-18T06:45:00Z",
+          "eur_mwh": 235.66
+        },
+        {
+          "time": "2026-11-18T07:00:00Z",
+          "eur_mwh": 238.05
+        },
+        {
+          "time": "2026-11-18T07:15:00Z",
+          "eur_mwh": 238.42
+        },
+        {
+          "time": "2026-11-18T07:30:00Z",
+          "eur_mwh": 233.3
+        },
+        {
+          "time": "2026-11-18T07:45:00Z",
+          "eur_mwh": 231.3
+        },
+        {
+          "time": "2026-11-18T08:00:00Z",
+          "eur_mwh": 219.47
+        },
+        {
+          "time": "2026-11-18T08:15:00Z",
+          "eur_mwh": 214.99
+        },
+        {
+          "time": "2026-11-18T08:30:00Z",
+          "eur_mwh": 200.87
+        },
+        {
+          "time": "2026-11-18T08:45:00Z",
+          "eur_mwh": 196.95
+        },
+        {
+          "time": "2026-11-18T09:00:00Z",
+          "eur_mwh": 200.74
+        },
+        {
+          "time": "2026-11-18T09:15:00Z",
+          "eur_mwh": 185.45
+        },
+        {
+          "time": "2026-11-18T09:30:00Z",
+          "eur_mwh": 178.29
+        },
+        {
+          "time": "2026-11-18T09:45:00Z",
+          "eur_mwh": 178.2
+        },
+        {
+          "time": "2026-11-18T10:00:00Z",
+          "eur_mwh": 185.32
+        },
+        {
+          "time": "2026-11-18T10:15:00Z",
+          "eur_mwh": 175.85
+        },
+        {
+          "time": "2026-11-18T10:30:00Z",
+          "eur_mwh": 177.67
+        },
+        {
+          "time": "2026-11-18T10:45:00Z",
+          "eur_mwh": 179.2
+        },
+        {
+          "time": "2026-11-18T11:00:00Z",
+          "eur_mwh": 189.97
+        },
+        {
+          "time": "2026-11-18T11:15:00Z",
+          "eur_mwh": 184.93
+        },
+        {
+          "time": "2026-11-18T11:30:00Z",
+          "eur_mwh": 175.55
+        },
+        {
+          "time": "2026-11-18T11:45:00Z",
+          "eur_mwh": 172.88
+        },
+        {
+          "time": "2026-11-18T12:00:00Z",
+          "eur_mwh": 184.87
+        },
+        {
+          "time": "2026-11-18T12:15:00Z",
+          "eur_mwh": 184.84
+        },
+        {
+          "time": "2026-11-18T12:30:00Z",
+          "eur_mwh": 172.7
+        },
+        {
+          "time": "2026-11-18T12:45:00Z",
+          "eur_mwh": 175.36
+        },
+        {
+          "time": "2026-11-18T13:00:00Z",
+          "eur_mwh": 182.43
+        },
+        {
+          "time": "2026-11-18T13:15:00Z",
+          "eur_mwh": 190.63
+        },
+        {
+          "time": "2026-11-18T13:30:00Z",
+          "eur_mwh": 182.98
+        },
+        {
+          "time": "2026-11-18T13:45:00Z",
+          "eur_mwh": 202.96
+        },
+        {
+          "time": "2026-11-18T14:00:00Z",
+          "eur_mwh": 197.77
+        },
+        {
+          "time": "2026-11-18T14:15:00Z",
+          "eur_mwh": 216.08
+        },
+        {
+          "time": "2026-11-18T14:30:00Z",
+          "eur_mwh": 231.47
+        },
+        {
+          "time": "2026-11-18T14:45:00Z",
+          "eur_mwh": 235.32
+        },
+        {
+          "time": "2026-11-18T15:00:00Z",
+          "eur_mwh": 227.08
+        },
+        {
+          "time": "2026-11-18T15:15:00Z",
+          "eur_mwh": 232.13
+        },
+        {
+          "time": "2026-11-18T15:30:00Z",
+          "eur_mwh": 249.98
+        },
+        {
+          "time": "2026-11-18T15:45:00Z",
+          "eur_mwh": 256.53
+        },
+        {
+          "time": "2026-11-18T16:00:00Z",
+          "eur_mwh": 239.01
+        },
+        {
+          "time": "2026-11-18T16:15:00Z",
+          "eur_mwh": 234.28
+        },
+        {
+          "time": "2026-11-18T16:30:00Z",
+          "eur_mwh": 227.22
+        },
+        {
+          "time": "2026-11-18T16:45:00Z",
+          "eur_mwh": 223.13
+        },
+        {
+          "time": "2026-11-18T17:00:00Z",
+          "eur_mwh": 233.98
+        },
+        {
+          "time": "2026-11-18T17:15:00Z",
+          "eur_mwh": 225.95
+        },
+        {
+          "time": "2026-11-18T17:30:00Z",
+          "eur_mwh": 223.17
+        },
+        {
+          "time": "2026-11-18T17:45:00Z",
+          "eur_mwh": 217.7
+        },
+        {
+          "time": "2026-11-18T18:00:00Z",
+          "eur_mwh": 225.88
+        },
+        {
+          "time": "2026-11-18T18:15:00Z",
+          "eur_mwh": 214.61
+        },
+        {
+          "time": "2026-11-18T18:30:00Z",
+          "eur_mwh": 217.16
+        },
+        {
+          "time": "2026-11-18T18:45:00Z",
+          "eur_mwh": 216.71
+        },
+        {
+          "time": "2026-11-18T19:00:00Z",
+          "eur_mwh": 217.04
+        },
+        {
+          "time": "2026-11-18T19:15:00Z",
+          "eur_mwh": 214.08
+        },
+        {
+          "time": "2026-11-18T19:30:00Z",
+          "eur_mwh": 212.03
+        },
+        {
+          "time": "2026-11-18T19:45:00Z",
+          "eur_mwh": 207.23
+        },
+        {
+          "time": "2026-11-18T20:00:00Z",
+          "eur_mwh": 213.75
+        },
+        {
+          "time": "2026-11-18T20:15:00Z",
+          "eur_mwh": 212.68
+        },
+        {
+          "time": "2026-11-18T20:30:00Z",
+          "eur_mwh": 202.45
+        },
+        {
+          "time": "2026-11-18T20:45:00Z",
+          "eur_mwh": 191.55
+        },
+        {
+          "time": "2026-11-18T21:00:00Z",
+          "eur_mwh": 210.58
+        },
+        {
+          "time": "2026-11-18T21:15:00Z",
+          "eur_mwh": 199.16
+        },
+        {
+          "time": "2026-11-18T21:30:00Z",
+          "eur_mwh": 188.2
+        },
+        {
+          "time": "2026-11-18T21:45:00Z",
+          "eur_mwh": 180.23
+        },
+        {
+          "time": "2026-11-18T22:00:00Z",
+          "eur_mwh": 234.81
+        },
+        {
+          "time": "2026-11-18T22:15:00Z",
+          "eur_mwh": 220.66
+        },
+        {
+          "time": "2026-11-18T22:30:00Z",
+          "eur_mwh": 228.52
+        },
+        {
+          "time": "2026-11-18T22:45:00Z",
+          "eur_mwh": 212.94
+        }
+      ]
     }
   },
   "errors": {
     "space_weather": "0",
     "gie_storage": "GIE_API_KEY GitHub Secret nincs megadva (opcionális)",
     "entsoe_hu_load": "ENTSOE_API_TOKEN GitHub Secret nincs megadva (opcionális)",
-    "electricity": "HTTP Error 429: Too Many Requests"
+    "weather": "<urlopen error _ssl.c:994: The handshake operation timed out>",
+    "europe_weather": "<urlopen error _ssl.c:994: The handshake operation timed out>"
   },
   "assessment": {
-    "generated_at": "2026-11-17T12:55:53.144940+00:00",
+    "generated_at": "2026-11-17T13:02:39.506340+00:00",
     "horizon_hours": 24,
     "threshold": 50,
     "threshold_unit": "index_points_not_probability",
