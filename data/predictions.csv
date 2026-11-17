@@ -1,1 +1,7 @@
 issued_at,category,horizon_hours,index_score,peak_time,status
+2026-11-17T13:38:41.667405+00:00,local_power,24,14,2026-11-17T22:00:00+00:00,estimated_index
+2026-11-17T13:38:41.667405+00:00,extreme_weather,24,14,2026-11-17T22:00:00+00:00,estimated_index
+2026-11-17T13:38:41.667405+00:00,local_power,48,14,2026-11-17T22:00:00+00:00,estimated_index
+2026-11-17T13:38:41.667405+00:00,extreme_weather,48,14,2026-11-17T22:00:00+00:00,estimated_index
+2026-11-17T13:38:41.667405+00:00,local_power,72,15,2026-11-20T12:00:00+00:00,estimated_index
+2026-11-17T13:38:41.667405+00:00,extreme_weather,72,15,2026-11-20T12:00:00+00:00,estimated_index
