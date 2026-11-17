@@ -1,0 +1,25 @@
+ELLÁTÁSBIZTONSÁGI FIGYELŐ v3 – GYORS TELEPÍTÉS
+
+1. Csomagold ki a ZIP-et. A kicsomagolt tartalmat töltsd fel a
+   https://github.com/gyoriddani/aramellatas-figyelo
+   REPOSITORY FŐKÖNYVTÁRÁBA. Ne tegyél újabb almappát a régi alá!
+   A .github/workflows/daily.yml fájlnak is fel kell kerülnie.
+
+2. GitHub → Actions → Automatikus ellátásbiztonsági figyelés és e-mail
+   → Run workflow. Ha zöld pipa, a weboldal megkapja a legfrissebb adatokat.
+
+3. GitHub → Settings → Secrets and variables → Actions → New repository secret.
+   Add hozzá:
+   SMTP_USER         = a küldő Gmail-címed
+   SMTP_APP_PASSWORD = a Gmail-fiók alkalmazásjelszava (NEM a sima jelszó!)
+   ALERT_TO          = gyoriddani@gmail.com
+
+4. Actions → Run workflow megismétlése. Értesítő levelet csak akkor küld,
+   ha valamelyik 24 órás FIGYELŐINDEX eléri az 50/100-at, és a titkos
+   beállítások megvannak. 50 PONT NEM JELENT 50% ESEMÉNYVALÓSZÍNŰSÉGET.
+
+5. Alapadatok: Open-Meteo, Energy-Charts, NOAA, Meteoalarm (28 ország),
+   Európai Bizottság / GDACS, kísérleti repülőgép EWS. GIE/ENTSO-E API
+   opcionális titkos kulcsokkal. További oldalak a dashboard forráslistáján.
+
+Részletes útmutató a README.md fájlban.
