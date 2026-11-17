@@ -1,0 +1,16 @@
+V4 GYORS FRISSÍTÉS
+=================
+1. ZIP kibontása.
+2. A KICSOMAGOLT FÁJLOKAT (NE A KÜLSŐ MAPPÁT) töltsd fel a meglévő GitHub repository gyökerébe.
+3. Ellenőrizd: index.html, app.js, style.css, scripts/, data/, tests/, .github/workflows/daily.yml.
+4. A .github/workflows/daily.yml régi változatát írd felül. Ha másik régi workflow is fut, kapcsold ki.
+5. A már beállított SMTP_USER, SMTP_APP_PASSWORD és ALERT_TO secret maradhat.
+6. Settings → Actions → General → Workflow permissions → Read and write permissions.
+7. Actions → Ellátásbiztonsági V4 – automatikus figyelés és e-mail → Run workflow.
+8. Vizsgáld a futásnaplót, a data/latest.json/assessment.windows és health mezőket.
+9. Nyisd meg: https://gyoriddani.github.io/aramellatas-figyelo/
+
+FIGYELEM: 50/100 figyelőindex NEM 50%-os bekövetkezési esély.
+Új riasztás: friss adatok hiányáról és sikertelen workflow-ról is (ha SMTP működik).
+Opcionális: HEALTHCHECKS_PING_URL GitHub secret a ki nem induló ütemezés figyelésére.
+Részletek: README.md
