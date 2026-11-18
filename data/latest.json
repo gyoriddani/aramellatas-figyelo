@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T04:19:43Z",
+  "generated_at": "2026-11-18T07:42:18Z",
   "location": "Nyíregyháza, Magyarország",
   "timezone": "Europe/Budapest",
   "feeds": {
     "space_weather": {
-      "updated_at": "2026-11-18T04:19:44Z",
+      "updated_at": "2026-11-18T07:42:18Z",
       "kp": [
         {
           "time": "2026-11-11T00:00:00Z",
@@ -236,7 +236,7 @@
         },
         {
           "time": "2026-11-18T03:00:00Z",
-          "kp": 3.67
+          "kp": 3.33
         },
         {
           "time": "2026-11-18T06:00:00Z",
@@ -244,11 +244,11 @@
         },
         {
           "time": "2026-11-18T09:00:00Z",
-          "kp": 4.67
+          "kp": 4.0
         },
         {
           "time": "2026-11-18T12:00:00Z",
-          "kp": 2.67
+          "kp": 4.67
         },
         {
           "time": "2026-11-18T15:00:00Z",
@@ -1787,7 +1787,7 @@
       "scope_note": "Representative city per country, not entire national grid"
     },
     "ews": {
-      "updated_at": "2026-11-18T04:19:44Z",
+      "updated_at": "2026-11-18T07:42:19Z",
       "level": 1.0,
       "airborne_count": null,
       "source_timestamp": null,
@@ -1796,7 +1796,7 @@
       "url": "https://ews.kylemcdonald.net/"
     },
     "european_prices": {
-      "updated_at": "2026-11-18T04:19:46Z",
+      "updated_at": "2026-11-18T07:42:20Z",
       "countries": [
         {
           "code": "AT",
@@ -1808,31 +1808,31 @@
           "sample_count": 192
         },
         {
-          "code": "DE",
-          "name": "Németország",
-          "zone": "DE-LU",
-          "recent_eur_mwh": 171.29,
+          "code": "CZ",
+          "name": "Csehország",
+          "zone": "CZ",
+          "recent_eur_mwh": 175.64,
           "latest_time": "2026-11-18T22:45:00Z",
-          "mean_eur_mwh": 178.9,
+          "mean_eur_mwh": 203.9,
           "sample_count": 192
         },
         {
-          "code": "HR",
-          "name": "Horvátország",
-          "zone": "HR",
-          "recent_eur_mwh": 187.57,
+          "code": "HU",
+          "name": "Magyarország",
+          "zone": "HU",
+          "recent_eur_mwh": 212.94,
           "latest_time": "2026-11-18T22:45:00Z",
-          "mean_eur_mwh": 219.5,
+          "mean_eur_mwh": 220.1,
           "sample_count": 192
         },
         {
-          "code": "RO",
-          "name": "Románia",
-          "zone": "RO",
-          "recent_eur_mwh": 147.57,
+          "code": "PL",
+          "name": "Lengyelország",
+          "zone": "PL",
+          "recent_eur_mwh": 152.03,
           "latest_time": "2026-11-18T22:45:00Z",
-          "mean_eur_mwh": 211.6,
-          "sample_count": 196
+          "mean_eur_mwh": 196.5,
+          "sample_count": 192
         },
         {
           "code": "SK",
@@ -1845,16 +1845,16 @@
         }
       ],
       "partial_errors": [
-        "PL: HTTP Error 429: Too Many Requests",
-        "HU: HTTP Error 429: Too Many Requests",
-        "CZ: HTTP Error 429: Too Many Requests",
+        "RO: HTTP Error 429: Too Many Requests",
         "FR: HTTP Error 429: Too Many Requests",
+        "DE: HTTP Error 429: Too Many Requests",
+        "HR: HTTP Error 429: Too Many Requests",
         "SI: HTTP Error 429: Too Many Requests"
       ],
       "metric": "Spot market price context, not shortage evidence"
     },
     "official_news": {
-      "updated_at": "2026-11-18T04:19:46Z",
+      "updated_at": "2026-11-18T07:42:22Z",
       "items": [
         {
           "title": "Preliminary findings of Temu failing to counter sale of illegal products",
@@ -1956,7 +1956,7 @@
       "note": "Hivatalos hírek, nem riasztások; automatikusan nem kapnak kockázati pontot."
     },
     "meteoalarm": {
-      "updated_at": "2026-11-18T04:19:51Z",
+      "updated_at": "2026-11-18T07:42:27Z",
       "countries_checked": [
         "AT",
         "BE",
@@ -1988,459 +1988,459 @@
       ],
       "recent_entries": [
         {
-          "country": "EE",
-          "name": "Észtország",
-          "title": "Yellow Wind Warning issued for Estonia - Northern Baltic Sea",
-          "published_at": "2026-11-18T04:09:27Z",
-          "url": "https://meteoalarm.org?polygon=12db8f03-bb7b-417e-ba60-71e8102a2819,0,0,0"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Yellow Coastalevent Warning issued for Spain - Costa - Bizkaia litoral",
+          "published_at": "2026-11-18T07:16:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES841"
         },
         {
-          "country": "SK",
-          "name": "Szlovákia",
-          "title": "Yellow Fog Warning issued for Slovakia - Rimavská Sobota",
-          "published_at": "2026-11-18T04:04:44Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK609"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Orange Coastalevent Warning issued for Spain - Costa - Bizkaia litoral",
+          "published_at": "2026-11-18T07:16:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES841"
         },
         {
-          "country": "SK",
-          "name": "Szlovákia",
-          "title": "Yellow Fog Warning issued for Slovakia - Lučenec",
-          "published_at": "2026-11-18T04:04:44Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK606"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Orange Coastalevent Warning issued for Spain - Costa - Gipuzkoa litoral",
+          "published_at": "2026-11-18T07:16:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES840"
         },
         {
-          "country": "SK",
-          "name": "Szlovákia",
-          "title": "Yellow Fog Warning issued for Slovakia - Levice",
-          "published_at": "2026-11-18T04:04:44Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK402"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Orange Coastalevent Warning issued for Spain - Costa - Litoral cántabro",
+          "published_at": "2026-11-18T07:16:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES842"
         },
         {
-          "country": "SK",
-          "name": "Szlovákia",
-          "title": "Yellow Fog Warning issued for Slovakia - Trebišov",
-          "published_at": "2026-11-18T04:04:44Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK127"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Yellow Coastalevent Warning issued for Spain - Costa - Gipuzkoa litoral",
+          "published_at": "2026-11-18T07:16:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES840"
         },
         {
-          "country": "SK",
-          "name": "Szlovákia",
-          "title": "Yellow Fog Warning issued for Slovakia - Veľký Krtíš",
-          "published_at": "2026-11-18T04:04:44Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK610"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Yellow Coastalevent Warning issued for Spain - Costa - Litoral cántabro",
+          "published_at": "2026-11-18T07:16:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES842"
         },
         {
-          "country": "SK",
-          "name": "Szlovákia",
-          "title": "Yellow Fog Warning issued for Slovakia - Michalovce",
-          "published_at": "2026-11-18T04:04:44Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK123"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Orange Coastalevent Warning issued for Spain - Costa - Suroeste de A Coruña",
+          "published_at": "2026-11-18T07:16:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES848"
         },
         {
-          "country": "SK",
-          "name": "Szlovákia",
-          "title": "Yellow Fog Warning issued for Slovakia - Revúca",
-          "published_at": "2026-11-18T04:04:44Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK608"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Orange Coastalevent Warning issued for Spain - Costa - Noroeste de A Coruña",
+          "published_at": "2026-11-18T07:16:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES846"
         },
         {
-          "country": "SK",
-          "name": "Szlovákia",
-          "title": "Yellow Fog Warning issued for Slovakia - Rožňava",
-          "published_at": "2026-11-18T04:04:44Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK124"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Orange Coastalevent Warning issued for Spain - Costa - Oeste de A Coruña",
+          "published_at": "2026-11-18T07:16:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES847"
         },
         {
-          "country": "SK",
-          "name": "Szlovákia",
-          "title": "Yellow Fog Warning issued for Slovakia - Košice okolie",
-          "published_at": "2026-11-18T04:04:44Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK122"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Orange Coastalevent Warning issued for Spain - Costa - Litoral oriental asturiano",
+          "published_at": "2026-11-18T07:16:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES843"
         },
         {
-          "country": "SK",
-          "name": "Szlovákia",
-          "title": "Yellow Fog Warning issued for Slovakia - Myjava",
-          "published_at": "2026-11-18T04:04:44Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK303"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Orange Coastalevent Warning issued for Spain - Costa - A Mariña",
+          "published_at": "2026-11-18T07:16:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES845"
         },
         {
-          "country": "SK",
-          "name": "Szlovákia",
-          "title": "Yellow Fog Warning issued for Slovakia - Sobrance",
-          "published_at": "2026-11-18T04:04:44Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK125"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Orange Coastalevent Warning issued for Spain - Costa - Miño de Pontevedra",
+          "published_at": "2026-11-18T07:16:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES850"
         },
         {
-          "country": "SK",
-          "name": "Szlovákia",
-          "title": "Yellow Fog Warning issued for Slovakia - Snina",
-          "published_at": "2026-11-18T04:04:44Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK709"
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Wind Warning issued for Switzerland - Bern-Sense",
+          "published_at": "2026-11-18T06:35:15Z",
+          "url": "https://meteoalarm.org?polygon=b2dba983-3151-4f49-80e5-c308d1efd4aa,0,0,0"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Coastalevent Warning issued for Portugal - Lisboa",
-          "published_at": "2026-11-18T03:29:24Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT016"
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Wind Warning issued for Switzerland - Huttwil-Willisau",
+          "published_at": "2026-11-18T06:35:15Z",
+          "url": "https://meteoalarm.org?polygon=4199833e-4d8b-4900-b288-e6f11f56a4c0,0,0,0"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Orange Coastalevent Warning issued for Portugal - Lisboa",
-          "published_at": "2026-11-18T03:29:24Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT016"
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Wind Warning issued for Switzerland - Lyss-Grenchen",
+          "published_at": "2026-11-18T06:35:15Z",
+          "url": "https://meteoalarm.org?polygon=63b94062-33f8-40b8-b2b8-b0331acc6506,0,0,0"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Coastalevent Warning issued for Portugal - Lisboa",
-          "published_at": "2026-11-18T03:29:24Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT016"
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Wind Warning issued for Switzerland - Emmen-Hochdorf",
+          "published_at": "2026-11-18T06:35:15Z",
+          "url": "https://meteoalarm.org?polygon=3e8ab09d-f05c-4981-b582-a6546b60ad06,0,0,0"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Wind Warning issued for Finland - Suomenlahden länsiosa, Pohjois-Itämeren itäosa",
-          "published_at": "2026-11-18T03:05:18Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI812"
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Wind Warning issued for Switzerland - Burgdorf-Limpachtal",
+          "published_at": "2026-11-18T06:35:15Z",
+          "url": "https://meteoalarm.org?polygon=5f57f32d-5f7d-4545-8d02-50c7fe68087a,0,0,0"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Wind Warning issued for Finland - Suomenlahden länsiosa, Pohjois-Itämeren itäosa",
-          "published_at": "2026-11-18T03:05:18Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI806"
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Wind Warning issued for Switzerland - Thun-Belp",
+          "published_at": "2026-11-18T06:35:15Z",
+          "url": "https://meteoalarm.org?polygon=4bd70388-16a3-48d3-8257-5bd46a55f4ca,0,0,0"
+        },
+        {
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Wind Warning issued for Switzerland - Sumiswald-Worb",
+          "published_at": "2026-11-18T06:35:15Z",
+          "url": "https://meteoalarm.org?polygon=f45e55b6-7301-4289-80c9-29eccad635cc,0,0,0"
+        },
+        {
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Wind Warning issued for Switzerland - Langenthal",
+          "published_at": "2026-11-18T06:35:15Z",
+          "url": "https://meteoalarm.org?polygon=e95b1eb7-1806-4f7f-b4bb-2e48f698619e,0,0,0"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Thunderstorm Warning issued for Austria - Mistelbach",
+          "published_at": "2026-11-18T06:34:07Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT316"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Thunderstorm Warning issued for Austria - Gänserndorf",
+          "published_at": "2026-11-18T06:34:07Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT308"
+        },
+        {
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Wind Warning issued for Switzerland - Brigels",
+          "published_at": "2026-11-18T06:34:00Z",
+          "url": "https://meteoalarm.org?polygon=600cbf11-3001-4185-a962-f397f480b520,0,0,0"
+        },
+        {
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Wind Warning issued for Switzerland - Maderanertal",
+          "published_at": "2026-11-18T06:34:00Z",
+          "url": "https://meteoalarm.org?polygon=f3c6177c-30d2-435c-9fd4-b4158bb3ebfe,0,0,0"
+        },
+        {
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Wind Warning issued for Switzerland - Adelboden-Kandersteg",
+          "published_at": "2026-11-18T06:34:00Z",
+          "url": "https://meteoalarm.org?polygon=ee8305cc-2104-4452-8cc3-7790d18fc73e,0,0,0"
+        },
+        {
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Wind Warning issued for Switzerland - Meiringen-Gadmertal",
+          "published_at": "2026-11-18T06:34:00Z",
+          "url": "https://meteoalarm.org?polygon=fff0bb96-60a9-42f2-b320-520ea147e49c,0,0,0"
         },
         {
           "country": "FI",
           "name": "Finnország",
           "title": "Yellow Wind Warning issued for Finland - Perämeren eteläosa, Perämeren pohjoisosa",
-          "published_at": "2026-11-18T03:05:18Z",
+          "published_at": "2026-11-18T06:28:33Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:FI809"
         },
         {
           "country": "FI",
           "name": "Finnország",
           "title": "Yellow Wind Warning issued for Finland - Perämeren eteläosa, Perämeren pohjoisosa",
-          "published_at": "2026-11-18T03:05:18Z",
+          "published_at": "2026-11-18T06:28:33Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:FI810"
         },
         {
           "country": "FI",
           "name": "Finnország",
-          "title": "Yellow Wind Warning issued for Finland - Selkämeren pohjoisosa, Merenkurkku",
-          "published_at": "2026-11-18T03:05:18Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI801"
+          "title": "Yellow Wind Warning issued for Finland - Suomenlahden länsiosa, Pohjois-Itämeren itäosa",
+          "published_at": "2026-11-18T06:28:33Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI812"
         },
         {
           "country": "FI",
           "name": "Finnország",
-          "title": "Yellow Wind Warning issued for Finland - Selkämeren pohjoisosa, Merenkurkku",
-          "published_at": "2026-11-18T03:05:18Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI802"
+          "title": "Yellow Wind Warning issued for Finland - Suomenlahden länsiosa, Pohjois-Itämeren itäosa",
+          "published_at": "2026-11-18T06:28:33Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI806"
         },
         {
           "country": "FI",
           "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Satakunta, Pirkanmaa, Keski-Suomi, Etelä-Savo, Pohjois-Savo, Pohjois-Karjala, Etelä-Pohjanmaa, Pohjanmaa, Keski-Pohjanmaa",
-          "published_at": "2026-11-18T03:05:18Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI028"
+          "title": "Yellow Snow-ice Warning issued for Finland - Pohjois-Savo, Kainuu, Pohjois-Pohjanmaan Eteläosa, Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, R",
+          "published_at": "2026-11-18T06:28:33Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI004"
         },
         {
           "country": "FI",
           "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Satakunta, Pirkanmaa, Keski-Suomi, Etelä-Savo, Pohjois-Savo, Pohjois-Karjala, Etelä-Pohjanmaa, Pohjanmaa, Keski-Pohjanmaa",
-          "published_at": "2026-11-18T03:05:18Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI029"
+          "title": "Yellow Snow-ice Warning issued for Finland - Pohjois-Savo, Kainuu, Pohjois-Pohjanmaan Eteläosa, Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, R",
+          "published_at": "2026-11-18T06:28:33Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI002"
         },
         {
           "country": "FI",
           "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Satakunta, Pirkanmaa, Keski-Suomi, Etelä-Savo, Pohjois-Savo, Pohjois-Karjala, Etelä-Pohjanmaa, Pohjanmaa, Keski-Pohjanmaa",
-          "published_at": "2026-11-18T03:05:18Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI030"
+          "title": "Yellow Snow-ice Warning issued for Finland - Pohjois-Savo, Kainuu, Pohjois-Pohjanmaan Eteläosa, Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, R",
+          "published_at": "2026-11-18T06:28:33Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI003"
         },
         {
           "country": "FI",
           "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Satakunta, Pirkanmaa, Keski-Suomi, Etelä-Savo, Pohjois-Savo, Pohjois-Karjala, Etelä-Pohjanmaa, Pohjanmaa, Keski-Pohjanmaa",
-          "published_at": "2026-11-18T03:05:18Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI001"
+          "title": "Yellow Snow-ice Warning issued for Finland - Pohjois-Savo, Kainuu, Pohjois-Pohjanmaan Eteläosa, Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, R",
+          "published_at": "2026-11-18T06:28:33Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI042"
         },
         {
           "country": "FI",
           "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Satakunta, Pirkanmaa, Keski-Suomi, Etelä-Savo, Pohjois-Savo, Pohjois-Karjala, Etelä-Pohjanmaa, Pohjanmaa, Keski-Pohjanmaa",
-          "published_at": "2026-11-18T03:05:18Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI027"
+          "title": "Yellow Snow-ice Warning issued for Finland - Pohjois-Savo, Kainuu, Pohjois-Pohjanmaan Eteläosa, Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, R",
+          "published_at": "2026-11-18T06:28:33Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI006"
         },
         {
           "country": "FI",
           "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Satakunta, Pirkanmaa, Keski-Suomi, Etelä-Savo, Pohjois-Savo, Pohjois-Karjala, Etelä-Pohjanmaa, Pohjanmaa, Keski-Pohjanmaa",
-          "published_at": "2026-11-18T03:05:18Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI041"
+          "title": "Yellow Snow-ice Warning issued for Finland - Pohjois-Savo, Kainuu, Pohjois-Pohjanmaan Eteläosa, Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, R",
+          "published_at": "2026-11-18T06:28:33Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI005"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Coastalevent Warning issued for Portugal - Beja",
-          "published_at": "2026-11-18T02:01:47Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT005"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pohjois-Savo, Kainuu, Pohjois-Pohjanmaan Eteläosa, Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, R",
+          "published_at": "2026-11-18T06:28:33Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI009"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Coastalevent Warning issued for Portugal - Setúbal",
-          "published_at": "2026-11-18T02:01:47Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT020"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pohjois-Savo, Kainuu, Pohjois-Pohjanmaan Eteläosa, Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, R",
+          "published_at": "2026-11-18T06:28:33Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI010"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Coastalevent Warning issued for Portugal - Faro",
-          "published_at": "2026-11-18T02:01:47Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT021"
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Thunderstorm Warning issued for Austria - Wien Liesing",
+          "published_at": "2026-11-18T06:13:18Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT923"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Orange Coastalevent Warning issued for Portugal - Leiria",
-          "published_at": "2026-11-18T02:01:47Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT015"
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Thunderstorm Warning issued for Austria - Wien Donaustadt",
+          "published_at": "2026-11-18T06:13:18Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT922"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Coastalevent Warning issued for Portugal - Leiria",
-          "published_at": "2026-11-18T02:01:47Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT015"
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Thunderstorm Warning issued for Austria - Wien Hernals",
+          "published_at": "2026-11-18T06:13:18Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT917"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Orange Coastalevent Warning issued for Portugal - Coimbra",
-          "published_at": "2026-11-18T02:01:47Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT013"
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Thunderstorm Warning issued for Austria - Wien Ottakring",
+          "published_at": "2026-11-18T06:13:18Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT916"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Coastalevent Warning issued for Portugal - Coimbra",
-          "published_at": "2026-11-18T02:01:47Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT013"
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Thunderstorm Warning issued for Austria - Wien Rudolfsheim-Fünfhaus",
+          "published_at": "2026-11-18T06:13:18Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT915"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Coastalevent Warning issued for Portugal - Aveiro",
-          "published_at": "2026-11-18T02:01:47Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT010"
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Thunderstorm Warning issued for Austria - Wien Penzing",
+          "published_at": "2026-11-18T06:13:18Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT914"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Orange Coastalevent Warning issued for Portugal - Aveiro",
-          "published_at": "2026-11-18T02:01:47Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT010"
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Thunderstorm Warning issued for Austria - Wien Hietzing",
+          "published_at": "2026-11-18T06:13:18Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT913"
         },
         {
-          "country": "LV",
-          "name": "Lettország",
-          "title": "Yellow Wind Warning issued for Latvia - Gulf of Riga West",
-          "published_at": "2026-11-18T01:31:19Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:LV804"
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Thunderstorm Warning issued for Austria - Wien Meidling",
+          "published_at": "2026-11-18T06:13:17Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT912"
         },
         {
-          "country": "LV",
-          "name": "Lettország",
-          "title": "Yellow Wind Warning issued for Latvia - Gulf of Riga East",
-          "published_at": "2026-11-18T01:31:19Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:LV802"
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Thunderstorm Warning issued for Austria - Wien Simmering",
+          "published_at": "2026-11-18T06:13:17Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT911"
         },
         {
-          "country": "LV",
-          "name": "Lettország",
-          "title": "Yellow Wind Warning issued for Latvia - Southern Gulf of Riga",
-          "published_at": "2026-11-18T01:31:19Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:LV801"
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Thunderstorm Warning issued for Austria - Wien Favoriten",
+          "published_at": "2026-11-18T06:13:17Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT910"
         },
         {
-          "country": "GB",
-          "name": "Egyesült Királyság",
-          "title": "Orange Flooding Warning issued for United Kingdom - North Sea at Scarborough - Sandside",
-          "published_at": "2026-11-17T23:46:59Z",
-          "url": "https://meteoalarm.org?polygon=0b0bc48b-3c4f-4c19-ab57-827205b54e51,0,0,0"
+          "country": "HR",
+          "name": "Horvátország",
+          "title": "Yellow Rain Warning issued for Croatia - Ličko-senjska",
+          "published_at": "2026-11-18T05:52:36Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR019"
         },
         {
-          "country": "PL",
-          "name": "Lengyelország",
-          "title": "Yellow Wind Warning issued for Poland - Śląskie Province Bielsko-Biała County",
-          "published_at": "2026-11-17T21:21:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PL2461"
+          "country": "HR",
+          "name": "Horvátország",
+          "title": "Yellow Rain Warning issued for Croatia - Ličko-senjska",
+          "published_at": "2026-11-18T05:52:36Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR019"
         },
         {
-          "country": "PL",
-          "name": "Lengyelország",
-          "title": "Yellow Wind Warning issued for Poland - Śląskie Province Żywiecki County",
-          "published_at": "2026-11-17T21:21:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PL2417"
+          "country": "HR",
+          "name": "Horvátország",
+          "title": "Yellow Rain Warning issued for Croatia - Primorsko-goranska",
+          "published_at": "2026-11-18T05:52:36Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR018"
         },
         {
-          "country": "PL",
-          "name": "Lengyelország",
-          "title": "Yellow Wind Warning issued for Poland - Śląskie Province Cieszyński County",
-          "published_at": "2026-11-17T21:21:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PL2403"
+          "country": "HR",
+          "name": "Horvátország",
+          "title": "Yellow Rain Warning issued for Croatia - Primorsko-goranska",
+          "published_at": "2026-11-18T05:52:36Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR018"
         },
         {
-          "country": "PL",
-          "name": "Lengyelország",
-          "title": "Yellow Wind Warning issued for Poland - Dolnośląskie Province Wałbrzych County",
-          "published_at": "2026-11-17T21:21:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PL0265"
+          "country": "HU",
+          "name": "Magyarország",
+          "title": "Yellow Wind Warning issued for Hungary - Southern Transdanubia",
+          "published_at": "2026-11-18T05:04:16Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:HU004"
         },
         {
-          "country": "PL",
-          "name": "Lengyelország",
-          "title": "Yellow Wind Warning issued for Poland - Śląskie Province Bielski County",
-          "published_at": "2026-11-17T21:21:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PL2402"
+          "country": "HU",
+          "name": "Magyarország",
+          "title": "Yellow Wind Warning issued for Hungary - Southern Great Plain",
+          "published_at": "2026-11-18T05:04:16Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:HU005"
         },
         {
-          "country": "PL",
-          "name": "Lengyelország",
-          "title": "Yellow Wind Warning issued for Poland - Dolnośląskie Province Wałbrzyski County",
-          "published_at": "2026-11-17T21:21:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PL0221"
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Avalanches Warning issued for France - Haute-Savoie",
+          "published_at": "2026-11-18T05:00:47Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR035"
         },
         {
-          "country": "PL",
-          "name": "Lengyelország",
-          "title": "Yellow Wind Warning issued for Poland - Dolnośląskie Province Lubański County",
-          "published_at": "2026-11-17T21:21:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PL0210"
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Avalanches Warning issued for France - Savoie",
+          "published_at": "2026-11-18T05:00:47Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR036"
         },
         {
-          "country": "PL",
-          "name": "Lengyelország",
-          "title": "Yellow Wind Warning issued for Poland - Dolnośląskie Province Jelenia Góra County",
-          "published_at": "2026-11-17T21:21:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PL0261"
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Avalanches Warning issued for France - Isère",
+          "published_at": "2026-11-18T05:00:47Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR034"
         },
         {
-          "country": "PL",
-          "name": "Lengyelország",
-          "title": "Yellow Wind Warning issued for Poland - Dolnośląskie Province Lwówecki County",
-          "published_at": "2026-11-17T21:21:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PL0212"
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Avalanches Warning issued for France - Alpes-Maritimes",
+          "published_at": "2026-11-18T05:00:47Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR029"
         },
         {
-          "country": "PL",
-          "name": "Lengyelország",
-          "title": "Yellow Wind Warning issued for Poland - Dolnośląskie Province Kamiennogórski County",
-          "published_at": "2026-11-17T21:21:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PL0207"
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Avalanches Warning issued for France - Hautes Alpes",
+          "published_at": "2026-11-18T05:00:47Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR033"
         },
         {
-          "country": "PL",
-          "name": "Lengyelország",
-          "title": "Yellow Wind Warning issued for Poland - Dolnośląskie Province Karkonoski County",
-          "published_at": "2026-11-17T21:21:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PL0206"
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Avalanches Warning issued for France - Alpes-de-Haute-Provence",
+          "published_at": "2026-11-18T05:00:47Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR032"
         },
         {
-          "country": "PL",
-          "name": "Lengyelország",
-          "title": "Yellow Wind Warning issued for Poland - Dolnośląskie Province Kłodzki County",
-          "published_at": "2026-11-17T21:21:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PL0208"
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Flooding Warning issued for France - Pas-de-Calais",
+          "published_at": "2026-11-18T05:00:46Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR069"
         },
         {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Orange Wind Warning issued for The Netherlands - Rottum",
-          "published_at": "2026-11-17T21:20:57Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL805"
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Flooding Warning issued for France - Isère",
+          "published_at": "2026-11-18T05:00:46Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR034"
         },
         {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Delfzijl",
-          "published_at": "2026-11-17T21:20:57Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL808"
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Thunderstorm Warning issued for France - Oise",
+          "published_at": "2026-11-18T05:00:45Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR072"
         },
         {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Zierikzee",
-          "published_at": "2026-11-17T21:20:57Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL812"
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Thunderstorm Warning issued for France - Pyrénées-Atlantiques",
+          "published_at": "2026-11-18T05:00:45Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR091"
         },
         {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Texel",
-          "published_at": "2026-11-17T21:20:57Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL804"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Marken",
-          "published_at": "2026-11-17T21:20:57Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL811"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - IJsselmeer",
-          "published_at": "2026-11-17T21:20:57Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL810"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Harlingen",
-          "published_at": "2026-11-17T21:20:57Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL809"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - IJmuiden",
-          "published_at": "2026-11-17T21:20:57Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL803"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Hook of Holland",
-          "published_at": "2026-11-17T21:20:57Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL802"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Flushing",
-          "published_at": "2026-11-17T21:20:57Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL801"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Orange Wind Warning issued for The Netherlands - Rottum",
-          "published_at": "2026-11-17T21:20:57Z",
-          "url": "https://meteoalarm.org?polygon=89bc5fd6-71a7-4ab4-93a1-22a4ca22c4eb,0,0,0"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Delfzijl",
-          "published_at": "2026-11-17T21:20:57Z",
-          "url": "https://meteoalarm.org?polygon=2fa0ec96-64be-44f4-b68a-abde898c611a,0,0,0"
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Thunderstorm Warning issued for France - Pas-de-Calais",
+          "published_at": "2026-11-18T05:00:45Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR069"
         }
       ],
       "partial_errors": [
@@ -2449,7 +2449,7 @@
       "note": "Recently published Atom entries, not verified active alerts or blackouts"
     },
     "electricity": {
-      "updated_at": "2026-11-18T04:19:45Z",
+      "updated_at": "2026-11-18T07:42:19Z",
       "prices": [
         {
           "time": "2026-11-17T07:00:00Z",
@@ -3098,10 +3098,12 @@
     "gie_storage": "GIE_API_KEY GitHub Secret nincs megadva (opcionális)",
     "entsoe_hu_load": "ENTSOE_API_TOKEN GitHub Secret nincs megadva (opcionális)",
     "grid_context": "Európai villamosenergia kontextus nem elérhető: [{'key': 'hu_load_forecast', 'reason': 'V2 series/timestamps absent'}, {'key': 'hu_physical_flows', 'reason': 'V2 series/timestamps absent'}, ",
-    "cap_warnings": "CAP Atom feeds not reachable: HU: HTTP Error 406: Not Acceptable; SK: HTTP Error 406: Not Acceptable; RO: HTTP Error 406: Not Acceptable; AT: HTTP Error 406: Not Acceptable"
+    "cap_warnings": "CAP Atom feeds not reachable: HU: HTTP Error 406: Not Acceptable; SK: HTTP Error 406: Not Acceptable; RO: HTTP Error 406: Not Acceptable; AT: HTTP Error 406: Not Acceptable",
+    "weather": "<urlopen error _ssl.c:994: The handshake operation timed out>",
+    "europe_weather": "<urlopen error _ssl.c:994: The handshake operation timed out>"
   },
   "assessment": {
-    "generated_at": "2026-11-18T04:19:51.941840+00:00",
+    "generated_at": "2026-11-18T07:42:40.838720+00:00",
     "horizon_hours": 24,
     "threshold": 50,
     "threshold_unit": "index_points_not_probability",
@@ -3279,13 +3281,13 @@
         "method": "NOAA Kp előrejelzés; nem elektromos hálózat-kiesési esély",
         "score": 0,
         "status": "estimated_index",
-        "peak_time": "2026-11-18T09:00:00+00:00",
+        "peak_time": "2026-11-18T12:00:00+00:00",
         "evidence": [
           {
             "source": "NOAA SWPC",
             "url": "https://www.swpc.noaa.gov/",
             "detail": "Előrejelzett Kp 4.67",
-            "time": "2026-11-18T09:00:00+00:00"
+            "time": "2026-11-18T12:00:00+00:00"
           }
         ],
         "scope": "Magyarország / 24 óra",
@@ -3298,7 +3300,7 @@
     "official_notices_rejected_count": 0,
     "windows": {
       "24": {
-        "generated_at": "2026-11-18T04:19:51.941840+00:00",
+        "generated_at": "2026-11-18T07:42:40.838720+00:00",
         "horizon_hours": 24,
         "threshold": 50,
         "threshold_unit": "index_points_not_probability",
@@ -3476,13 +3478,13 @@
             "method": "NOAA Kp előrejelzés; nem elektromos hálózat-kiesési esély",
             "score": 0,
             "status": "estimated_index",
-            "peak_time": "2026-11-18T09:00:00+00:00",
+            "peak_time": "2026-11-18T12:00:00+00:00",
             "evidence": [
               {
                 "source": "NOAA SWPC",
                 "url": "https://www.swpc.noaa.gov/",
                 "detail": "Előrejelzett Kp 4.67",
-                "time": "2026-11-18T09:00:00+00:00"
+                "time": "2026-11-18T12:00:00+00:00"
               }
             ],
             "scope": "Magyarország / 24 óra",
@@ -3495,7 +3497,7 @@
         "official_notices_rejected_count": 0
       },
       "48": {
-        "generated_at": "2026-11-18T04:19:51.941840+00:00",
+        "generated_at": "2026-11-18T07:42:40.838720+00:00",
         "horizon_hours": 48,
         "threshold": 50,
         "threshold_unit": "index_points_not_probability",
@@ -3673,13 +3675,13 @@
             "method": "NOAA Kp előrejelzés; nem elektromos hálózat-kiesési esély",
             "score": 0,
             "status": "estimated_index",
-            "peak_time": "2026-11-18T09:00:00+00:00",
+            "peak_time": "2026-11-18T12:00:00+00:00",
             "evidence": [
               {
                 "source": "NOAA SWPC",
                 "url": "https://www.swpc.noaa.gov/",
                 "detail": "Előrejelzett Kp 4.67",
-                "time": "2026-11-18T09:00:00+00:00"
+                "time": "2026-11-18T12:00:00+00:00"
               }
             ],
             "scope": "Magyarország / 48 óra",
@@ -3692,7 +3694,7 @@
         "official_notices_rejected_count": 0
       },
       "72": {
-        "generated_at": "2026-11-18T04:19:51.941840+00:00",
+        "generated_at": "2026-11-18T07:42:40.838720+00:00",
         "horizon_hours": 72,
         "threshold": 50,
         "threshold_unit": "index_points_not_probability",
@@ -3870,13 +3872,13 @@
             "method": "NOAA Kp előrejelzés; nem elektromos hálózat-kiesési esély",
             "score": 0,
             "status": "estimated_index",
-            "peak_time": "2026-11-18T09:00:00+00:00",
+            "peak_time": "2026-11-18T12:00:00+00:00",
             "evidence": [
               {
                 "source": "NOAA SWPC",
                 "url": "https://www.swpc.noaa.gov/",
                 "detail": "Előrejelzett Kp 4.67",
-                "time": "2026-11-18T09:00:00+00:00"
+                "time": "2026-11-18T12:00:00+00:00"
               }
             ],
             "scope": "Magyarország / 72 óra",
@@ -3890,16 +3892,19 @@
       }
     },
     "health": {
-      "checked_at": "2026-11-18T04:19:51.941840+00:00",
+      "checked_at": "2026-11-18T07:42:40.838720+00:00",
       "important_total": 6,
-      "important_fresh": 6,
-      "important_missing": [],
+      "important_fresh": 4,
+      "important_missing": [
+        "weather",
+        "europe_weather"
+      ],
       "items": [
         {
           "key": "weather",
           "required": true,
-          "status": "fresh",
-          "error": null,
+          "status": "failed",
+          "error": "<urlopen error _ssl.c:994: The handshake operation timed out>",
           "partial_error_count": 0,
           "updated_at": "2026-11-18T04:19:44Z"
         },
@@ -3909,7 +3914,7 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-18T04:19:45Z"
+          "updated_at": "2026-11-18T07:42:19Z"
         },
         {
           "key": "space_weather",
@@ -3917,7 +3922,7 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-18T04:19:44Z"
+          "updated_at": "2026-11-18T07:42:18Z"
         },
         {
           "key": "european_prices",
@@ -3925,13 +3930,13 @@
           "status": "partial",
           "error": null,
           "partial_error_count": 5,
-          "updated_at": "2026-11-18T04:19:46Z"
+          "updated_at": "2026-11-18T07:42:20Z"
         },
         {
           "key": "europe_weather",
           "required": true,
-          "status": "fresh",
-          "error": null,
+          "status": "failed",
+          "error": "<urlopen error _ssl.c:994: The handshake operation timed out>",
           "partial_error_count": 0,
           "updated_at": "2026-11-18T04:19:44Z"
         },
@@ -3941,7 +3946,7 @@
           "status": "partial",
           "error": null,
           "partial_error_count": 1,
-          "updated_at": "2026-11-18T04:19:51Z"
+          "updated_at": "2026-11-18T07:42:27Z"
         },
         {
           "key": "ews",
@@ -3949,7 +3954,7 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-18T04:19:44Z"
+          "updated_at": "2026-11-18T07:42:19Z"
         },
         {
           "key": "official_news",
@@ -3957,7 +3962,7 @@
           "status": "partial",
           "error": null,
           "partial_error_count": 1,
-          "updated_at": "2026-11-18T04:19:46Z"
+          "updated_at": "2026-11-18T07:42:22Z"
         },
         {
           "key": "gie_storage",
@@ -3992,7 +3997,7 @@
           "updated_at": null
         }
       ],
-      "degraded": false,
+      "degraded": true,
       "note": "Az adatgyűjtés hibája nem jelenti azt, hogy nincs veszély."
     },
     "validation": {
