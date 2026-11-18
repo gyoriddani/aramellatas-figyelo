@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T10:26:24Z",
+  "generated_at": "2026-11-18T13:39:42Z",
   "location": "Nyíregyháza, Magyarország",
   "timezone": "Europe/Budapest",
   "feeds": {
     "space_weather": {
-      "updated_at": "2026-11-18T10:26:24Z",
+      "updated_at": "2026-11-18T13:39:42Z",
       "kp": [
         {
           "time": "2026-11-11T00:00:00Z",
@@ -244,15 +244,15 @@
         },
         {
           "time": "2026-11-18T09:00:00Z",
-          "kp": 4.0
+          "kp": 2.33
         },
         {
           "time": "2026-11-18T12:00:00Z",
-          "kp": 4.67
+          "kp": 3.67
         },
         {
           "time": "2026-11-18T15:00:00Z",
-          "kp": 2.67
+          "kp": 3.33
         },
         {
           "time": "2026-11-18T18:00:00Z",
@@ -260,7 +260,7 @@
         },
         {
           "time": "2026-11-18T21:00:00Z",
-          "kp": 3.0
+          "kp": 4.67
         },
         {
           "time": "2026-11-19T00:00:00Z",
@@ -333,7 +333,7 @@
       ]
     },
     "weather": {
-      "updated_at": "2026-11-18T10:26:24Z",
+      "updated_at": "2026-11-18T13:39:42Z",
       "hours": [
         {
           "time": "2026-11-18T00:00",
@@ -403,7 +403,7 @@
           "time": "2026-11-18T08:00",
           "temperature_c": 11.3,
           "gust_kmh": 27.7,
-          "rain_probability_pct": 0,
+          "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -411,468 +411,396 @@
           "time": "2026-11-18T09:00",
           "temperature_c": 11.6,
           "gust_kmh": 28.1,
-          "rain_probability_pct": 0,
+          "rain_probability_pct": 5,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T10:00",
-          "temperature_c": 11.9,
-          "gust_kmh": 29.2,
-          "rain_probability_pct": 8,
+          "temperature_c": 12.1,
+          "gust_kmh": 27.4,
+          "rain_probability_pct": 16,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T11:00",
-          "temperature_c": 12.0,
-          "gust_kmh": 27.7,
-          "rain_probability_pct": 38,
-          "precip_mm": 0.8,
+          "temperature_c": 12.3,
+          "gust_kmh": 31.0,
+          "rain_probability_pct": 45,
+          "precip_mm": 1.4,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T12:00",
-          "temperature_c": 12.0,
-          "gust_kmh": 29.2,
-          "rain_probability_pct": 78,
-          "precip_mm": 9.0,
+          "temperature_c": 12.3,
+          "gust_kmh": 31.7,
+          "rain_probability_pct": 82,
+          "precip_mm": 9.4,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T13:00",
-          "temperature_c": 12.4,
-          "gust_kmh": 36.4,
-          "rain_probability_pct": 98,
+          "temperature_c": 13.0,
+          "gust_kmh": 37.4,
+          "rain_probability_pct": 100,
           "precip_mm": 0.1,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T14:00",
-          "temperature_c": 12.7,
-          "gust_kmh": 32.0,
+          "temperature_c": 13.6,
+          "gust_kmh": 38.9,
           "rain_probability_pct": 82,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T15:00",
-          "temperature_c": 12.6,
-          "gust_kmh": 33.1,
-          "rain_probability_pct": 46,
+          "temperature_c": 13.5,
+          "gust_kmh": 34.2,
+          "rain_probability_pct": 45,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T16:00",
-          "temperature_c": 11.9,
-          "gust_kmh": 31.0,
-          "rain_probability_pct": 18,
+          "temperature_c": 12.3,
+          "gust_kmh": 32.0,
+          "rain_probability_pct": 16,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T17:00",
-          "temperature_c": 10.7,
-          "gust_kmh": 27.7,
-          "rain_probability_pct": 7,
+          "temperature_c": 11.3,
+          "gust_kmh": 24.1,
+          "rain_probability_pct": 5,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T18:00",
-          "temperature_c": 9.8,
-          "gust_kmh": 19.8,
-          "rain_probability_pct": 2,
+          "temperature_c": 10.3,
+          "gust_kmh": 21.2,
+          "rain_probability_pct": 1,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T19:00",
-          "temperature_c": 8.8,
-          "gust_kmh": 18.4,
+          "temperature_c": 9.7,
+          "gust_kmh": 24.8,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T20:00",
-          "temperature_c": 8.3,
-          "gust_kmh": 15.1,
+          "temperature_c": 9.6,
+          "gust_kmh": 23.8,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T21:00",
-          "temperature_c": 8.4,
-          "gust_kmh": 23.0,
-          "rain_probability_pct": 0,
+          "temperature_c": 9.4,
+          "gust_kmh": 24.1,
+          "rain_probability_pct": 1,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T22:00",
-          "temperature_c": 8.5,
-          "gust_kmh": 23.8,
-          "rain_probability_pct": 0,
+          "temperature_c": 9.0,
+          "gust_kmh": 25.6,
+          "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-18T23:00",
-          "temperature_c": 8.3,
-          "gust_kmh": 23.8,
-          "rain_probability_pct": 1,
+          "temperature_c": 8.6,
+          "gust_kmh": 29.2,
+          "rain_probability_pct": 4,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T00:00",
-          "temperature_c": 8.4,
+          "temperature_c": 8.5,
           "gust_kmh": 29.2,
-          "rain_probability_pct": 2,
+          "rain_probability_pct": 5,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T01:00",
-          "temperature_c": 8.6,
-          "gust_kmh": 35.6,
-          "rain_probability_pct": 2,
+          "temperature_c": 8.3,
+          "gust_kmh": 28.8,
+          "rain_probability_pct": 6,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T02:00",
-          "temperature_c": 8.3,
-          "gust_kmh": 33.5,
-          "rain_probability_pct": 1,
+          "temperature_c": 8.2,
+          "gust_kmh": 36.0,
+          "rain_probability_pct": 5,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T03:00",
-          "temperature_c": 8.1,
-          "gust_kmh": 33.5,
-          "rain_probability_pct": 0,
+          "temperature_c": 8.0,
+          "gust_kmh": 36.0,
+          "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T04:00",
-          "temperature_c": 8.1,
-          "gust_kmh": 34.6,
+          "temperature_c": 7.7,
+          "gust_kmh": 28.1,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T05:00",
-          "temperature_c": 7.9,
-          "gust_kmh": 32.8,
-          "rain_probability_pct": 1,
+          "temperature_c": 7.6,
+          "gust_kmh": 24.5,
+          "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T06:00",
-          "temperature_c": 7.8,
-          "gust_kmh": 29.5,
-          "rain_probability_pct": 3,
+          "temperature_c": 7.5,
+          "gust_kmh": 25.6,
+          "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T07:00",
-          "temperature_c": 7.6,
-          "gust_kmh": 31.3,
-          "rain_probability_pct": 4,
+          "temperature_c": 7.2,
+          "gust_kmh": 26.6,
+          "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T08:00",
-          "temperature_c": 7.9,
-          "gust_kmh": 27.4,
-          "rain_probability_pct": 5,
+          "temperature_c": 7.0,
+          "gust_kmh": 29.9,
+          "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T09:00",
-          "temperature_c": 8.9,
-          "gust_kmh": 25.2,
-          "rain_probability_pct": 6,
+          "temperature_c": 8.3,
+          "gust_kmh": 28.8,
+          "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T10:00",
-          "temperature_c": 10.7,
-          "gust_kmh": 31.3,
-          "rain_probability_pct": 6,
+          "temperature_c": 9.7,
+          "gust_kmh": 31.0,
+          "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T11:00",
-          "temperature_c": 12.4,
-          "gust_kmh": 27.0,
-          "rain_probability_pct": 3,
+          "temperature_c": 11.5,
+          "gust_kmh": 27.4,
+          "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T12:00",
-          "temperature_c": 12.6,
-          "gust_kmh": 26.3,
+          "temperature_c": 12.1,
+          "gust_kmh": 27.0,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T13:00",
-          "temperature_c": 11.2,
-          "gust_kmh": 32.8,
+          "temperature_c": 11.7,
+          "gust_kmh": 29.5,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T14:00",
-          "temperature_c": 11.3,
-          "gust_kmh": 31.7,
-          "rain_probability_pct": 8,
+          "temperature_c": 11.4,
+          "gust_kmh": 29.9,
+          "rain_probability_pct": 6,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T15:00",
-          "temperature_c": 11.5,
-          "gust_kmh": 26.6,
-          "rain_probability_pct": 21,
+          "temperature_c": 11.4,
+          "gust_kmh": 31.3,
+          "rain_probability_pct": 15,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T16:00",
-          "temperature_c": 11.6,
-          "gust_kmh": 21.2,
-          "rain_probability_pct": 37,
+          "temperature_c": 11.5,
+          "gust_kmh": 24.5,
+          "rain_probability_pct": 29,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T17:00",
-          "temperature_c": 11.6,
-          "gust_kmh": 27.0,
-          "rain_probability_pct": 57,
+          "temperature_c": 11.5,
+          "gust_kmh": 27.7,
+          "rain_probability_pct": 52,
           "precip_mm": 0.6,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T18:00",
-          "temperature_c": 11.0,
-          "gust_kmh": 29.9,
+          "temperature_c": 11.1,
+          "gust_kmh": 28.4,
           "rain_probability_pct": 80,
-          "precip_mm": 1.3,
+          "precip_mm": 1.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T19:00",
           "temperature_c": 10.9,
           "gust_kmh": 24.1,
-          "rain_probability_pct": 96,
-          "precip_mm": 1.2,
+          "rain_probability_pct": 100,
+          "precip_mm": 0.9,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T20:00",
           "temperature_c": 10.5,
-          "gust_kmh": 24.8,
+          "gust_kmh": 23.0,
           "rain_probability_pct": 100,
-          "precip_mm": 2.1,
+          "precip_mm": 1.7,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T21:00",
-          "temperature_c": 9.9,
-          "gust_kmh": 22.7,
+          "temperature_c": 10.1,
+          "gust_kmh": 20.9,
           "rain_probability_pct": 100,
-          "precip_mm": 6.1,
+          "precip_mm": 4.7,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T22:00",
-          "temperature_c": 10.1,
-          "gust_kmh": 22.3,
+          "temperature_c": 10.0,
+          "gust_kmh": 24.8,
           "rain_probability_pct": 100,
-          "precip_mm": 6.0,
+          "precip_mm": 5.3,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-19T23:00",
-          "temperature_c": 9.8,
-          "gust_kmh": 22.7,
-          "rain_probability_pct": 98,
-          "precip_mm": 5.9,
+          "temperature_c": 9.7,
+          "gust_kmh": 26.6,
+          "rain_probability_pct": 100,
+          "precip_mm": 6.5,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T00:00",
-          "temperature_c": 9.6,
-          "gust_kmh": 32.4,
-          "rain_probability_pct": 93,
-          "precip_mm": 1.9,
+          "temperature_c": 9.8,
+          "gust_kmh": 35.3,
+          "rain_probability_pct": 100,
+          "precip_mm": 1.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T01:00",
           "temperature_c": 9.7,
-          "gust_kmh": 32.4,
-          "rain_probability_pct": 84,
-          "precip_mm": 1.2,
+          "gust_kmh": 38.5,
+          "rain_probability_pct": 96,
+          "precip_mm": 0.6,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T02:00",
-          "temperature_c": 9.7,
-          "gust_kmh": 36.4,
-          "rain_probability_pct": 67,
-          "precip_mm": 0.2,
+          "temperature_c": 9.0,
+          "gust_kmh": 32.4,
+          "rain_probability_pct": 80,
+          "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T03:00",
-          "temperature_c": 8.7,
-          "gust_kmh": 36.0,
-          "rain_probability_pct": 45,
+          "temperature_c": 8.2,
+          "gust_kmh": 32.4,
+          "rain_probability_pct": 57,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T04:00",
-          "temperature_c": 7.9,
-          "gust_kmh": 31.7,
-          "rain_probability_pct": 27,
+          "temperature_c": 7.6,
+          "gust_kmh": 33.1,
+          "rain_probability_pct": 37,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T05:00",
-          "temperature_c": 7.2,
-          "gust_kmh": 25.9,
-          "rain_probability_pct": 15,
+          "temperature_c": 7.3,
+          "gust_kmh": 33.1,
+          "rain_probability_pct": 22,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T06:00",
-          "temperature_c": 7.0,
-          "gust_kmh": 32.0,
-          "rain_probability_pct": 6,
+          "temperature_c": 6.9,
+          "gust_kmh": 33.5,
+          "rain_probability_pct": 10,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T07:00",
-          "temperature_c": 7.0,
-          "gust_kmh": 34.6,
-          "rain_probability_pct": 0,
+          "temperature_c": 6.9,
+          "gust_kmh": 36.0,
+          "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T08:00",
           "temperature_c": 7.1,
-          "gust_kmh": 37.1,
+          "gust_kmh": 38.2,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T09:00",
-          "temperature_c": 8.2,
-          "gust_kmh": 43.2,
+          "temperature_c": 7.7,
+          "gust_kmh": 42.8,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T10:00",
-          "temperature_c": 9.3,
-          "gust_kmh": 42.5,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-20T11:00",
-          "temperature_c": 10.4,
-          "gust_kmh": 43.2,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-20T12:00",
-          "temperature_c": 10.9,
-          "gust_kmh": 45.7,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-20T13:00",
-          "temperature_c": 11.5,
-          "gust_kmh": 42.8,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-20T14:00",
-          "temperature_c": 11.7,
-          "gust_kmh": 38.9,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-20T15:00",
-          "temperature_c": 11.4,
-          "gust_kmh": 34.2,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-20T16:00",
-          "temperature_c": 10.7,
-          "gust_kmh": 30.4,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-20T17:00",
-          "temperature_c": 10.4,
-          "gust_kmh": 35.6,
-          "rain_probability_pct": 1,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-20T18:00",
-          "temperature_c": 9.3,
-          "gust_kmh": 37.0,
-          "rain_probability_pct": 0,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-20T19:00",
           "temperature_c": 9.0,
           "gust_kmh": 38.9,
           "rain_probability_pct": 0,
@@ -880,674 +808,746 @@
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-20T20:00",
-          "temperature_c": 8.6,
-          "gust_kmh": 41.4,
+          "time": "2026-11-20T11:00",
+          "temperature_c": 10.3,
+          "gust_kmh": 39.2,
+          "rain_probability_pct": 0,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-20T12:00",
+          "temperature_c": 11.3,
+          "gust_kmh": 40.3,
+          "rain_probability_pct": 0,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-20T13:00",
+          "temperature_c": 11.7,
+          "gust_kmh": 39.2,
+          "rain_probability_pct": 0,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-20T14:00",
+          "temperature_c": 11.9,
+          "gust_kmh": 37.8,
           "rain_probability_pct": 1,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
+          "time": "2026-11-20T15:00",
+          "temperature_c": 11.8,
+          "gust_kmh": 35.6,
+          "rain_probability_pct": 1,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-20T16:00",
+          "temperature_c": 11.1,
+          "gust_kmh": 28.4,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-20T17:00",
+          "temperature_c": 10.3,
+          "gust_kmh": 32.8,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-20T18:00",
+          "temperature_c": 9.4,
+          "gust_kmh": 31.0,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-20T19:00",
+          "temperature_c": 8.9,
+          "gust_kmh": 29.9,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-20T20:00",
+          "temperature_c": 8.6,
+          "gust_kmh": 34.9,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
           "time": "2026-11-20T21:00",
-          "temperature_c": 8.2,
-          "gust_kmh": 40.7,
+          "temperature_c": 8.1,
+          "gust_kmh": 34.6,
           "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T22:00",
-          "temperature_c": 7.6,
-          "gust_kmh": 38.9,
-          "rain_probability_pct": 4,
+          "temperature_c": 7.7,
+          "gust_kmh": 38.2,
+          "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T23:00",
-          "temperature_c": 7.0,
-          "gust_kmh": 36.0,
-          "rain_probability_pct": 5,
+          "temperature_c": 7.4,
+          "gust_kmh": 37.8,
+          "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T00:00",
-          "temperature_c": 6.9,
-          "gust_kmh": 36.4,
-          "rain_probability_pct": 6,
+          "temperature_c": 7.1,
+          "gust_kmh": 33.5,
+          "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T01:00",
           "temperature_c": 6.8,
-          "gust_kmh": 36.4,
-          "rain_probability_pct": 8,
+          "gust_kmh": 33.1,
+          "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T02:00",
-          "temperature_c": 6.6,
-          "gust_kmh": 35.6,
-          "rain_probability_pct": 11,
+          "temperature_c": 6.2,
+          "gust_kmh": 31.0,
+          "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T03:00",
-          "temperature_c": 6.6,
-          "gust_kmh": 33.1,
-          "rain_probability_pct": 13,
+          "temperature_c": 6.0,
+          "gust_kmh": 31.0,
+          "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T04:00",
-          "temperature_c": 6.7,
-          "gust_kmh": 33.5,
-          "rain_probability_pct": 16,
+          "temperature_c": 5.9,
+          "gust_kmh": 30.6,
+          "rain_probability_pct": 4,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T05:00",
-          "temperature_c": 6.4,
-          "gust_kmh": 33.1,
-          "rain_probability_pct": 17,
+          "temperature_c": 5.8,
+          "gust_kmh": 30.2,
+          "rain_probability_pct": 8,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T06:00",
-          "temperature_c": 6.7,
-          "gust_kmh": 33.8,
-          "rain_probability_pct": 18,
-          "precip_mm": 0.2,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T07:00",
-          "temperature_c": 6.4,
-          "gust_kmh": 35.6,
-          "rain_probability_pct": 20,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T08:00",
-          "temperature_c": 6.9,
-          "gust_kmh": 30.6,
-          "rain_probability_pct": 24,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T09:00",
-          "temperature_c": 7.4,
-          "gust_kmh": 29.2,
-          "rain_probability_pct": 28,
-          "precip_mm": 0.8,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T10:00",
-          "temperature_c": 7.8,
-          "gust_kmh": 40.0,
-          "rain_probability_pct": 31,
-          "precip_mm": 0.3,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T11:00",
-          "temperature_c": 9.1,
-          "gust_kmh": 38.5,
-          "rain_probability_pct": 31,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T12:00",
-          "temperature_c": 9.9,
-          "gust_kmh": 39.2,
-          "rain_probability_pct": 29,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T13:00",
-          "temperature_c": 10.6,
-          "gust_kmh": 38.5,
-          "rain_probability_pct": 27,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T14:00",
-          "temperature_c": 10.8,
-          "gust_kmh": 39.2,
-          "rain_probability_pct": 26,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T15:00",
-          "temperature_c": 10.6,
-          "gust_kmh": 33.5,
-          "rain_probability_pct": 26,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T16:00",
-          "temperature_c": 9.6,
-          "gust_kmh": 20.9,
-          "rain_probability_pct": 24,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T17:00",
-          "temperature_c": 8.1,
-          "gust_kmh": 19.8,
-          "rain_probability_pct": 19,
-          "precip_mm": 0.3,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T18:00",
-          "temperature_c": 6.3,
-          "gust_kmh": 31.7,
-          "rain_probability_pct": 14,
-          "precip_mm": 0.4,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T19:00",
-          "temperature_c": 6.0,
-          "gust_kmh": 30.2,
-          "rain_probability_pct": 10,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T20:00",
-          "temperature_c": 5.5,
-          "gust_kmh": 32.0,
-          "rain_probability_pct": 10,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T21:00",
-          "temperature_c": 5.4,
-          "gust_kmh": 33.5,
+          "temperature_c": 5.8,
+          "gust_kmh": 29.5,
           "rain_probability_pct": 13,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-21T22:00",
-          "temperature_c": 5.1,
-          "gust_kmh": 33.1,
-          "rain_probability_pct": 14,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-21T23:00",
-          "temperature_c": 4.4,
-          "gust_kmh": 29.9,
-          "rain_probability_pct": 12,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T00:00",
-          "temperature_c": 3.5,
-          "gust_kmh": 25.2,
-          "rain_probability_pct": 8,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T01:00",
-          "temperature_c": 2.7,
-          "gust_kmh": 21.6,
-          "rain_probability_pct": 6,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T02:00",
-          "temperature_c": 2.3,
-          "gust_kmh": 20.2,
-          "rain_probability_pct": 7,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T03:00",
-          "temperature_c": 2.0,
-          "gust_kmh": 19.4,
-          "rain_probability_pct": 9,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T04:00",
-          "temperature_c": 1.7,
-          "gust_kmh": 19.4,
-          "rain_probability_pct": 10,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T05:00",
-          "temperature_c": 0.9,
-          "gust_kmh": 19.4,
-          "rain_probability_pct": 8,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T06:00",
-          "temperature_c": 0.1,
-          "gust_kmh": 19.8,
-          "rain_probability_pct": 4,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T07:00",
-          "temperature_c": -0.1,
-          "gust_kmh": 21.2,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T08:00",
-          "temperature_c": 1.2,
-          "gust_kmh": 24.8,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T09:00",
-          "temperature_c": 3.1,
+          "time": "2026-11-21T07:00",
+          "temperature_c": 5.5,
           "gust_kmh": 29.5,
-          "rain_probability_pct": 3,
+          "rain_probability_pct": 18,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-22T10:00",
-          "temperature_c": 4.5,
-          "gust_kmh": 32.8,
-          "rain_probability_pct": 4,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T11:00",
-          "temperature_c": 5.1,
-          "gust_kmh": 33.8,
-          "rain_probability_pct": 5,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T12:00",
-          "temperature_c": 5.1,
-          "gust_kmh": 33.8,
-          "rain_probability_pct": 7,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T13:00",
-          "temperature_c": 5.1,
-          "gust_kmh": 32.8,
-          "rain_probability_pct": 8,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T14:00",
-          "temperature_c": 5.1,
-          "gust_kmh": 31.0,
-          "rain_probability_pct": 7,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T15:00",
-          "temperature_c": 4.9,
+          "time": "2026-11-21T08:00",
+          "temperature_c": 6.2,
           "gust_kmh": 28.4,
-          "rain_probability_pct": 6,
+          "rain_probability_pct": 21,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-22T16:00",
-          "temperature_c": 4.8,
-          "gust_kmh": 25.2,
-          "rain_probability_pct": 6,
+          "time": "2026-11-21T09:00",
+          "temperature_c": 8.2,
+          "gust_kmh": 36.4,
+          "rain_probability_pct": 22,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-22T17:00",
-          "temperature_c": 4.7,
-          "gust_kmh": 20.5,
-          "rain_probability_pct": 8,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T18:00",
-          "temperature_c": 4.6,
-          "gust_kmh": 15.5,
-          "rain_probability_pct": 10,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T19:00",
-          "temperature_c": 4.5,
-          "gust_kmh": 12.6,
-          "rain_probability_pct": 14,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T20:00",
-          "temperature_c": 4.3,
-          "gust_kmh": 13.7,
-          "rain_probability_pct": 19,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T21:00",
-          "temperature_c": 4.2,
-          "gust_kmh": 16.9,
+          "time": "2026-11-21T10:00",
+          "temperature_c": 7.9,
+          "gust_kmh": 36.4,
           "rain_probability_pct": 24,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-22T22:00",
-          "temperature_c": 4.0,
-          "gust_kmh": 19.8,
+          "time": "2026-11-21T11:00",
+          "temperature_c": 8.8,
+          "gust_kmh": 36.0,
+          "rain_probability_pct": 26,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-21T12:00",
+          "temperature_c": 10.1,
+          "gust_kmh": 35.3,
+          "rain_probability_pct": 28,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-21T13:00",
+          "temperature_c": 10.2,
+          "gust_kmh": 33.1,
           "rain_probability_pct": 29,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-22T23:00",
-          "temperature_c": 3.8,
-          "gust_kmh": 20.5,
-          "rain_probability_pct": 34,
-          "precip_mm": 0.0,
+          "time": "2026-11-21T14:00",
+          "temperature_c": 9.6,
+          "gust_kmh": 28.4,
+          "rain_probability_pct": 29,
+          "precip_mm": 0.2,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-23T00:00",
-          "temperature_c": 3.5,
-          "gust_kmh": 20.5,
-          "rain_probability_pct": 40,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T01:00",
-          "temperature_c": 3.3,
+          "time": "2026-11-21T15:00",
+          "temperature_c": 8.1,
           "gust_kmh": 22.3,
-          "rain_probability_pct": 43,
+          "rain_probability_pct": 28,
+          "precip_mm": 0.9,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-21T16:00",
+          "temperature_c": 4.9,
+          "gust_kmh": 41.8,
+          "rain_probability_pct": 27,
+          "precip_mm": 0.3,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-21T17:00",
+          "temperature_c": 5.3,
+          "gust_kmh": 30.2,
+          "rain_probability_pct": 27,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-23T02:00",
-          "temperature_c": 3.0,
-          "gust_kmh": 27.4,
-          "rain_probability_pct": 43,
+          "time": "2026-11-21T18:00",
+          "temperature_c": 5.7,
+          "gust_kmh": 31.3,
+          "rain_probability_pct": 28,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-23T03:00",
-          "temperature_c": 2.6,
-          "gust_kmh": 33.8,
-          "rain_probability_pct": 41,
+          "time": "2026-11-21T19:00",
+          "temperature_c": 5.6,
+          "gust_kmh": 33.1,
+          "rain_probability_pct": 27,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-23T04:00",
-          "temperature_c": 2.2,
-          "gust_kmh": 39.2,
-          "rain_probability_pct": 37,
+          "time": "2026-11-21T20:00",
+          "temperature_c": 5.1,
+          "gust_kmh": 32.0,
+          "rain_probability_pct": 24,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-23T05:00",
-          "temperature_c": 1.6,
-          "gust_kmh": 42.5,
-          "rain_probability_pct": 31,
+          "time": "2026-11-21T21:00",
+          "temperature_c": 4.7,
+          "gust_kmh": 24.1,
+          "rain_probability_pct": 20,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-23T06:00",
-          "temperature_c": 0.8,
-          "gust_kmh": 44.6,
-          "rain_probability_pct": 23,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T07:00",
-          "temperature_c": 0.5,
-          "gust_kmh": 46.4,
+          "time": "2026-11-21T22:00",
+          "temperature_c": 3.9,
+          "gust_kmh": 18.7,
           "rain_probability_pct": 16,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-23T08:00",
-          "temperature_c": 0.8,
-          "gust_kmh": 48.2,
-          "rain_probability_pct": 12,
+          "time": "2026-11-21T23:00",
+          "temperature_c": 2.6,
+          "gust_kmh": 10.4,
+          "rain_probability_pct": 11,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-23T09:00",
+          "time": "2026-11-22T00:00",
+          "temperature_c": 2.4,
+          "gust_kmh": 6.1,
+          "rain_probability_pct": 5,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T01:00",
+          "temperature_c": 1.8,
+          "gust_kmh": 6.1,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T02:00",
           "temperature_c": 1.5,
-          "gust_kmh": 49.3,
-          "rain_probability_pct": 8,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T10:00",
-          "temperature_c": 2.2,
-          "gust_kmh": 50.0,
-          "rain_probability_pct": 6,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T11:00",
-          "temperature_c": 2.9,
-          "gust_kmh": 50.4,
-          "rain_probability_pct": 4,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T12:00",
-          "temperature_c": 3.7,
-          "gust_kmh": 50.4,
-          "rain_probability_pct": 3,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T13:00",
-          "temperature_c": 3.9,
-          "gust_kmh": 48.6,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T14:00",
-          "temperature_c": 3.2,
-          "gust_kmh": 45.0,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T15:00",
-          "temperature_c": 2.0,
-          "gust_kmh": 40.0,
-          "rain_probability_pct": 3,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T16:00",
-          "temperature_c": 0.9,
-          "gust_kmh": 33.5,
-          "rain_probability_pct": 4,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T17:00",
-          "temperature_c": 0.1,
-          "gust_kmh": 23.4,
-          "rain_probability_pct": 4,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T18:00",
-          "temperature_c": -0.7,
-          "gust_kmh": 11.9,
-          "rain_probability_pct": 3,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T19:00",
-          "temperature_c": -1.0,
-          "gust_kmh": 4.7,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T20:00",
-          "temperature_c": -0.7,
-          "gust_kmh": 5.0,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T21:00",
-          "temperature_c": 0.0,
-          "gust_kmh": 9.7,
-          "rain_probability_pct": 3,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T22:00",
-          "temperature_c": 0.4,
-          "gust_kmh": 13.0,
-          "rain_probability_pct": 3,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-23T23:00",
-          "temperature_c": -1.1,
-          "gust_kmh": 6.8,
-          "rain_probability_pct": 3,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-24T00:00",
-          "temperature_c": -1.0,
-          "gust_kmh": 9.0,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-24T01:00",
-          "temperature_c": -1.0,
           "gust_kmh": 10.1,
           "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-24T02:00",
-          "temperature_c": -1.1,
-          "gust_kmh": 10.4,
+          "time": "2026-11-22T03:00",
+          "temperature_c": 1.3,
+          "gust_kmh": 17.6,
+          "rain_probability_pct": 5,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T04:00",
+          "temperature_c": 1.0,
+          "gust_kmh": 23.0,
+          "rain_probability_pct": 6,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T05:00",
+          "temperature_c": 0.3,
+          "gust_kmh": 23.8,
+          "rain_probability_pct": 4,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T06:00",
+          "temperature_c": -0.6,
+          "gust_kmh": 22.3,
           "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
-          "time": "2026-11-24T03:00",
-          "temperature_c": -1.3,
-          "gust_kmh": 10.8,
+          "time": "2026-11-22T07:00",
+          "temperature_c": -0.7,
+          "gust_kmh": 21.6,
+          "rain_probability_pct": 0,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T08:00",
+          "temperature_c": 0.7,
+          "gust_kmh": 23.0,
+          "rain_probability_pct": 0,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T09:00",
+          "temperature_c": 2.9,
+          "gust_kmh": 25.2,
+          "rain_probability_pct": 1,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T10:00",
+          "temperature_c": 4.7,
+          "gust_kmh": 27.7,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T11:00",
+          "temperature_c": 6.0,
+          "gust_kmh": 29.9,
+          "rain_probability_pct": 4,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T12:00",
+          "temperature_c": 6.9,
+          "gust_kmh": 32.4,
+          "rain_probability_pct": 6,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T13:00",
+          "temperature_c": 7.4,
+          "gust_kmh": 34.2,
+          "rain_probability_pct": 8,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T14:00",
+          "temperature_c": 7.3,
+          "gust_kmh": 35.6,
+          "rain_probability_pct": 10,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T15:00",
+          "temperature_c": 6.7,
+          "gust_kmh": 36.4,
+          "rain_probability_pct": 12,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T16:00",
+          "temperature_c": 6.1,
+          "gust_kmh": 35.6,
+          "rain_probability_pct": 16,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T17:00",
+          "temperature_c": 5.8,
+          "gust_kmh": 32.8,
+          "rain_probability_pct": 22,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T18:00",
+          "temperature_c": 5.6,
+          "gust_kmh": 28.4,
+          "rain_probability_pct": 30,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T19:00",
+          "temperature_c": 5.4,
+          "gust_kmh": 24.1,
+          "rain_probability_pct": 37,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T20:00",
+          "temperature_c": 5.1,
+          "gust_kmh": 20.2,
+          "rain_probability_pct": 43,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T21:00",
+          "temperature_c": 4.8,
+          "gust_kmh": 16.6,
+          "rain_probability_pct": 49,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T22:00",
+          "temperature_c": 4.5,
+          "gust_kmh": 14.8,
+          "rain_probability_pct": 51,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-22T23:00",
+          "temperature_c": 4.3,
+          "gust_kmh": 15.8,
+          "rain_probability_pct": 47,
+          "precip_mm": 0.1,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T00:00",
+          "temperature_c": 4.1,
+          "gust_kmh": 18.4,
+          "rain_probability_pct": 39,
+          "precip_mm": 0.1,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T01:00",
+          "temperature_c": 3.9,
+          "gust_kmh": 20.2,
+          "rain_probability_pct": 33,
+          "precip_mm": 0.1,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T02:00",
+          "temperature_c": 3.7,
+          "gust_kmh": 20.2,
+          "rain_probability_pct": 31,
+          "precip_mm": 0.2,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T03:00",
+          "temperature_c": 3.4,
+          "gust_kmh": 19.4,
+          "rain_probability_pct": 30,
+          "precip_mm": 0.2,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T04:00",
+          "temperature_c": 3.2,
+          "gust_kmh": 19.8,
+          "rain_probability_pct": 29,
+          "precip_mm": 0.2,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T05:00",
+          "temperature_c": 2.7,
+          "gust_kmh": 22.0,
+          "rain_probability_pct": 28,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T06:00",
+          "temperature_c": 2.1,
+          "gust_kmh": 25.2,
+          "rain_probability_pct": 27,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T07:00",
+          "temperature_c": 2.0,
+          "gust_kmh": 29.2,
+          "rain_probability_pct": 24,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T08:00",
+          "temperature_c": 2.5,
+          "gust_kmh": 34.2,
+          "rain_probability_pct": 18,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T09:00",
+          "temperature_c": 3.3,
+          "gust_kmh": 40.0,
+          "rain_probability_pct": 11,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T10:00",
+          "temperature_c": 4.1,
+          "gust_kmh": 43.9,
+          "rain_probability_pct": 6,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T11:00",
+          "temperature_c": 4.7,
+          "gust_kmh": 45.4,
           "rain_probability_pct": 3,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T12:00",
+          "temperature_c": 5.3,
+          "gust_kmh": 45.0,
+          "rain_probability_pct": 3,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T13:00",
+          "temperature_c": 5.5,
+          "gust_kmh": 43.6,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T14:00",
+          "temperature_c": 5.3,
+          "gust_kmh": 40.3,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T15:00",
+          "temperature_c": 4.8,
+          "gust_kmh": 36.0,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T16:00",
+          "temperature_c": 4.2,
+          "gust_kmh": 31.0,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T17:00",
+          "temperature_c": 3.4,
+          "gust_kmh": 24.5,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T18:00",
+          "temperature_c": 2.5,
+          "gust_kmh": 17.3,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T19:00",
+          "temperature_c": 1.6,
+          "gust_kmh": 12.6,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T20:00",
+          "temperature_c": 0.8,
+          "gust_kmh": 12.6,
+          "rain_probability_pct": 3,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T21:00",
+          "temperature_c": 0.0,
+          "gust_kmh": 15.5,
+          "rain_probability_pct": 5,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T22:00",
+          "temperature_c": -0.6,
+          "gust_kmh": 17.6,
+          "rain_probability_pct": 6,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-23T23:00",
+          "temperature_c": -1.0,
+          "gust_kmh": 18.0,
+          "rain_probability_pct": 6,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-24T00:00",
+          "temperature_c": -1.2,
+          "gust_kmh": 17.6,
+          "rain_probability_pct": 6,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-24T01:00",
+          "temperature_c": -1.4,
+          "gust_kmh": 17.6,
+          "rain_probability_pct": 6,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-24T02:00",
+          "temperature_c": -1.8,
+          "gust_kmh": 17.6,
+          "rain_probability_pct": 7,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
+          "time": "2026-11-24T03:00",
+          "temperature_c": -2.2,
+          "gust_kmh": 17.6,
+          "rain_probability_pct": 7,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-24T04:00",
-          "temperature_c": -1.5,
-          "gust_kmh": 10.8,
-          "rain_probability_pct": 3,
+          "temperature_c": -2.6,
+          "gust_kmh": 18.0,
+          "rain_probability_pct": 8,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-24T05:00",
-          "temperature_c": -1.6,
-          "gust_kmh": 11.2,
-          "rain_probability_pct": 3,
+          "temperature_c": -2.7,
+          "gust_kmh": 18.4,
+          "rain_probability_pct": 8,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-24T06:00",
-          "temperature_c": -1.6,
-          "gust_kmh": 11.2,
-          "rain_probability_pct": 4,
+          "temperature_c": -2.8,
+          "gust_kmh": 18.7,
+          "rain_probability_pct": 8,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-24T07:00",
-          "temperature_c": -1.4,
-          "gust_kmh": 11.5,
-          "rain_probability_pct": 4,
+          "temperature_c": -2.8,
+          "gust_kmh": 19.1,
+          "rain_probability_pct": 8,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1555,7 +1555,7 @@
           "time": "2026-11-24T08:00",
           "temperature_c": -0.8,
           "gust_kmh": 11.9,
-          "rain_probability_pct": 4,
+          "rain_probability_pct": 7,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1563,7 +1563,7 @@
           "time": "2026-11-24T09:00",
           "temperature_c": 0.3,
           "gust_kmh": 12.6,
-          "rain_probability_pct": 3,
+          "rain_probability_pct": 6,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1571,7 +1571,7 @@
           "time": "2026-11-24T10:00",
           "temperature_c": 1.4,
           "gust_kmh": 13.0,
-          "rain_probability_pct": 3,
+          "rain_probability_pct": 5,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1579,7 +1579,7 @@
           "time": "2026-11-24T11:00",
           "temperature_c": 2.5,
           "gust_kmh": 13.7,
-          "rain_probability_pct": 3,
+          "rain_probability_pct": 4,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1587,7 +1587,7 @@
           "time": "2026-11-24T12:00",
           "temperature_c": 3.3,
           "gust_kmh": 14.0,
-          "rain_probability_pct": 2,
+          "rain_probability_pct": 3,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1611,7 +1611,7 @@
           "time": "2026-11-24T15:00",
           "temperature_c": 2.3,
           "gust_kmh": 14.8,
-          "rain_probability_pct": 3,
+          "rain_probability_pct": 1,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1619,7 +1619,7 @@
           "time": "2026-11-24T16:00",
           "temperature_c": 1.2,
           "gust_kmh": 15.1,
-          "rain_probability_pct": 3,
+          "rain_probability_pct": 1,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1627,7 +1627,7 @@
           "time": "2026-11-24T17:00",
           "temperature_c": -0.1,
           "gust_kmh": 15.1,
-          "rain_probability_pct": 3,
+          "rain_probability_pct": 1,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1635,7 +1635,7 @@
           "time": "2026-11-24T18:00",
           "temperature_c": -1.2,
           "gust_kmh": 14.8,
-          "rain_probability_pct": 4,
+          "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1643,7 +1643,7 @@
           "time": "2026-11-24T19:00",
           "temperature_c": -2.0,
           "gust_kmh": 14.4,
-          "rain_probability_pct": 4,
+          "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1651,7 +1651,7 @@
           "time": "2026-11-24T20:00",
           "temperature_c": -2.5,
           "gust_kmh": 13.3,
-          "rain_probability_pct": 4,
+          "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1659,7 +1659,7 @@
           "time": "2026-11-24T21:00",
           "temperature_c": -2.9,
           "gust_kmh": 12.2,
-          "rain_probability_pct": 3,
+          "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1667,7 +1667,7 @@
           "time": "2026-11-24T22:00",
           "temperature_c": -3.2,
           "gust_kmh": 10.4,
-          "rain_probability_pct": 2,
+          "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
@@ -1675,38 +1675,38 @@
           "time": "2026-11-24T23:00",
           "temperature_c": -3.4,
           "gust_kmh": 9.0,
-          "rain_probability_pct": 1,
+          "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         }
       ]
     },
     "europe_weather": {
-      "updated_at": "2026-11-18T10:26:24Z",
+      "updated_at": "2026-11-18T13:39:42Z",
       "countries": [
         {
           "code": "HU",
           "name": "Magyarország",
-          "peak_time": "2026-11-18T11:00:00Z",
-          "gust_kmh": 29.2,
-          "rain_mm": 9.0,
+          "peak_time": "2026-11-19T22:00:00Z",
+          "gust_kmh": 26.6,
+          "rain_mm": 6.5,
           "snow_cm": 0.0,
-          "peak_index": 20
+          "peak_index": 10
         },
         {
           "code": "AT",
           "name": "Ausztria",
-          "peak_time": "2026-11-18T11:00:00Z",
-          "gust_kmh": 61.9,
-          "rain_mm": 0.0,
+          "peak_time": "2026-11-20T11:00:00Z",
+          "gust_kmh": 50.4,
+          "rain_mm": 0.05,
           "snow_cm": 0.0,
-          "peak_index": 34
+          "peak_index": 19
         },
         {
           "code": "SK",
           "name": "Szlovákia",
           "peak_time": "2026-11-20T12:00:00Z",
-          "gust_kmh": 56.2,
+          "gust_kmh": 56.7,
           "rain_mm": 0.0,
           "snow_cm": 0.0,
           "peak_index": 27
@@ -1723,34 +1723,34 @@
         {
           "code": "CZ",
           "name": "Csehország",
-          "peak_time": "2026-11-20T11:00:00Z",
-          "gust_kmh": 52.2,
+          "peak_time": "2026-11-20T14:00:00Z",
+          "gust_kmh": 51.8,
           "rain_mm": 0.1,
           "snow_cm": 0.0,
-          "peak_index": 22
+          "peak_index": 21
         },
         {
           "code": "PL",
           "name": "Lengyelország",
           "peak_time": "2026-11-19T03:00:00Z",
-          "gust_kmh": 52.6,
+          "gust_kmh": 58.3,
           "rain_mm": 0.2,
           "snow_cm": 0.0,
-          "peak_index": 22
+          "peak_index": 29
         },
         {
           "code": "DE",
           "name": "Németország",
           "peak_time": "2026-11-18T19:00:00Z",
-          "gust_kmh": 61.6,
-          "rain_mm": 0.3,
+          "gust_kmh": 60.1,
+          "rain_mm": 0.2,
           "snow_cm": 0.0,
-          "peak_index": 33
+          "peak_index": 31
         },
         {
           "code": "FR",
           "name": "Franciaország",
-          "peak_time": "2026-11-20T11:00:00Z",
+          "peak_time": "2026-11-20T14:00:00Z",
           "gust_kmh": 56.2,
           "rain_mm": 0.0,
           "snow_cm": 0.0,
@@ -1759,26 +1759,26 @@
         {
           "code": "HR",
           "name": "Horvátország",
-          "peak_time": "2026-11-19T15:00:00Z",
-          "gust_kmh": 17.3,
-          "rain_mm": 9.4,
+          "peak_time": "2026-11-19T16:00:00Z",
+          "gust_kmh": 10.8,
+          "rain_mm": 4.9,
           "snow_cm": 0.0,
-          "peak_index": 22
+          "peak_index": 4
         },
         {
           "code": "SI",
           "name": "Szlovénia",
-          "peak_time": "2026-11-19T16:00:00Z",
-          "gust_kmh": 10.8,
-          "rain_mm": 4.3,
+          "peak_time": "2026-11-19T12:00:00Z",
+          "gust_kmh": 11.9,
+          "rain_mm": 5.0,
           "snow_cm": 0.0,
-          "peak_index": 1
+          "peak_index": 4
         },
         {
           "code": "UA",
           "name": "Ukrajna",
-          "peak_time": "2026-11-19T13:00:00Z",
-          "gust_kmh": 38.2,
+          "peak_time": "2026-11-19T11:00:00Z",
+          "gust_kmh": 38.5,
           "rain_mm": 0.0,
           "snow_cm": 0.0,
           "peak_index": 4
@@ -1787,7 +1787,7 @@
       "scope_note": "Representative city per country, not entire national grid"
     },
     "ews": {
-      "updated_at": "2026-11-18T10:26:24Z",
+      "updated_at": "2026-11-18T13:39:42Z",
       "level": 1.0,
       "airborne_count": null,
       "source_timestamp": null,
@@ -1796,66 +1796,78 @@
       "url": "https://ews.kylemcdonald.net/"
     },
     "european_prices": {
-      "updated_at": "2026-11-18T10:26:28Z",
+      "updated_at": "2026-11-18T13:39:47Z",
       "countries": [
         {
           "code": "AT",
           "name": "Ausztria",
           "zone": "AT",
-          "recent_eur_mwh": 189.81,
-          "latest_time": "2026-11-18T22:45:00Z",
-          "mean_eur_mwh": 230.2,
-          "sample_count": 192
+          "recent_eur_mwh": 176.55,
+          "latest_time": "2026-11-19T22:45:00Z",
+          "mean_eur_mwh": 231.6,
+          "sample_count": 288
+        },
+        {
+          "code": "FR",
+          "name": "Franciaország",
+          "zone": "FR",
+          "recent_eur_mwh": 65.07,
+          "latest_time": "2026-11-19T22:45:00Z",
+          "mean_eur_mwh": 63.1,
+          "sample_count": 288
         },
         {
           "code": "HU",
           "name": "Magyarország",
           "zone": "HU",
-          "recent_eur_mwh": 212.94,
-          "latest_time": "2026-11-18T22:45:00Z",
-          "mean_eur_mwh": 220.1,
-          "sample_count": 192
+          "recent_eur_mwh": 185.03,
+          "latest_time": "2026-11-19T22:45:00Z",
+          "mean_eur_mwh": 224.6,
+          "sample_count": 288
         },
         {
           "code": "PL",
           "name": "Lengyelország",
           "zone": "PL",
-          "recent_eur_mwh": 152.03,
-          "latest_time": "2026-11-18T22:45:00Z",
-          "mean_eur_mwh": 196.5,
-          "sample_count": 192
-        },
-        {
-          "code": "RO",
-          "name": "Románia",
-          "zone": "RO",
-          "recent_eur_mwh": 147.57,
-          "latest_time": "2026-11-18T22:45:00Z",
-          "mean_eur_mwh": 211.6,
-          "sample_count": 196
+          "recent_eur_mwh": 178.41,
+          "latest_time": "2026-11-19T22:45:00Z",
+          "mean_eur_mwh": 195.3,
+          "sample_count": 288
         },
         {
           "code": "SK",
           "name": "Szlovákia",
           "zone": "SK",
-          "recent_eur_mwh": 189.35,
-          "latest_time": "2026-11-18T22:45:00Z",
-          "mean_eur_mwh": 216.2,
-          "sample_count": 192
+          "recent_eur_mwh": 182.44,
+          "latest_time": "2026-11-19T22:45:00Z",
+          "mean_eur_mwh": 222.1,
+          "sample_count": 288
         }
       ],
       "partial_errors": [
+        "RO: HTTP Error 429: Too Many Requests",
         "CZ: HTTP Error 429: Too Many Requests",
-        "HR: HTTP Error 429: Too Many Requests",
         "DE: HTTP Error 429: Too Many Requests",
-        "SI: HTTP Error 429: Too Many Requests",
-        "FR: HTTP Error 429: Too Many Requests"
+        "HR: HTTP Error 429: Too Many Requests",
+        "SI: HTTP Error 429: Too Many Requests"
       ],
       "metric": "Spot market price context, not shortage evidence"
     },
     "official_news": {
-      "updated_at": "2026-11-18T10:26:26Z",
+      "updated_at": "2026-11-18T13:39:46Z",
       "items": [
+        {
+          "title": "Results of 18-11-2026 auction (EU-Bills)",
+          "url": "https://commission.europa.eu/news-and-media/news/results-18-11-2026-auction-eu-bills-2026-11-18_en",
+          "published_at": "2026-11-18T00:00:00+01:00",
+          "source": "Európai Bizottság"
+        },
+        {
+          "title": "Announcement of next auction (EU-Bonds) on 23-11-2026",
+          "url": "https://commission.europa.eu/news-and-media/news/announcement-next-auction-eu-bonds-23-11-2026-2026-11-18_en",
+          "published_at": "2026-11-18T00:00:00+01:00",
+          "source": "Európai Bizottság"
+        },
         {
           "title": "Preliminary findings of Temu failing to counter sale of illegal products",
           "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2463",
@@ -1933,18 +1945,6 @@
           "url": "https://commission.europa.eu/news-and-media/news/announcement-next-auction-eu-bills-04-11-2026-2026-10-30_en",
           "published_at": "2026-10-30T00:00:00+01:00",
           "source": "Európai Bizottság"
-        },
-        {
-          "title": "Reinforcing Frontex for stronger protection of the EU’s external borders",
-          "url": "https://commission.europa.eu/news-and-media/news/reinforcing-frontex-stronger-protection-eus-external-borders-2026-10-27_en",
-          "published_at": "2026-10-27T00:00:00+01:00",
-          "source": "Európai Bizottság"
-        },
-        {
-          "title": "Protecting Europe with stronger climate-resilience",
-          "url": "https://commission.europa.eu/news-and-media/news/protecting-europe-stronger-climate-resilience-2026-10-27_en",
-          "published_at": "2026-10-27T00:00:00+01:00",
-          "source": "Európai Bizottság"
         }
       ],
       "sources_ok": [
@@ -1956,7 +1956,7 @@
       "note": "Hivatalos hírek, nem riasztások; automatikusan nem kapnak kockázati pontot."
     },
     "meteoalarm": {
-      "updated_at": "2026-11-18T10:26:30Z",
+      "updated_at": "2026-11-18T13:39:48Z",
       "countries_checked": [
         "AT",
         "BE",
@@ -1988,459 +1988,459 @@
       ],
       "recent_entries": [
         {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Yellow Coastalevent Warning issued for Spain - Costa - Sur de Mallorca",
-          "published_at": "2026-11-18T10:16:08Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES874"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Posio, Salla, Kemijärvi, Rovaniemi, Ylitornio",
+          "published_at": "2026-11-18T12:55:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI004"
         },
         {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Yellow Coastalevent Warning issued for Spain - Costa - Levante mallorquín",
-          "published_at": "2026-11-18T10:16:08Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES877"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Posio, Salla, Kemijärvi, Rovaniemi, Ylitornio",
+          "published_at": "2026-11-18T12:55:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI002"
         },
         {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Yellow Wind Warning issued for Spain - Sierra Tramontana",
-          "published_at": "2026-11-18T10:16:08Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES114"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Posio, Salla, Kemijärvi, Rovaniemi, Ylitornio",
+          "published_at": "2026-11-18T12:55:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI003"
         },
         {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Yellow Coastalevent Warning issued for Spain - Costa - Norte y nordeste de Mallorca",
-          "published_at": "2026-11-18T10:16:08Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES876"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Posio, Salla, Kemijärvi, Rovaniemi, Ylitornio",
+          "published_at": "2026-11-18T12:55:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI042"
         },
         {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Yellow Coastalevent Warning issued for Spain - Costa - Ibiza y Formentera",
-          "published_at": "2026-11-18T10:16:08Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES873"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Posio, Salla, Kemijärvi, Rovaniemi, Ylitornio",
+          "published_at": "2026-11-18T12:55:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI006"
         },
         {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Yellow Coastalevent Warning issued for Spain - Costa - Sierra Tramontana",
-          "published_at": "2026-11-18T10:16:08Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES875"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Posio, Salla, Kemijärvi, Rovaniemi, Ylitornio",
+          "published_at": "2026-11-18T12:55:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI005"
         },
         {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Yellow Wind Warning issued for Spain - Ibiza y Formentera",
-          "published_at": "2026-11-18T10:16:08Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES113"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Posio, Salla, Kemijärvi, Rovaniemi, Ylitornio",
+          "published_at": "2026-11-18T12:55:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI009"
         },
         {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Yellow Coastalevent Warning issued for Spain - Costa - Menorca",
-          "published_at": "2026-11-18T10:16:08Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES878"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Posio, Salla, Kemijärvi, Rovaniemi, Ylitornio",
+          "published_at": "2026-11-18T12:55:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI010"
         },
         {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Orange Coastalevent Warning issued for Spain - Costa - Bizkaia litoral",
-          "published_at": "2026-11-18T10:06:09Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES841"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Posio, Salla, Kemijärvi, Rovaniemi, Ylitornio",
+          "published_at": "2026-11-18T12:55:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI011"
         },
         {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Yellow Wind Warning issued for Spain - Bizkaia litoral",
-          "published_at": "2026-11-18T10:06:09Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES235"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Posio, Salla, Kemijärvi, Rovaniemi, Ylitornio",
+          "published_at": "2026-11-18T12:55:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI012"
         },
         {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Yellow Wind Warning issued for Spain - Gipuzkoa litoral",
-          "published_at": "2026-11-18T10:06:09Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES233"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Posio, Salla, Kemijärvi, Rovaniemi, Ylitornio",
+          "published_at": "2026-11-18T12:55:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI013"
         },
         {
-          "country": "ES",
-          "name": "Spanyolország",
-          "title": "Orange Coastalevent Warning issued for Spain - Costa - Litoral cántabro",
-          "published_at": "2026-11-18T10:06:09Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES842"
-        },
-        {
-          "country": "NO",
-          "name": "Norvégia",
-          "title": "Yellow Wind Warning issued for Norway - Hekkingen - Torsvaag",
-          "published_at": "2026-11-18T09:25:22Z",
-          "url": "https://meteoalarm.org?polygon=1f5d8915-959e-419f-b151-4417a81ecaed,1,0,0"
-        },
-        {
-          "country": "LT",
-          "name": "Litvánia",
-          "title": "Yellow Wind Warning issued for Lithuania - Klaipėda county",
-          "published_at": "2026-11-18T09:18:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:LT003"
-        },
-        {
-          "country": "NO",
-          "name": "Norvégia",
-          "title": "Yellow Wind Warning issued for Norway - Torsvaag - Fruholmen",
-          "published_at": "2026-11-18T09:17:49Z",
-          "url": "https://meteoalarm.org?polygon=fdb0abd7-97fc-4e0c-8f52-08adafca12d8,1,0,1"
-        },
-        {
-          "country": "NO",
-          "name": "Norvégia",
-          "title": "Yellow Wind Warning issued for Norway - Torsvaag - Fruholmen",
-          "published_at": "2026-11-18T09:17:49Z",
-          "url": "https://meteoalarm.org?polygon=fdb0abd7-97fc-4e0c-8f52-08adafca12d8,1,0,0"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Flushing",
-          "published_at": "2026-11-18T09:17:05Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL801"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - IJsselmeer",
-          "published_at": "2026-11-18T09:17:05Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL810"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - IJmuiden",
-          "published_at": "2026-11-18T09:17:05Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL803"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Marken",
-          "published_at": "2026-11-18T09:17:05Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL811"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Hook of Holland",
-          "published_at": "2026-11-18T09:17:05Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL802"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Delfzijl",
-          "published_at": "2026-11-18T09:17:05Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL808"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Snow-ice Warning issued for Finland - Pudasjärvi, Taivalkoski, Kuusamo, Kemi, Tornio, Keminmaa, Tervola, Simo, Ranua, Posio, Salla, Kemijärvi, Rovaniemi, Ylitornio",
+          "published_at": "2026-11-18T12:55:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI014"
         },
         {
           "country": "NL",
           "name": "Hollandia",
           "title": "Yellow Wind Warning issued for The Netherlands - Harlingen",
-          "published_at": "2026-11-18T09:17:05Z",
+          "published_at": "2026-11-18T12:51:27Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:NL809"
         },
         {
           "country": "NL",
           "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Zierikzee",
-          "published_at": "2026-11-18T09:17:05Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL812"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
-          "title": "Orange Wind Warning issued for The Netherlands - Rottum",
-          "published_at": "2026-11-18T09:17:05Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL805"
-        },
-        {
-          "country": "NL",
-          "name": "Hollandia",
           "title": "Yellow Wind Warning issued for The Netherlands - Texel",
-          "published_at": "2026-11-18T09:17:05Z",
+          "published_at": "2026-11-18T12:51:27Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:NL804"
         },
         {
           "country": "NL",
           "name": "Hollandia",
-          "title": "Yellow Wind Warning issued for The Netherlands - Flushing",
-          "published_at": "2026-11-18T09:17:05Z",
-          "url": "https://meteoalarm.org?polygon=1c2e4071-fe1d-4a21-885e-e01facd3ce57,0,0,0"
+          "title": "Yellow Wind Warning issued for The Netherlands - Delfzijl",
+          "published_at": "2026-11-18T12:51:27Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL808"
+        },
+        {
+          "country": "NL",
+          "name": "Hollandia",
+          "title": "Yellow Wind Warning issued for The Netherlands - Hook of Holland",
+          "published_at": "2026-11-18T12:51:27Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL802"
+        },
+        {
+          "country": "NL",
+          "name": "Hollandia",
+          "title": "Yellow Wind Warning issued for The Netherlands - Rottum",
+          "published_at": "2026-11-18T12:51:27Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL805"
         },
         {
           "country": "NL",
           "name": "Hollandia",
           "title": "Yellow Wind Warning issued for The Netherlands - IJsselmeer",
-          "published_at": "2026-11-18T09:17:05Z",
-          "url": "https://meteoalarm.org?polygon=a5735be6-0dee-431e-968f-d6df3395d7c0,0,0,0"
+          "published_at": "2026-11-18T12:51:27Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL810"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Ličko-senjska",
-          "published_at": "2026-11-18T09:14:12Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR019"
+          "country": "NL",
+          "name": "Hollandia",
+          "title": "Yellow Wind Warning issued for The Netherlands - Flushing",
+          "published_at": "2026-11-18T12:51:27Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:NL801"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Ličko-senjska",
-          "published_at": "2026-11-18T09:14:12Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR019"
+          "country": "NL",
+          "name": "Hollandia",
+          "title": "Yellow Wind Warning issued for The Netherlands - Harlingen",
+          "published_at": "2026-11-18T12:51:27Z",
+          "url": "https://meteoalarm.org?polygon=8caec760-4ae3-4623-94dc-f17d6fe3cca3,0,0,0"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Zadarska",
-          "published_at": "2026-11-18T09:14:12Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR023"
+          "country": "NL",
+          "name": "Hollandia",
+          "title": "Yellow Wind Warning issued for The Netherlands - Texel",
+          "published_at": "2026-11-18T12:51:27Z",
+          "url": "https://meteoalarm.org?polygon=59e21097-4bf4-44fd-ae9a-c3e633eb9cdb,0,0,0"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Zadarska",
-          "published_at": "2026-11-18T09:14:12Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR023"
+          "country": "NL",
+          "name": "Hollandia",
+          "title": "Yellow Wind Warning issued for The Netherlands - Delfzijl",
+          "published_at": "2026-11-18T12:51:27Z",
+          "url": "https://meteoalarm.org?polygon=c7920d19-6f6b-4bc0-836e-04b338ecbb80,0,0,0"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Bjelovarsko-bilogorska",
-          "published_at": "2026-11-18T09:14:12Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR017"
+          "country": "NL",
+          "name": "Hollandia",
+          "title": "Yellow Wind Warning issued for The Netherlands - Hook of Holland",
+          "published_at": "2026-11-18T12:51:27Z",
+          "url": "https://meteoalarm.org?polygon=eebb8442-44b9-4519-94f5-1f7c504822c9,0,0,0"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Bjelovarsko-bilogorska",
-          "published_at": "2026-11-18T09:14:12Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR017"
+          "country": "NL",
+          "name": "Hollandia",
+          "title": "Yellow Wind Warning issued for The Netherlands - Rottum",
+          "published_at": "2026-11-18T12:51:27Z",
+          "url": "https://meteoalarm.org?polygon=529beb08-026e-4f08-8223-dd0e9d1de826,0,0,0"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Primorsko-goranska",
-          "published_at": "2026-11-18T09:14:12Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR018"
+          "country": "SE",
+          "name": "Svédország",
+          "title": "Yellow Snow-ice Warning issued for Sweden - Norrbotten County's coastal land",
+          "published_at": "2026-11-18T12:51:13Z",
+          "url": "https://meteoalarm.org?polygon=d09f1b89-4376-4bad-916f-8ae75ba3ffb2,1,0,0"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Primorsko-goranska",
-          "published_at": "2026-11-18T09:14:12Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR018"
+          "country": "SE",
+          "name": "Svédország",
+          "title": "Yellow Snow-ice Warning issued for Sweden - Västerbotten County's coastal land",
+          "published_at": "2026-11-18T12:51:13Z",
+          "url": "https://meteoalarm.org?polygon=6426aa9a-afa2-4f8e-a40d-4d5f69c259c8,1,0,0"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Koprivničko-križevačka",
-          "published_at": "2026-11-18T09:14:12Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR016"
+          "country": "SE",
+          "name": "Svédország",
+          "title": "Yellow Wind Warning issued for Sweden - Skagerrak",
+          "published_at": "2026-11-18T12:28:40Z",
+          "url": "https://meteoalarm.org?polygon=9facf302-0726-4e83-bfb0-a5f9635d1ab1,1,0,0"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Koprivničko-križevačka",
-          "published_at": "2026-11-18T09:14:12Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR016"
+          "country": "LV",
+          "name": "Lettország",
+          "title": "Yellow Wind Warning issued for Latvia - Gulf of Riga West",
+          "published_at": "2026-11-18T12:11:20Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:LV804"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Wind Warning issued for Croatia - Splitsko-dalmatinska",
-          "published_at": "2026-11-18T09:14:12Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR027"
+          "country": "LV",
+          "name": "Lettország",
+          "title": "Yellow Wind Warning issued for Latvia - Gulf of Riga East",
+          "published_at": "2026-11-18T12:11:20Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:LV802"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Wind Warning issued for Croatia - Splitsko-dalmatinska",
-          "published_at": "2026-11-18T09:14:12Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR027"
+          "country": "LV",
+          "name": "Lettország",
+          "title": "Yellow Wind Warning issued for Latvia - Southern Gulf of Riga",
+          "published_at": "2026-11-18T12:11:20Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:LV801"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Wind Warning issued for Finland - Suomenlahden länsiosa, Pohjois-Itämeren itäosa",
-          "published_at": "2026-11-18T09:11:46Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI812"
+          "country": "UA",
+          "name": "Ukrajna",
+          "title": "Yellow Coastalevent Warning issued for Ukraine - Danube Delta, Dniester estuary, Karkinitsky gulf, Open sea of Northwestern area of Black sea, Zmiinyi Island",
+          "published_at": "2026-11-18T11:57:54Z",
+          "url": "https://meteoalarm.org?polygon=effa75e9-cc8b-41c5-9ddb-eee9ac5cedfa,0,0,6"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Wind Warning issued for Finland - Suomenlahden länsiosa, Pohjois-Itämeren itäosa",
-          "published_at": "2026-11-18T09:11:46Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI806"
+          "country": "UA",
+          "name": "Ukrajna",
+          "title": "Yellow Coastalevent Warning issued for Ukraine - Danube Delta, Dniester estuary, Karkinitsky gulf, Open sea of Northwestern area of Black sea, Zmiinyi Island",
+          "published_at": "2026-11-18T11:57:54Z",
+          "url": "https://meteoalarm.org?polygon=effa75e9-cc8b-41c5-9ddb-eee9ac5cedfa,0,0,5"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Wind Warning issued for Finland - Perämeren pohjoisosa",
-          "published_at": "2026-11-18T09:11:46Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI809"
+          "country": "UA",
+          "name": "Ukrajna",
+          "title": "Yellow Coastalevent Warning issued for Ukraine - Danube Delta, Dniester estuary, Karkinitsky gulf, Open sea of Northwestern area of Black sea, Zmiinyi Island",
+          "published_at": "2026-11-18T11:57:54Z",
+          "url": "https://meteoalarm.org?polygon=effa75e9-cc8b-41c5-9ddb-eee9ac5cedfa,0,0,4"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Kainuu, Pohjois-Pohjanmaan Eteläosa, Pudasjärvi, Taivalkoski, Kuusamo",
-          "published_at": "2026-11-18T09:11:46Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI025"
+          "country": "UA",
+          "name": "Ukrajna",
+          "title": "Yellow Coastalevent Warning issued for Ukraine - Danube Delta, Dniester estuary, Karkinitsky gulf, Open sea of Northwestern area of Black sea, Zmiinyi Island",
+          "published_at": "2026-11-18T11:57:54Z",
+          "url": "https://meteoalarm.org?polygon=effa75e9-cc8b-41c5-9ddb-eee9ac5cedfa,0,0,3"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Kainuu, Pohjois-Pohjanmaan Eteläosa, Pudasjärvi, Taivalkoski, Kuusamo",
-          "published_at": "2026-11-18T09:11:46Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI024"
+          "country": "UA",
+          "name": "Ukrajna",
+          "title": "Yellow Coastalevent Warning issued for Ukraine - Danube Delta, Dniester estuary, Karkinitsky gulf, Open sea of Northwestern area of Black sea, Zmiinyi Island",
+          "published_at": "2026-11-18T11:57:54Z",
+          "url": "https://meteoalarm.org?polygon=effa75e9-cc8b-41c5-9ddb-eee9ac5cedfa,0,0,2"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Kainuu, Pohjois-Pohjanmaan Eteläosa, Pudasjärvi, Taivalkoski, Kuusamo",
-          "published_at": "2026-11-18T09:11:46Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI023"
+          "country": "UA",
+          "name": "Ukrajna",
+          "title": "Yellow Coastalevent Warning issued for Ukraine - Danube Delta, Dniester estuary, Karkinitsky gulf, Open sea of Northwestern area of Black sea, Zmiinyi Island",
+          "published_at": "2026-11-18T11:57:54Z",
+          "url": "https://meteoalarm.org?polygon=effa75e9-cc8b-41c5-9ddb-eee9ac5cedfa,0,0,1"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Kainuu, Pohjois-Pohjanmaan Eteläosa, Pudasjärvi, Taivalkoski, Kuusamo",
-          "published_at": "2026-11-18T09:11:46Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI020"
+          "country": "UA",
+          "name": "Ukrajna",
+          "title": "Yellow Coastalevent Warning issued for Ukraine - Danube Delta, Dniester estuary, Karkinitsky gulf, Open sea of Northwestern area of Black sea, Zmiinyi Island",
+          "published_at": "2026-11-18T11:57:54Z",
+          "url": "https://meteoalarm.org?polygon=effa75e9-cc8b-41c5-9ddb-eee9ac5cedfa,0,0,0"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Kainuu, Pohjois-Pohjanmaan Eteläosa, Pudasjärvi, Taivalkoski, Kuusamo",
-          "published_at": "2026-11-18T09:11:46Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI026"
+          "country": "UA",
+          "name": "Ukrajna",
+          "title": "Yellow Wind Warning issued for Ukraine - Kerch-Feodosia region, Ports of Mariupol and Berdyansk, Strait of Kerch, Western Sea of Azov",
+          "published_at": "2026-11-18T11:57:54Z",
+          "url": "https://meteoalarm.org?polygon=1c16fb5b-c220-4dc8-81f0-db32160c7b34,0,0,3"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Satakunta, Pirkanmaa, Keski-Suomi, Etelä-Savo, Pohjois-Savo, Pohjois-Karjala, Etelä-Pohjanmaa, Pohjanmaa, Keski-Pohjanmaa",
-          "published_at": "2026-11-18T09:11:46Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI028"
+          "country": "UA",
+          "name": "Ukrajna",
+          "title": "Yellow Wind Warning issued for Ukraine - Kerch-Feodosia region, Ports of Mariupol and Berdyansk, Strait of Kerch, Western Sea of Azov",
+          "published_at": "2026-11-18T11:57:54Z",
+          "url": "https://meteoalarm.org?polygon=1c16fb5b-c220-4dc8-81f0-db32160c7b34,0,0,2"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Satakunta, Pirkanmaa, Keski-Suomi, Etelä-Savo, Pohjois-Savo, Pohjois-Karjala, Etelä-Pohjanmaa, Pohjanmaa, Keski-Pohjanmaa",
-          "published_at": "2026-11-18T09:11:46Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI029"
+          "country": "UA",
+          "name": "Ukrajna",
+          "title": "Yellow Wind Warning issued for Ukraine - Kerch-Feodosia region, Ports of Mariupol and Berdyansk, Strait of Kerch, Western Sea of Azov",
+          "published_at": "2026-11-18T11:57:54Z",
+          "url": "https://meteoalarm.org?polygon=1c16fb5b-c220-4dc8-81f0-db32160c7b34,0,0,1"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Satakunta, Pirkanmaa, Keski-Suomi, Etelä-Savo, Pohjois-Savo, Pohjois-Karjala, Etelä-Pohjanmaa, Pohjanmaa, Keski-Pohjanmaa",
-          "published_at": "2026-11-18T09:11:46Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI030"
+          "country": "UA",
+          "name": "Ukrajna",
+          "title": "Yellow Wind Warning issued for Ukraine - Kerch-Feodosia region, Ports of Mariupol and Berdyansk, Strait of Kerch, Western Sea of Azov",
+          "published_at": "2026-11-18T11:57:54Z",
+          "url": "https://meteoalarm.org?polygon=1c16fb5b-c220-4dc8-81f0-db32160c7b34,0,0,0"
         },
         {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Snow-ice Warning issued for Finland - Satakunta, Pirkanmaa, Keski-Suomi, Etelä-Savo, Pohjois-Savo, Pohjois-Karjala, Etelä-Pohjanmaa, Pohjanmaa, Keski-Pohjanmaa",
-          "published_at": "2026-11-18T09:11:46Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI001"
+          "country": "UA",
+          "name": "Ukrajna",
+          "title": "Yellow Wind Warning issued for Ukraine - Eastern Crimean area, Open sea of Crimean area of Black sea, Southern Crimean area, Western Crimean area",
+          "published_at": "2026-11-18T11:57:54Z",
+          "url": "https://meteoalarm.org?polygon=d7f191f7-b46b-4113-abe4-59cff6f9b71c,0,0,3"
         },
         {
-          "country": "NO",
-          "name": "Norvégia",
-          "title": "Yellow Wind Warning issued for Norway - Fruholmen - Slettnes lighthouse",
-          "published_at": "2026-11-18T09:10:30Z",
-          "url": "https://meteoalarm.org?polygon=f6fb4be3-47a1-4e6e-a4d4-d2da8e4d252e,1,0,1"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Wind Warning issued for Estonia - Western Gulf of Finland",
+          "published_at": "2026-11-18T11:56:38Z",
+          "url": "https://meteoalarm.org?polygon=b7dfac8e-379e-453a-b0a7-a41a186ada29,0,0,0"
         },
         {
-          "country": "NO",
-          "name": "Norvégia",
-          "title": "Yellow Wind Warning issued for Norway - Fruholmen - Slettnes lighthouse",
-          "published_at": "2026-11-18T09:10:30Z",
-          "url": "https://meteoalarm.org?polygon=f6fb4be3-47a1-4e6e-a4d4-d2da8e4d252e,1,0,0"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Wind Warning issued for Estonia - Eastern Gulf of Finland",
+          "published_at": "2026-11-18T11:56:38Z",
+          "url": "https://meteoalarm.org?polygon=d29c0522-4f94-456e-96a9-4e3a029ed171,0,0,0"
         },
         {
-          "country": "CH",
-          "name": "Svájc",
-          "title": "Yellow Rain Warning issued for Switzerland - Monthey - Val d'Illiez",
-          "published_at": "2026-11-18T09:10:15Z",
-          "url": "https://meteoalarm.org?polygon=e4ee46bf-3288-4299-8c6f-5aa5678d8f68,0,0,0"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Wind Warning issued for Estonia - Northern Gulf of Riga",
+          "published_at": "2026-11-18T11:56:38Z",
+          "url": "https://meteoalarm.org?polygon=6e67b589-141d-4444-9851-81a0a96e8355,0,0,0"
         },
         {
-          "country": "CH",
-          "name": "Svájc",
-          "title": "Yellow Rain Warning issued for Switzerland - Conthey - Fully",
-          "published_at": "2026-11-18T09:10:15Z",
-          "url": "https://meteoalarm.org?polygon=15e66f6f-1486-4f60-b724-6c85f4da77de,0,0,0"
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - Limburg",
+          "published_at": "2026-11-18T11:40:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE007"
         },
         {
-          "country": "CH",
-          "name": "Svájc",
-          "title": "Yellow Rain Warning issued for Switzerland - Vouvry",
-          "published_at": "2026-11-18T09:10:15Z",
-          "url": "https://meteoalarm.org?polygon=2a46871f-bd5c-41fc-a206-58fa3e4ab52e,0,0,0"
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - Antwerp",
+          "published_at": "2026-11-18T11:40:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE002"
         },
         {
-          "country": "CH",
-          "name": "Svájc",
-          "title": "Yellow Rain Warning issued for Switzerland - Martigny - Verbier",
-          "published_at": "2026-11-18T09:10:15Z",
-          "url": "https://meteoalarm.org?polygon=a694fa1a-de21-4d0e-ae03-780503a03b72,0,0,0"
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - Luxembourg",
+          "published_at": "2026-11-18T11:40:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE001"
         },
         {
-          "country": "CH",
-          "name": "Svájc",
-          "title": "Yellow Rain Warning issued for Switzerland - Sion - Crans-Montana",
-          "published_at": "2026-11-18T09:10:15Z",
-          "url": "https://meteoalarm.org?polygon=3ec1b6d7-1d78-456a-a9a4-54490fef74d8,0,0,0"
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - East Flanders",
+          "published_at": "2026-11-18T11:40:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE003"
         },
         {
-          "country": "CH",
-          "name": "Svájc",
-          "title": "Yellow Rain Warning issued for Switzerland - Haut val de Bagnes",
-          "published_at": "2026-11-18T09:10:15Z",
-          "url": "https://meteoalarm.org?polygon=da6f5097-0437-44c6-aeda-e81f45c86bbe,0,0,0"
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - Brabant",
+          "published_at": "2026-11-18T11:40:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE004"
         },
         {
-          "country": "CH",
-          "name": "Svájc",
-          "title": "Yellow Rain Warning issued for Switzerland - Val d'Entremont - Val Ferret",
-          "published_at": "2026-11-18T09:10:15Z",
-          "url": "https://meteoalarm.org?polygon=677add34-2e5a-4a49-8ff8-bfecb202aca7,0,0,0"
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - Hainaut",
+          "published_at": "2026-11-18T11:40:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE005"
         },
         {
-          "country": "CH",
-          "name": "Svájc",
-          "title": "Yellow Rain Warning issued for Switzerland - Aigle - Leysin",
-          "published_at": "2026-11-18T09:10:15Z",
-          "url": "https://meteoalarm.org?polygon=1cc6bcd7-327c-411d-877f-2e15b8ab18b9,0,0,0"
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - Liège",
+          "published_at": "2026-11-18T11:40:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE008"
         },
         {
-          "country": "CH",
-          "name": "Svájc",
-          "title": "Yellow Rain Warning issued for Switzerland - Bex - Villars",
-          "published_at": "2026-11-18T09:10:15Z",
-          "url": "https://meteoalarm.org?polygon=a43df5a2-7e81-4ea8-a1b7-f8e51fb9b5cb,0,0,0"
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - Namur",
+          "published_at": "2026-11-18T11:40:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE006"
         },
         {
-          "country": "CH",
-          "name": "Svájc",
-          "title": "Yellow Rain Warning issued for Switzerland - Pays-d'Enhaut",
-          "published_at": "2026-11-18T09:10:15Z",
-          "url": "https://meteoalarm.org?polygon=c88e5463-9ed3-490e-86ba-4d937e819eab,0,0,0"
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - Luxembourg",
+          "published_at": "2026-11-18T11:40:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE001"
         },
         {
-          "country": "CH",
-          "name": "Svájc",
-          "title": "Yellow Rain Warning issued for Switzerland - Vallée du Trient",
-          "published_at": "2026-11-18T09:10:15Z",
-          "url": "https://meteoalarm.org?polygon=58a343c1-ffd0-4830-93e8-b1d0c2c4dbbc,0,0,0"
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - Liège",
+          "published_at": "2026-11-18T11:40:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE008"
+        },
+        {
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - Brabant",
+          "published_at": "2026-11-18T11:40:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE004"
+        },
+        {
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - Namur",
+          "published_at": "2026-11-18T11:40:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE006"
+        },
+        {
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Wind Warning issued for Estonia - Lake Peipus",
+          "published_at": "2026-11-18T11:24:57Z",
+          "url": "https://meteoalarm.org?polygon=09ce0473-fa78-4e14-ac01-eb094cd99349,0,0,0"
+        },
+        {
+          "country": "SK",
+          "name": "Szlovákia",
+          "title": "Yellow Wind Warning issued for Slovakia - Tvrdošín",
+          "published_at": "2026-11-18T11:00:04Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK510"
+        },
+        {
+          "country": "SK",
+          "name": "Szlovákia",
+          "title": "Yellow Wind Warning issued for Slovakia - Poprad",
+          "published_at": "2026-11-18T11:00:04Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK706"
+        },
+        {
+          "country": "SK",
+          "name": "Szlovákia",
+          "title": "Yellow Wind Warning issued for Slovakia - Námestovo",
+          "published_at": "2026-11-18T11:00:04Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK507"
+        },
+        {
+          "country": "SK",
+          "name": "Szlovákia",
+          "title": "Yellow Wind Warning issued for Slovakia - Brezno",
+          "published_at": "2026-11-18T11:00:04Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK603"
+        },
+        {
+          "country": "SK",
+          "name": "Szlovákia",
+          "title": "Yellow Wind Warning issued for Slovakia - Liptovský Mikuláš",
+          "published_at": "2026-11-18T11:00:04Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK505"
+        },
+        {
+          "country": "SK",
+          "name": "Szlovákia",
+          "title": "Yellow Wind Warning issued for Slovakia - Banská Bystrica",
+          "published_at": "2026-11-18T11:00:04Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK601"
+        },
+        {
+          "country": "SK",
+          "name": "Szlovákia",
+          "title": "Yellow Wind Warning issued for Slovakia - Turčianske Teplice",
+          "published_at": "2026-11-18T11:00:04Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:SK509"
         }
       ],
       "partial_errors": [
@@ -2449,392 +2449,8 @@
       "note": "Recently published Atom entries, not verified active alerts or blackouts"
     },
     "electricity": {
-      "updated_at": "2026-11-18T10:26:24Z",
+      "updated_at": "2026-11-18T13:39:43Z",
       "prices": [
-        {
-          "time": "2026-11-17T07:00:00Z",
-          "eur_mwh": 274.99
-        },
-        {
-          "time": "2026-11-17T07:15:00Z",
-          "eur_mwh": 271.8
-        },
-        {
-          "time": "2026-11-17T07:30:00Z",
-          "eur_mwh": 271.15
-        },
-        {
-          "time": "2026-11-17T07:45:00Z",
-          "eur_mwh": 269.98
-        },
-        {
-          "time": "2026-11-17T08:00:00Z",
-          "eur_mwh": 275.65
-        },
-        {
-          "time": "2026-11-17T08:15:00Z",
-          "eur_mwh": 274.88
-        },
-        {
-          "time": "2026-11-17T08:30:00Z",
-          "eur_mwh": 266.29
-        },
-        {
-          "time": "2026-11-17T08:45:00Z",
-          "eur_mwh": 256.2
-        },
-        {
-          "time": "2026-11-17T09:00:00Z",
-          "eur_mwh": 272.72
-        },
-        {
-          "time": "2026-11-17T09:15:00Z",
-          "eur_mwh": 260.92
-        },
-        {
-          "time": "2026-11-17T09:30:00Z",
-          "eur_mwh": 262.65
-        },
-        {
-          "time": "2026-11-17T09:45:00Z",
-          "eur_mwh": 250.78
-        },
-        {
-          "time": "2026-11-17T10:00:00Z",
-          "eur_mwh": 260.25
-        },
-        {
-          "time": "2026-11-17T10:15:00Z",
-          "eur_mwh": 255.87
-        },
-        {
-          "time": "2026-11-17T10:30:00Z",
-          "eur_mwh": 255.66
-        },
-        {
-          "time": "2026-11-17T10:45:00Z",
-          "eur_mwh": 248.31
-        },
-        {
-          "time": "2026-11-17T11:00:00Z",
-          "eur_mwh": 257.8
-        },
-        {
-          "time": "2026-11-17T11:15:00Z",
-          "eur_mwh": 247.63
-        },
-        {
-          "time": "2026-11-17T11:30:00Z",
-          "eur_mwh": 247.35
-        },
-        {
-          "time": "2026-11-17T11:45:00Z",
-          "eur_mwh": 239.45
-        },
-        {
-          "time": "2026-11-17T12:00:00Z",
-          "eur_mwh": 245.03
-        },
-        {
-          "time": "2026-11-17T12:15:00Z",
-          "eur_mwh": 263.62
-        },
-        {
-          "time": "2026-11-17T12:30:00Z",
-          "eur_mwh": 264.99
-        },
-        {
-          "time": "2026-11-17T12:45:00Z",
-          "eur_mwh": 282.02
-        },
-        {
-          "time": "2026-11-17T13:00:00Z",
-          "eur_mwh": 259.98
-        },
-        {
-          "time": "2026-11-17T13:15:00Z",
-          "eur_mwh": 300.0
-        },
-        {
-          "time": "2026-11-17T13:30:00Z",
-          "eur_mwh": 334.54
-        },
-        {
-          "time": "2026-11-17T13:45:00Z",
-          "eur_mwh": 313.49
-        },
-        {
-          "time": "2026-11-17T14:00:00Z",
-          "eur_mwh": 319.03
-        },
-        {
-          "time": "2026-11-17T14:15:00Z",
-          "eur_mwh": 308.29
-        },
-        {
-          "time": "2026-11-17T14:30:00Z",
-          "eur_mwh": 290.22
-        },
-        {
-          "time": "2026-11-17T14:45:00Z",
-          "eur_mwh": 289.74
-        },
-        {
-          "time": "2026-11-17T15:00:00Z",
-          "eur_mwh": 269.67
-        },
-        {
-          "time": "2026-11-17T15:15:00Z",
-          "eur_mwh": 264.3
-        },
-        {
-          "time": "2026-11-17T15:30:00Z",
-          "eur_mwh": 270.24
-        },
-        {
-          "time": "2026-11-17T15:45:00Z",
-          "eur_mwh": 270.46
-        },
-        {
-          "time": "2026-11-17T16:00:00Z",
-          "eur_mwh": 260.3
-        },
-        {
-          "time": "2026-11-17T16:15:00Z",
-          "eur_mwh": 258.53
-        },
-        {
-          "time": "2026-11-17T16:30:00Z",
-          "eur_mwh": 260.09
-        },
-        {
-          "time": "2026-11-17T16:45:00Z",
-          "eur_mwh": 265.85
-        },
-        {
-          "time": "2026-11-17T17:00:00Z",
-          "eur_mwh": 263.69
-        },
-        {
-          "time": "2026-11-17T17:15:00Z",
-          "eur_mwh": 266.6
-        },
-        {
-          "time": "2026-11-17T17:30:00Z",
-          "eur_mwh": 264.82
-        },
-        {
-          "time": "2026-11-17T17:45:00Z",
-          "eur_mwh": 264.05
-        },
-        {
-          "time": "2026-11-17T18:00:00Z",
-          "eur_mwh": 268.0
-        },
-        {
-          "time": "2026-11-17T18:15:00Z",
-          "eur_mwh": 256.84
-        },
-        {
-          "time": "2026-11-17T18:30:00Z",
-          "eur_mwh": 254.5
-        },
-        {
-          "time": "2026-11-17T18:45:00Z",
-          "eur_mwh": 246.17
-        },
-        {
-          "time": "2026-11-17T19:00:00Z",
-          "eur_mwh": 255.16
-        },
-        {
-          "time": "2026-11-17T19:15:00Z",
-          "eur_mwh": 238.2
-        },
-        {
-          "time": "2026-11-17T19:30:00Z",
-          "eur_mwh": 224.48
-        },
-        {
-          "time": "2026-11-17T19:45:00Z",
-          "eur_mwh": 209.87
-        },
-        {
-          "time": "2026-11-17T20:00:00Z",
-          "eur_mwh": 216.45
-        },
-        {
-          "time": "2026-11-17T20:15:00Z",
-          "eur_mwh": 209.21
-        },
-        {
-          "time": "2026-11-17T20:30:00Z",
-          "eur_mwh": 208.6
-        },
-        {
-          "time": "2026-11-17T20:45:00Z",
-          "eur_mwh": 199.14
-        },
-        {
-          "time": "2026-11-17T21:00:00Z",
-          "eur_mwh": 212.43
-        },
-        {
-          "time": "2026-11-17T21:15:00Z",
-          "eur_mwh": 208.72
-        },
-        {
-          "time": "2026-11-17T21:30:00Z",
-          "eur_mwh": 196.58
-        },
-        {
-          "time": "2026-11-17T21:45:00Z",
-          "eur_mwh": 183.28
-        },
-        {
-          "time": "2026-11-17T22:00:00Z",
-          "eur_mwh": 199.05
-        },
-        {
-          "time": "2026-11-17T22:15:00Z",
-          "eur_mwh": 190.01
-        },
-        {
-          "time": "2026-11-17T22:30:00Z",
-          "eur_mwh": 178.04
-        },
-        {
-          "time": "2026-11-17T22:45:00Z",
-          "eur_mwh": 171.69
-        },
-        {
-          "time": "2026-11-17T23:00:00Z",
-          "eur_mwh": 145.48
-        },
-        {
-          "time": "2026-11-17T23:15:00Z",
-          "eur_mwh": 149.51
-        },
-        {
-          "time": "2026-11-17T23:30:00Z",
-          "eur_mwh": 161.39
-        },
-        {
-          "time": "2026-11-17T23:45:00Z",
-          "eur_mwh": 158.4
-        },
-        {
-          "time": "2026-11-18T00:00:00Z",
-          "eur_mwh": 156.21
-        },
-        {
-          "time": "2026-11-18T00:15:00Z",
-          "eur_mwh": 158.96
-        },
-        {
-          "time": "2026-11-18T00:30:00Z",
-          "eur_mwh": 158.76
-        },
-        {
-          "time": "2026-11-18T00:45:00Z",
-          "eur_mwh": 159.44
-        },
-        {
-          "time": "2026-11-18T01:00:00Z",
-          "eur_mwh": 157.51
-        },
-        {
-          "time": "2026-11-18T01:15:00Z",
-          "eur_mwh": 155.81
-        },
-        {
-          "time": "2026-11-18T01:30:00Z",
-          "eur_mwh": 154.11
-        },
-        {
-          "time": "2026-11-18T01:45:00Z",
-          "eur_mwh": 150.41
-        },
-        {
-          "time": "2026-11-18T02:00:00Z",
-          "eur_mwh": 154.34
-        },
-        {
-          "time": "2026-11-18T02:15:00Z",
-          "eur_mwh": 147.3
-        },
-        {
-          "time": "2026-11-18T02:30:00Z",
-          "eur_mwh": 150.75
-        },
-        {
-          "time": "2026-11-18T02:45:00Z",
-          "eur_mwh": 148.23
-        },
-        {
-          "time": "2026-11-18T03:00:00Z",
-          "eur_mwh": 152.99
-        },
-        {
-          "time": "2026-11-18T03:15:00Z",
-          "eur_mwh": 147.26
-        },
-        {
-          "time": "2026-11-18T03:30:00Z",
-          "eur_mwh": 144.33
-        },
-        {
-          "time": "2026-11-18T03:45:00Z",
-          "eur_mwh": 147.29
-        },
-        {
-          "time": "2026-11-18T04:00:00Z",
-          "eur_mwh": 141.96
-        },
-        {
-          "time": "2026-11-18T04:15:00Z",
-          "eur_mwh": 152.7
-        },
-        {
-          "time": "2026-11-18T04:30:00Z",
-          "eur_mwh": 165.24
-        },
-        {
-          "time": "2026-11-18T04:45:00Z",
-          "eur_mwh": 183.86
-        },
-        {
-          "time": "2026-11-18T05:00:00Z",
-          "eur_mwh": 172.79
-        },
-        {
-          "time": "2026-11-18T05:15:00Z",
-          "eur_mwh": 197.84
-        },
-        {
-          "time": "2026-11-18T05:30:00Z",
-          "eur_mwh": 210.42
-        },
-        {
-          "time": "2026-11-18T05:45:00Z",
-          "eur_mwh": 208.97
-        },
-        {
-          "time": "2026-11-18T06:00:00Z",
-          "eur_mwh": 240.03
-        },
-        {
-          "time": "2026-11-18T06:15:00Z",
-          "eur_mwh": 241.64
-        },
-        {
-          "time": "2026-11-18T06:30:00Z",
-          "eur_mwh": 237.02
-        },
-        {
-          "time": "2026-11-18T06:45:00Z",
-          "eur_mwh": 235.66
-        },
         {
           "time": "2026-11-18T07:00:00Z",
           "eur_mwh": 238.05
@@ -3090,6 +2706,390 @@
         {
           "time": "2026-11-18T22:45:00Z",
           "eur_mwh": 212.94
+        },
+        {
+          "time": "2026-11-18T23:00:00Z",
+          "eur_mwh": 172.12
+        },
+        {
+          "time": "2026-11-18T23:15:00Z",
+          "eur_mwh": 169.19
+        },
+        {
+          "time": "2026-11-18T23:30:00Z",
+          "eur_mwh": 178.37
+        },
+        {
+          "time": "2026-11-18T23:45:00Z",
+          "eur_mwh": 174.89
+        },
+        {
+          "time": "2026-11-19T00:00:00Z",
+          "eur_mwh": 176.01
+        },
+        {
+          "time": "2026-11-19T00:15:00Z",
+          "eur_mwh": 179.12
+        },
+        {
+          "time": "2026-11-19T00:30:00Z",
+          "eur_mwh": 184.79
+        },
+        {
+          "time": "2026-11-19T00:45:00Z",
+          "eur_mwh": 182.98
+        },
+        {
+          "time": "2026-11-19T01:00:00Z",
+          "eur_mwh": 182.14
+        },
+        {
+          "time": "2026-11-19T01:15:00Z",
+          "eur_mwh": 182.02
+        },
+        {
+          "time": "2026-11-19T01:30:00Z",
+          "eur_mwh": 183.01
+        },
+        {
+          "time": "2026-11-19T01:45:00Z",
+          "eur_mwh": 180.87
+        },
+        {
+          "time": "2026-11-19T02:00:00Z",
+          "eur_mwh": 185.34
+        },
+        {
+          "time": "2026-11-19T02:15:00Z",
+          "eur_mwh": 184.55
+        },
+        {
+          "time": "2026-11-19T02:30:00Z",
+          "eur_mwh": 184.52
+        },
+        {
+          "time": "2026-11-19T02:45:00Z",
+          "eur_mwh": 183.94
+        },
+        {
+          "time": "2026-11-19T03:00:00Z",
+          "eur_mwh": 183.02
+        },
+        {
+          "time": "2026-11-19T03:15:00Z",
+          "eur_mwh": 183.49
+        },
+        {
+          "time": "2026-11-19T03:30:00Z",
+          "eur_mwh": 184.68
+        },
+        {
+          "time": "2026-11-19T03:45:00Z",
+          "eur_mwh": 192.56
+        },
+        {
+          "time": "2026-11-19T04:00:00Z",
+          "eur_mwh": 185.55
+        },
+        {
+          "time": "2026-11-19T04:15:00Z",
+          "eur_mwh": 201.8
+        },
+        {
+          "time": "2026-11-19T04:30:00Z",
+          "eur_mwh": 209.32
+        },
+        {
+          "time": "2026-11-19T04:45:00Z",
+          "eur_mwh": 228.93
+        },
+        {
+          "time": "2026-11-19T05:00:00Z",
+          "eur_mwh": 208.74
+        },
+        {
+          "time": "2026-11-19T05:15:00Z",
+          "eur_mwh": 236.5
+        },
+        {
+          "time": "2026-11-19T05:30:00Z",
+          "eur_mwh": 257.2
+        },
+        {
+          "time": "2026-11-19T05:45:00Z",
+          "eur_mwh": 273.58
+        },
+        {
+          "time": "2026-11-19T06:00:00Z",
+          "eur_mwh": 248.71
+        },
+        {
+          "time": "2026-11-19T06:15:00Z",
+          "eur_mwh": 260.98
+        },
+        {
+          "time": "2026-11-19T06:30:00Z",
+          "eur_mwh": 257.19
+        },
+        {
+          "time": "2026-11-19T06:45:00Z",
+          "eur_mwh": 263.83
+        },
+        {
+          "time": "2026-11-19T07:00:00Z",
+          "eur_mwh": 275.25
+        },
+        {
+          "time": "2026-11-19T07:15:00Z",
+          "eur_mwh": 280.43
+        },
+        {
+          "time": "2026-11-19T07:30:00Z",
+          "eur_mwh": 282.49
+        },
+        {
+          "time": "2026-11-19T07:45:00Z",
+          "eur_mwh": 271.13
+        },
+        {
+          "time": "2026-11-19T08:00:00Z",
+          "eur_mwh": 267.33
+        },
+        {
+          "time": "2026-11-19T08:15:00Z",
+          "eur_mwh": 259.9
+        },
+        {
+          "time": "2026-11-19T08:30:00Z",
+          "eur_mwh": 262.8
+        },
+        {
+          "time": "2026-11-19T08:45:00Z",
+          "eur_mwh": 260.81
+        },
+        {
+          "time": "2026-11-19T09:00:00Z",
+          "eur_mwh": 269.36
+        },
+        {
+          "time": "2026-11-19T09:15:00Z",
+          "eur_mwh": 273.44
+        },
+        {
+          "time": "2026-11-19T09:30:00Z",
+          "eur_mwh": 268.23
+        },
+        {
+          "time": "2026-11-19T09:45:00Z",
+          "eur_mwh": 265.51
+        },
+        {
+          "time": "2026-11-19T10:00:00Z",
+          "eur_mwh": 264.42
+        },
+        {
+          "time": "2026-11-19T10:15:00Z",
+          "eur_mwh": 263.14
+        },
+        {
+          "time": "2026-11-19T10:30:00Z",
+          "eur_mwh": 255.37
+        },
+        {
+          "time": "2026-11-19T10:45:00Z",
+          "eur_mwh": 251.98
+        },
+        {
+          "time": "2026-11-19T11:00:00Z",
+          "eur_mwh": 259.73
+        },
+        {
+          "time": "2026-11-19T11:15:00Z",
+          "eur_mwh": 241.34
+        },
+        {
+          "time": "2026-11-19T11:30:00Z",
+          "eur_mwh": 241.34
+        },
+        {
+          "time": "2026-11-19T11:45:00Z",
+          "eur_mwh": 240.61
+        },
+        {
+          "time": "2026-11-19T12:00:00Z",
+          "eur_mwh": 244.01
+        },
+        {
+          "time": "2026-11-19T12:15:00Z",
+          "eur_mwh": 245.23
+        },
+        {
+          "time": "2026-11-19T12:30:00Z",
+          "eur_mwh": 250.98
+        },
+        {
+          "time": "2026-11-19T12:45:00Z",
+          "eur_mwh": 246.78
+        },
+        {
+          "time": "2026-11-19T13:00:00Z",
+          "eur_mwh": 253.26
+        },
+        {
+          "time": "2026-11-19T13:15:00Z",
+          "eur_mwh": 259.31
+        },
+        {
+          "time": "2026-11-19T13:30:00Z",
+          "eur_mwh": 259.22
+        },
+        {
+          "time": "2026-11-19T13:45:00Z",
+          "eur_mwh": 269.76
+        },
+        {
+          "time": "2026-11-19T14:00:00Z",
+          "eur_mwh": 259.69
+        },
+        {
+          "time": "2026-11-19T14:15:00Z",
+          "eur_mwh": 263.97
+        },
+        {
+          "time": "2026-11-19T14:30:00Z",
+          "eur_mwh": 271.19
+        },
+        {
+          "time": "2026-11-19T14:45:00Z",
+          "eur_mwh": 289.68
+        },
+        {
+          "time": "2026-11-19T15:00:00Z",
+          "eur_mwh": 279.27
+        },
+        {
+          "time": "2026-11-19T15:15:00Z",
+          "eur_mwh": 274.23
+        },
+        {
+          "time": "2026-11-19T15:30:00Z",
+          "eur_mwh": 276.81
+        },
+        {
+          "time": "2026-11-19T15:45:00Z",
+          "eur_mwh": 276.12
+        },
+        {
+          "time": "2026-11-19T16:00:00Z",
+          "eur_mwh": 282.12
+        },
+        {
+          "time": "2026-11-19T16:15:00Z",
+          "eur_mwh": 275.79
+        },
+        {
+          "time": "2026-11-19T16:30:00Z",
+          "eur_mwh": 269.79
+        },
+        {
+          "time": "2026-11-19T16:45:00Z",
+          "eur_mwh": 268.38
+        },
+        {
+          "time": "2026-11-19T17:00:00Z",
+          "eur_mwh": 278.58
+        },
+        {
+          "time": "2026-11-19T17:15:00Z",
+          "eur_mwh": 268.88
+        },
+        {
+          "time": "2026-11-19T17:30:00Z",
+          "eur_mwh": 265.43
+        },
+        {
+          "time": "2026-11-19T17:45:00Z",
+          "eur_mwh": 252.4
+        },
+        {
+          "time": "2026-11-19T18:00:00Z",
+          "eur_mwh": 266.04
+        },
+        {
+          "time": "2026-11-19T18:15:00Z",
+          "eur_mwh": 256.88
+        },
+        {
+          "time": "2026-11-19T18:30:00Z",
+          "eur_mwh": 255.86
+        },
+        {
+          "time": "2026-11-19T18:45:00Z",
+          "eur_mwh": 249.11
+        },
+        {
+          "time": "2026-11-19T19:00:00Z",
+          "eur_mwh": 245.38
+        },
+        {
+          "time": "2026-11-19T19:15:00Z",
+          "eur_mwh": 240.72
+        },
+        {
+          "time": "2026-11-19T19:30:00Z",
+          "eur_mwh": 220.94
+        },
+        {
+          "time": "2026-11-19T19:45:00Z",
+          "eur_mwh": 213.74
+        },
+        {
+          "time": "2026-11-19T20:00:00Z",
+          "eur_mwh": 224.14
+        },
+        {
+          "time": "2026-11-19T20:15:00Z",
+          "eur_mwh": 216.64
+        },
+        {
+          "time": "2026-11-19T20:30:00Z",
+          "eur_mwh": 210.36
+        },
+        {
+          "time": "2026-11-19T20:45:00Z",
+          "eur_mwh": 189.66
+        },
+        {
+          "time": "2026-11-19T21:00:00Z",
+          "eur_mwh": 213.39
+        },
+        {
+          "time": "2026-11-19T21:15:00Z",
+          "eur_mwh": 203.62
+        },
+        {
+          "time": "2026-11-19T21:30:00Z",
+          "eur_mwh": 190.83
+        },
+        {
+          "time": "2026-11-19T21:45:00Z",
+          "eur_mwh": 187.53
+        },
+        {
+          "time": "2026-11-19T22:00:00Z",
+          "eur_mwh": 200.15
+        },
+        {
+          "time": "2026-11-19T22:15:00Z",
+          "eur_mwh": 189.63
+        },
+        {
+          "time": "2026-11-19T22:30:00Z",
+          "eur_mwh": 187.3
+        },
+        {
+          "time": "2026-11-19T22:45:00Z",
+          "eur_mwh": 185.03
         }
       ]
     }
@@ -3101,13 +3101,13 @@
     "grid_context": "Európai villamosenergia kontextus nem elérhető: [{'key': 'hu_load_forecast', 'reason': 'V2 series/timestamps absent'}, {'key': 'hu_physical_flows', 'reason': 'V2 series/timestamps absent'}, "
   },
   "assessment": {
-    "generated_at": "2026-11-18T10:26:30.574930+00:00",
+    "generated_at": "2026-11-18T13:39:48.995905+00:00",
     "horizon_hours": 24,
     "threshold": 50,
     "threshold_unit": "index_points_not_probability",
     "probability_note": "Nem számolunk validált bekövetkezési százalékot. 50/100 pont ≠ 50% eseményesély.",
     "overall": {
-      "score": 20,
+      "score": 1,
       "category": "local_power",
       "method": "Az elérhető jelzések legmagasabb, nem kalibrált intenzitásindexe. Az eltérő kategóriák nem összehasonlítható eseményvalószínűségek.",
       "coverage": 3,
@@ -3119,15 +3119,15 @@
         "key": "local_power",
         "name": "Helyi áramszünet",
         "method": "Időjárási hálózati kitettség, nem áramszünet-valószínűség",
-        "score": 20,
+        "score": 1,
         "status": "estimated_index",
-        "peak_time": "2026-11-18T11:00:00+00:00",
+        "peak_time": "2026-11-19T01:00:00+00:00",
         "evidence": [
           {
             "source": "Open-Meteo",
             "url": "https://open-meteo.com/en/docs",
-            "detail": "Széllökés 29.2 km/h, csapadék 9.0 mm/h, hó 0.0 cm; 24h csúcs",
-            "time": "2026-11-18T11:00:00+00:00"
+            "detail": "Széllökés 36.0 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+            "time": "2026-11-19T01:00:00+00:00"
           }
         ],
         "scope": "Nyíregyháza / 24 óra",
@@ -3258,15 +3258,15 @@
         "key": "extreme_weather",
         "name": "Szélsőséges időjárás",
         "method": "Mért előrejelzési kitettség; nem eseményvalószínűség",
-        "score": 20,
+        "score": 1,
         "status": "estimated_index",
-        "peak_time": "2026-11-18T11:00:00+00:00",
+        "peak_time": "2026-11-19T01:00:00+00:00",
         "evidence": [
           {
             "source": "Open-Meteo",
             "url": "https://open-meteo.com/en/docs",
-            "detail": "Széllökés 29.2 km/h, csapadék 9.0 mm/h, hó 0.0 cm; 24h csúcs",
-            "time": "2026-11-18T11:00:00+00:00"
+            "detail": "Széllökés 36.0 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+            "time": "2026-11-19T01:00:00+00:00"
           }
         ],
         "scope": "Nyíregyháza / 24 óra",
@@ -3279,13 +3279,13 @@
         "method": "NOAA Kp előrejelzés; nem elektromos hálózat-kiesési esély",
         "score": 0,
         "status": "estimated_index",
-        "peak_time": "2026-11-18T12:00:00+00:00",
+        "peak_time": "2026-11-18T21:00:00+00:00",
         "evidence": [
           {
             "source": "NOAA SWPC",
             "url": "https://www.swpc.noaa.gov/",
             "detail": "Előrejelzett Kp 4.67",
-            "time": "2026-11-18T12:00:00+00:00"
+            "time": "2026-11-18T21:00:00+00:00"
           }
         ],
         "scope": "Magyarország / 24 óra",
@@ -3298,13 +3298,13 @@
     "official_notices_rejected_count": 0,
     "windows": {
       "24": {
-        "generated_at": "2026-11-18T10:26:30.574930+00:00",
+        "generated_at": "2026-11-18T13:39:48.995905+00:00",
         "horizon_hours": 24,
         "threshold": 50,
         "threshold_unit": "index_points_not_probability",
         "probability_note": "Nem számolunk validált bekövetkezési százalékot. 50/100 pont ≠ 50% eseményesély.",
         "overall": {
-          "score": 20,
+          "score": 1,
           "category": "local_power",
           "method": "Az elérhető jelzések legmagasabb, nem kalibrált intenzitásindexe. Az eltérő kategóriák nem összehasonlítható eseményvalószínűségek.",
           "coverage": 3,
@@ -3316,15 +3316,15 @@
             "key": "local_power",
             "name": "Helyi áramszünet",
             "method": "Időjárási hálózati kitettség, nem áramszünet-valószínűség",
-            "score": 20,
+            "score": 1,
             "status": "estimated_index",
-            "peak_time": "2026-11-18T11:00:00+00:00",
+            "peak_time": "2026-11-19T01:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 29.2 km/h, csapadék 9.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-18T11:00:00+00:00"
+                "detail": "Széllökés 36.0 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-19T01:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 24 óra",
@@ -3455,15 +3455,15 @@
             "key": "extreme_weather",
             "name": "Szélsőséges időjárás",
             "method": "Mért előrejelzési kitettség; nem eseményvalószínűség",
-            "score": 20,
+            "score": 1,
             "status": "estimated_index",
-            "peak_time": "2026-11-18T11:00:00+00:00",
+            "peak_time": "2026-11-19T01:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 29.2 km/h, csapadék 9.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-18T11:00:00+00:00"
+                "detail": "Széllökés 36.0 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-19T01:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 24 óra",
@@ -3476,13 +3476,13 @@
             "method": "NOAA Kp előrejelzés; nem elektromos hálózat-kiesési esély",
             "score": 0,
             "status": "estimated_index",
-            "peak_time": "2026-11-18T12:00:00+00:00",
+            "peak_time": "2026-11-18T21:00:00+00:00",
             "evidence": [
               {
                 "source": "NOAA SWPC",
                 "url": "https://www.swpc.noaa.gov/",
                 "detail": "Előrejelzett Kp 4.67",
-                "time": "2026-11-18T12:00:00+00:00"
+                "time": "2026-11-18T21:00:00+00:00"
               }
             ],
             "scope": "Magyarország / 24 óra",
@@ -3495,13 +3495,13 @@
         "official_notices_rejected_count": 0
       },
       "48": {
-        "generated_at": "2026-11-18T10:26:30.574930+00:00",
+        "generated_at": "2026-11-18T13:39:48.995905+00:00",
         "horizon_hours": 48,
         "threshold": 50,
         "threshold_unit": "index_points_not_probability",
         "probability_note": "Nem számolunk validált bekövetkezési százalékot. 50/100 pont ≠ 50% eseményesély.",
         "overall": {
-          "score": 20,
+          "score": 10,
           "category": "local_power",
           "method": "Az elérhető jelzések legmagasabb, nem kalibrált intenzitásindexe. Az eltérő kategóriák nem összehasonlítható eseményvalószínűségek.",
           "coverage": 3,
@@ -3513,15 +3513,15 @@
             "key": "local_power",
             "name": "Helyi áramszünet",
             "method": "Időjárási hálózati kitettség, nem áramszünet-valószínűség",
-            "score": 20,
+            "score": 10,
             "status": "estimated_index",
-            "peak_time": "2026-11-18T11:00:00+00:00",
+            "peak_time": "2026-11-19T22:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 29.2 km/h, csapadék 9.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-18T11:00:00+00:00"
+                "detail": "Széllökés 26.6 km/h, csapadék 6.5 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-19T22:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 48 óra",
@@ -3652,15 +3652,15 @@
             "key": "extreme_weather",
             "name": "Szélsőséges időjárás",
             "method": "Mért előrejelzési kitettség; nem eseményvalószínűség",
-            "score": 20,
+            "score": 10,
             "status": "estimated_index",
-            "peak_time": "2026-11-18T11:00:00+00:00",
+            "peak_time": "2026-11-19T22:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 29.2 km/h, csapadék 9.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-18T11:00:00+00:00"
+                "detail": "Széllökés 26.6 km/h, csapadék 6.5 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-19T22:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 48 óra",
@@ -3673,13 +3673,13 @@
             "method": "NOAA Kp előrejelzés; nem elektromos hálózat-kiesési esély",
             "score": 0,
             "status": "estimated_index",
-            "peak_time": "2026-11-18T12:00:00+00:00",
+            "peak_time": "2026-11-18T21:00:00+00:00",
             "evidence": [
               {
                 "source": "NOAA SWPC",
                 "url": "https://www.swpc.noaa.gov/",
                 "detail": "Előrejelzett Kp 4.67",
-                "time": "2026-11-18T12:00:00+00:00"
+                "time": "2026-11-18T21:00:00+00:00"
               }
             ],
             "scope": "Magyarország / 48 óra",
@@ -3692,13 +3692,13 @@
         "official_notices_rejected_count": 0
       },
       "72": {
-        "generated_at": "2026-11-18T10:26:30.574930+00:00",
+        "generated_at": "2026-11-18T13:39:48.995905+00:00",
         "horizon_hours": 72,
         "threshold": 50,
         "threshold_unit": "index_points_not_probability",
         "probability_note": "Nem számolunk validált bekövetkezési százalékot. 50/100 pont ≠ 50% eseményesély.",
         "overall": {
-          "score": 20,
+          "score": 10,
           "category": "local_power",
           "method": "Az elérhető jelzések legmagasabb, nem kalibrált intenzitásindexe. Az eltérő kategóriák nem összehasonlítható eseményvalószínűségek.",
           "coverage": 3,
@@ -3710,15 +3710,15 @@
             "key": "local_power",
             "name": "Helyi áramszünet",
             "method": "Időjárási hálózati kitettség, nem áramszünet-valószínűség",
-            "score": 20,
+            "score": 10,
             "status": "estimated_index",
-            "peak_time": "2026-11-18T11:00:00+00:00",
+            "peak_time": "2026-11-19T22:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 29.2 km/h, csapadék 9.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-18T11:00:00+00:00"
+                "detail": "Széllökés 26.6 km/h, csapadék 6.5 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-19T22:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 72 óra",
@@ -3849,15 +3849,15 @@
             "key": "extreme_weather",
             "name": "Szélsőséges időjárás",
             "method": "Mért előrejelzési kitettség; nem eseményvalószínűség",
-            "score": 20,
+            "score": 10,
             "status": "estimated_index",
-            "peak_time": "2026-11-18T11:00:00+00:00",
+            "peak_time": "2026-11-19T22:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 29.2 km/h, csapadék 9.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-18T11:00:00+00:00"
+                "detail": "Széllökés 26.6 km/h, csapadék 6.5 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-19T22:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 72 óra",
@@ -3870,13 +3870,13 @@
             "method": "NOAA Kp előrejelzés; nem elektromos hálózat-kiesési esély",
             "score": 0,
             "status": "estimated_index",
-            "peak_time": "2026-11-18T12:00:00+00:00",
+            "peak_time": "2026-11-18T21:00:00+00:00",
             "evidence": [
               {
                 "source": "NOAA SWPC",
                 "url": "https://www.swpc.noaa.gov/",
                 "detail": "Előrejelzett Kp 4.67",
-                "time": "2026-11-18T12:00:00+00:00"
+                "time": "2026-11-18T21:00:00+00:00"
               }
             ],
             "scope": "Magyarország / 72 óra",
@@ -3890,7 +3890,7 @@
       }
     },
     "health": {
-      "checked_at": "2026-11-18T10:26:30.574930+00:00",
+      "checked_at": "2026-11-18T13:39:48.995905+00:00",
       "important_total": 6,
       "important_fresh": 6,
       "important_missing": [],
@@ -3901,7 +3901,7 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-18T10:26:24Z"
+          "updated_at": "2026-11-18T13:39:42Z"
         },
         {
           "key": "electricity",
@@ -3909,7 +3909,7 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-18T10:26:24Z"
+          "updated_at": "2026-11-18T13:39:43Z"
         },
         {
           "key": "space_weather",
@@ -3917,7 +3917,7 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-18T10:26:24Z"
+          "updated_at": "2026-11-18T13:39:42Z"
         },
         {
           "key": "european_prices",
@@ -3925,7 +3925,7 @@
           "status": "partial",
           "error": null,
           "partial_error_count": 5,
-          "updated_at": "2026-11-18T10:26:28Z"
+          "updated_at": "2026-11-18T13:39:47Z"
         },
         {
           "key": "europe_weather",
@@ -3933,7 +3933,7 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-18T10:26:24Z"
+          "updated_at": "2026-11-18T13:39:42Z"
         },
         {
           "key": "meteoalarm",
@@ -3941,7 +3941,7 @@
           "status": "partial",
           "error": null,
           "partial_error_count": 1,
-          "updated_at": "2026-11-18T10:26:30Z"
+          "updated_at": "2026-11-18T13:39:48Z"
         },
         {
           "key": "ews",
@@ -3949,7 +3949,7 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-18T10:26:24Z"
+          "updated_at": "2026-11-18T13:39:42Z"
         },
         {
           "key": "official_news",
@@ -3957,7 +3957,7 @@
           "status": "partial",
           "error": null,
           "partial_error_count": 1,
-          "updated_at": "2026-11-18T10:26:26Z"
+          "updated_at": "2026-11-18T13:39:46Z"
         },
         {
           "key": "gie_storage",
