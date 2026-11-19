@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T19:25:47Z",
+  "generated_at": "2026-11-19T22:11:06Z",
   "location": "Nyíregyháza, Magyarország",
   "timezone": "Europe/Budapest",
   "feeds": {
     "space_weather": {
-      "updated_at": "2026-11-19T19:25:47Z",
+      "updated_at": "2026-11-19T22:11:06Z",
       "kp": [
         {
           "time": "2026-11-12T00:00:00Z",
@@ -256,7 +256,7 @@
         },
         {
           "time": "2026-11-19T18:00:00Z",
-          "kp": 2.67
+          "kp": 3.0
         },
         {
           "time": "2026-11-19T21:00:00Z",
@@ -1787,7 +1787,7 @@
       "scope_note": "Representative city per country, not entire national grid"
     },
     "ews": {
-      "updated_at": "2026-11-19T19:25:47Z",
+      "updated_at": "2026-11-19T22:11:06Z",
       "level": 1.0,
       "airborne_count": null,
       "source_timestamp": null,
@@ -1796,15 +1796,24 @@
       "url": "https://ews.kylemcdonald.net/"
     },
     "european_prices": {
-      "updated_at": "2026-11-19T19:25:49Z",
+      "updated_at": "2026-11-19T22:11:08Z",
       "countries": [
         {
-          "code": "DE",
-          "name": "Németország",
-          "zone": "DE-LU",
+          "code": "AT",
+          "name": "Ausztria",
+          "zone": "AT",
           "recent_eur_mwh": 182.65,
           "latest_time": "2026-11-20T22:45:00Z",
-          "mean_eur_mwh": 195.2,
+          "mean_eur_mwh": 221.4,
+          "sample_count": 288
+        },
+        {
+          "code": "CZ",
+          "name": "Csehország",
+          "zone": "CZ",
+          "recent_eur_mwh": 182.65,
+          "latest_time": "2026-11-20T22:45:00Z",
+          "mean_eur_mwh": 207.6,
           "sample_count": 288
         },
         {
@@ -1824,37 +1833,20 @@
           "latest_time": "2026-11-20T22:45:00Z",
           "mean_eur_mwh": 182.5,
           "sample_count": 288
-        },
-        {
-          "code": "RO",
-          "name": "Románia",
-          "zone": "RO",
-          "recent_eur_mwh": 112.77,
-          "latest_time": "2026-11-19T22:45:00Z",
-          "mean_eur_mwh": 203.0,
-          "sample_count": 196
-        },
-        {
-          "code": "SK",
-          "name": "Szlovákia",
-          "zone": "SK",
-          "recent_eur_mwh": 182.44,
-          "latest_time": "2026-11-19T22:45:00Z",
-          "mean_eur_mwh": 210.2,
-          "sample_count": 192
         }
       ],
       "partial_errors": [
-        "CZ: HTTP Error 429: Too Many Requests",
-        "AT: HTTP Error 429: Too Many Requests",
+        "RO: HTTP Error 429: Too Many Requests",
+        "SK: HTTP Error 429: Too Many Requests",
+        "HR: HTTP Error 429: Too Many Requests",
+        "DE: HTTP Error 429: Too Many Requests",
         "SI: HTTP Error 429: Too Many Requests",
-        "FR: HTTP Error 429: Too Many Requests",
-        "HR: HTTP Error 429: Too Many Requests"
+        "FR: HTTP Error 429: Too Many Requests"
       ],
       "metric": "Spot market price context, not shortage evidence"
     },
     "official_news": {
-      "updated_at": "2026-11-19T19:25:51Z",
+      "updated_at": "2026-11-19T22:11:09Z",
       "items": [
         {
           "title": "The Centre opens a call for independent stakeholders to join its Stakeholder Platform",
@@ -1956,7 +1948,7 @@
       "note": "Hivatalos hírek, nem riasztások; automatikusan nem kapnak kockázati pontot."
     },
     "meteoalarm": {
-      "updated_at": "2026-11-19T19:25:57Z",
+      "updated_at": "2026-11-19T22:11:16Z",
       "countries_checked": [
         "AT",
         "BE",
@@ -1987,6 +1979,153 @@
         "UA"
       ],
       "recent_entries": [
+        {
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Avalanches Warning issued for France - Haute-Savoie",
+          "published_at": "2026-11-19T21:00:53Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR035"
+        },
+        {
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Avalanches Warning issued for France - Savoie",
+          "published_at": "2026-11-19T21:00:53Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR036"
+        },
+        {
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Avalanches Warning issued for France - Isère",
+          "published_at": "2026-11-19T21:00:53Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR034"
+        },
+        {
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Avalanches Warning issued for France - Alpes-Maritimes",
+          "published_at": "2026-11-19T21:00:53Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR029"
+        },
+        {
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Avalanches Warning issued for France - Hautes Alpes",
+          "published_at": "2026-11-19T21:00:53Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR033"
+        },
+        {
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Avalanches Warning issued for France - Alpes-de-Haute-Provence",
+          "published_at": "2026-11-19T21:00:53Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR032"
+        },
+        {
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Flooding Warning issued for France - Nord",
+          "published_at": "2026-11-19T21:00:52Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR070"
+        },
+        {
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Flooding Warning issued for France - Haute-Corse",
+          "published_at": "2026-11-19T21:00:52Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR089"
+        },
+        {
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Orange Flooding Warning issued for France - Pas-de-Calais",
+          "published_at": "2026-11-19T21:00:50Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR069"
+        },
+        {
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Thunderstorm Warning issued for France - Pas-de-Calais",
+          "published_at": "2026-11-19T21:00:49Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR069"
+        },
+        {
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Thunderstorm Warning issued for France - Deux-Sèvres",
+          "published_at": "2026-11-19T21:00:49Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR094"
+        },
+        {
+          "country": "FR",
+          "name": "Franciaország",
+          "title": "Yellow Thunderstorm Warning issued for France - Somme",
+          "published_at": "2026-11-19T21:00:49Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR071"
+        },
+        {
+          "country": "PL",
+          "name": "Lengyelország",
+          "title": "Yellow Wind Warning issued for Poland - Western coastal zone",
+          "published_at": "2026-11-19T20:57:57Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:PL803"
+        },
+        {
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - Brabant",
+          "published_at": "2026-11-19T20:30:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE004"
+        },
+        {
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Orange Rain Warning issued for Belgium - Hainaut",
+          "published_at": "2026-11-19T20:30:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE005"
+        },
+        {
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Orange Rain Warning issued for Belgium - Luxembourg",
+          "published_at": "2026-11-19T20:30:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE001"
+        },
+        {
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - Limburg",
+          "published_at": "2026-11-19T20:30:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE007"
+        },
+        {
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Orange Rain Warning issued for Belgium - Namur",
+          "published_at": "2026-11-19T20:30:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE006"
+        },
+        {
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Yellow Rain Warning issued for Belgium - East Flanders",
+          "published_at": "2026-11-19T20:30:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE003"
+        },
+        {
+          "country": "BE",
+          "name": "Belgium",
+          "title": "Orange Rain Warning issued for Belgium - Liège",
+          "published_at": "2026-11-19T20:30:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE008"
+        },
+        {
+          "country": "SE",
+          "name": "Svédország",
+          "title": "Yellow Wind Warning issued for Sweden - Southern Sea of Bothnia",
+          "published_at": "2026-11-19T19:57:12Z",
+          "url": "https://meteoalarm.org?polygon=d311a81e-52c8-4c86-9923-1abfba6bd2e3,1,0,0"
+        },
         {
           "country": "FI",
           "name": "Finnország",
@@ -2105,97 +2244,6 @@
           "title": "Yellow Thunderstorm Warning issued for Austria - Völkermarkt",
           "published_at": "2026-11-19T15:47:33Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:AT208"
-        },
-        {
-          "country": "SE",
-          "name": "Svédország",
-          "title": "Yellow Wind Warning issued for Sweden - Southern Sea of Bothnia",
-          "published_at": "2026-11-19T15:21:22Z",
-          "url": "https://meteoalarm.org?polygon=fbb8348b-b78d-4ef2-8464-7020931f0833,1,0,0"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Avalanches Warning issued for France - Haute-Savoie",
-          "published_at": "2026-11-19T15:04:04Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR035"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Avalanches Warning issued for France - Savoie",
-          "published_at": "2026-11-19T15:04:04Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR036"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Avalanches Warning issued for France - Isère",
-          "published_at": "2026-11-19T15:04:04Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR034"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Avalanches Warning issued for France - Alpes-Maritimes",
-          "published_at": "2026-11-19T15:04:04Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR029"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Avalanches Warning issued for France - Hautes Alpes",
-          "published_at": "2026-11-19T15:04:04Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR033"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Avalanches Warning issued for France - Alpes-de-Haute-Provence",
-          "published_at": "2026-11-19T15:04:04Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR032"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Flooding Warning issued for France - Nord",
-          "published_at": "2026-11-19T15:04:02Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR070"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Flooding Warning issued for France - Haute-Corse",
-          "published_at": "2026-11-19T15:04:02Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR089"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Orange Flooding Warning issued for France - Pas-de-Calais",
-          "published_at": "2026-11-19T15:04:01Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR069"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Thunderstorm Warning issued for France - Pas-de-Calais",
-          "published_at": "2026-11-19T15:04:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR069"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Thunderstorm Warning issued for France - Deux-Sèvres",
-          "published_at": "2026-11-19T15:04:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR094"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Thunderstorm Warning issued for France - Somme",
-          "published_at": "2026-11-19T15:04:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR071"
         },
         {
           "country": "SE",
@@ -2385,62 +2433,6 @@
           "title": "Orange Wind Warning issued for Croatia - Vukovarsko-srijemska",
           "published_at": "2026-11-19T12:12:07Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:HR026"
-        },
-        {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Zadarska",
-          "published_at": "2026-11-19T12:12:07Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR023"
-        },
-        {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Zadarska",
-          "published_at": "2026-11-19T12:12:07Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR023"
-        },
-        {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Wind Warning issued for Croatia - Grad Zagreb",
-          "published_at": "2026-11-19T12:12:07Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR031"
-        },
-        {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Wind Warning issued for Croatia - Grad Zagreb",
-          "published_at": "2026-11-19T12:12:07Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR031"
-        },
-        {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Požeško-slavonska",
-          "published_at": "2026-11-19T12:12:07Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR021"
-        },
-        {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Orange Wind Warning issued for Croatia - Požeško-slavonska",
-          "published_at": "2026-11-19T12:12:07Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR021"
-        },
-        {
-          "country": "EE",
-          "name": "Észtország",
-          "title": "Yellow Snow-ice Warning issued for Estonia - Rapla county",
-          "published_at": "2026-11-19T12:01:26Z",
-          "url": "https://meteoalarm.org?polygon=d00336cc-aa9f-4dcb-bf8b-b9237bb38fa6,0,14,0"
-        },
-        {
-          "country": "EE",
-          "name": "Észtország",
-          "title": "Yellow Snow-ice Warning issued for Estonia - Jõgeva county",
-          "published_at": "2026-11-19T12:01:26Z",
-          "url": "https://meteoalarm.org?polygon=d00336cc-aa9f-4dcb-bf8b-b9237bb38fa6,0,13,0"
         }
       ],
       "partial_errors": [
@@ -2449,7 +2441,7 @@
       "note": "Recently published Atom entries, not verified active alerts or blackouts"
     },
     "electricity": {
-      "updated_at": "2026-11-19T19:25:48Z",
+      "updated_at": "2026-11-19T22:11:07Z",
       "prices": [
         {
           "time": "2026-11-18T07:00:00Z",
@@ -3097,17 +3089,19 @@
   "errors": {
     "gie_storage": "GIE_API_KEY GitHub Secret nincs megadva (opcionális)",
     "entsoe_hu_load": "ENTSOE_API_TOKEN GitHub Secret nincs megadva (opcionális)",
+    "grid_context": "Európai villamosenergia kontextus nem elérhető: [{'key': 'hu_load_forecast', 'reason': 'V2 series/timestamps absent'}, {'key': 'hu_physical_flows', 'reason': 'V2 series/timestamps absent'}, ",
     "cap_warnings": "CAP Atom feeds not reachable: HU: HTTP Error 406: Not Acceptable; SK: HTTP Error 406: Not Acceptable; RO: HTTP Error 406: Not Acceptable; AT: HTTP Error 406: Not Acceptable",
-    "grid_context": "Európai villamosenergia kontextus nem elérhető: [{'key': 'hu_load_forecast', 'reason': 'V2 series/timestamps absent'}, {'key': 'hu_physical_flows', 'reason': 'V2 series/timestamps absent'}, "
+    "weather": "<urlopen error _ssl.c:994: The handshake operation timed out>",
+    "europe_weather": "<urlopen error _ssl.c:994: The handshake operation timed out>"
   },
   "assessment": {
-    "generated_at": "2026-11-19T19:25:57.779200+00:00",
+    "generated_at": "2026-11-19T22:11:28.715566+00:00",
     "horizon_hours": 24,
     "threshold": 50,
     "threshold_unit": "index_points_not_probability",
     "probability_note": "Nem számolunk validált bekövetkezési százalékot. 50/100 pont ≠ 50% eseményesély.",
     "overall": {
-      "score": 16,
+      "score": 12,
       "category": "local_power",
       "method": "Az elérhető jelzések legmagasabb, nem kalibrált intenzitásindexe. Az eltérő kategóriák nem összehasonlítható eseményvalószínűségek.",
       "coverage": 3,
@@ -3119,15 +3113,15 @@
         "key": "local_power",
         "name": "Helyi áramszünet",
         "method": "Időjárási hálózati kitettség, nem áramszünet-valószínűség",
-        "score": 16,
+        "score": 12,
         "status": "estimated_index",
-        "peak_time": "2026-11-19T21:00:00+00:00",
+        "peak_time": "2026-11-20T06:00:00+00:00",
         "evidence": [
           {
             "source": "Open-Meteo",
             "url": "https://open-meteo.com/en/docs",
-            "detail": "Széllökés 23.4 km/h, csapadék 8.0 mm/h, hó 0.0 cm; 24h csúcs",
-            "time": "2026-11-19T21:00:00+00:00"
+            "detail": "Széllökés 46.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+            "time": "2026-11-20T06:00:00+00:00"
           }
         ],
         "scope": "Nyíregyháza / 24 óra",
@@ -3258,15 +3252,15 @@
         "key": "extreme_weather",
         "name": "Szélsőséges időjárás",
         "method": "Mért előrejelzési kitettség; nem eseményvalószínűség",
-        "score": 16,
+        "score": 12,
         "status": "estimated_index",
-        "peak_time": "2026-11-19T21:00:00+00:00",
+        "peak_time": "2026-11-20T06:00:00+00:00",
         "evidence": [
           {
             "source": "Open-Meteo",
             "url": "https://open-meteo.com/en/docs",
-            "detail": "Széllökés 23.4 km/h, csapadék 8.0 mm/h, hó 0.0 cm; 24h csúcs",
-            "time": "2026-11-19T21:00:00+00:00"
+            "detail": "Széllökés 46.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+            "time": "2026-11-20T06:00:00+00:00"
           }
         ],
         "scope": "Nyíregyháza / 24 óra",
@@ -3298,13 +3292,13 @@
     "official_notices_rejected_count": 0,
     "windows": {
       "24": {
-        "generated_at": "2026-11-19T19:25:57.779200+00:00",
+        "generated_at": "2026-11-19T22:11:28.715566+00:00",
         "horizon_hours": 24,
         "threshold": 50,
         "threshold_unit": "index_points_not_probability",
         "probability_note": "Nem számolunk validált bekövetkezési százalékot. 50/100 pont ≠ 50% eseményesély.",
         "overall": {
-          "score": 16,
+          "score": 12,
           "category": "local_power",
           "method": "Az elérhető jelzések legmagasabb, nem kalibrált intenzitásindexe. Az eltérő kategóriák nem összehasonlítható eseményvalószínűségek.",
           "coverage": 3,
@@ -3316,15 +3310,15 @@
             "key": "local_power",
             "name": "Helyi áramszünet",
             "method": "Időjárási hálózati kitettség, nem áramszünet-valószínűség",
-            "score": 16,
+            "score": 12,
             "status": "estimated_index",
-            "peak_time": "2026-11-19T21:00:00+00:00",
+            "peak_time": "2026-11-20T06:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 23.4 km/h, csapadék 8.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-19T21:00:00+00:00"
+                "detail": "Széllökés 46.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-20T06:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 24 óra",
@@ -3455,15 +3449,15 @@
             "key": "extreme_weather",
             "name": "Szélsőséges időjárás",
             "method": "Mért előrejelzési kitettség; nem eseményvalószínűség",
-            "score": 16,
+            "score": 12,
             "status": "estimated_index",
-            "peak_time": "2026-11-19T21:00:00+00:00",
+            "peak_time": "2026-11-20T06:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 23.4 km/h, csapadék 8.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-19T21:00:00+00:00"
+                "detail": "Széllökés 46.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-20T06:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 24 óra",
@@ -3495,13 +3489,13 @@
         "official_notices_rejected_count": 0
       },
       "48": {
-        "generated_at": "2026-11-19T19:25:57.779200+00:00",
+        "generated_at": "2026-11-19T22:11:28.715566+00:00",
         "horizon_hours": 48,
         "threshold": 50,
         "threshold_unit": "index_points_not_probability",
         "probability_note": "Nem számolunk validált bekövetkezési százalékot. 50/100 pont ≠ 50% eseményesély.",
         "overall": {
-          "score": 16,
+          "score": 12,
           "category": "local_power",
           "method": "Az elérhető jelzések legmagasabb, nem kalibrált intenzitásindexe. Az eltérő kategóriák nem összehasonlítható eseményvalószínűségek.",
           "coverage": 3,
@@ -3513,15 +3507,15 @@
             "key": "local_power",
             "name": "Helyi áramszünet",
             "method": "Időjárási hálózati kitettség, nem áramszünet-valószínűség",
-            "score": 16,
+            "score": 12,
             "status": "estimated_index",
-            "peak_time": "2026-11-19T21:00:00+00:00",
+            "peak_time": "2026-11-20T06:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 23.4 km/h, csapadék 8.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-19T21:00:00+00:00"
+                "detail": "Széllökés 46.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-20T06:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 48 óra",
@@ -3652,15 +3646,15 @@
             "key": "extreme_weather",
             "name": "Szélsőséges időjárás",
             "method": "Mért előrejelzési kitettség; nem eseményvalószínűség",
-            "score": 16,
+            "score": 12,
             "status": "estimated_index",
-            "peak_time": "2026-11-19T21:00:00+00:00",
+            "peak_time": "2026-11-20T06:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 23.4 km/h, csapadék 8.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-19T21:00:00+00:00"
+                "detail": "Széllökés 46.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-20T06:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 48 óra",
@@ -3692,13 +3686,13 @@
         "official_notices_rejected_count": 0
       },
       "72": {
-        "generated_at": "2026-11-19T19:25:57.779200+00:00",
+        "generated_at": "2026-11-19T22:11:28.715566+00:00",
         "horizon_hours": 72,
         "threshold": 50,
         "threshold_unit": "index_points_not_probability",
         "probability_note": "Nem számolunk validált bekövetkezési százalékot. 50/100 pont ≠ 50% eseményesély.",
         "overall": {
-          "score": 16,
+          "score": 12,
           "category": "local_power",
           "method": "Az elérhető jelzések legmagasabb, nem kalibrált intenzitásindexe. Az eltérő kategóriák nem összehasonlítható eseményvalószínűségek.",
           "coverage": 3,
@@ -3710,15 +3704,15 @@
             "key": "local_power",
             "name": "Helyi áramszünet",
             "method": "Időjárási hálózati kitettség, nem áramszünet-valószínűség",
-            "score": 16,
+            "score": 12,
             "status": "estimated_index",
-            "peak_time": "2026-11-19T21:00:00+00:00",
+            "peak_time": "2026-11-20T06:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 23.4 km/h, csapadék 8.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-19T21:00:00+00:00"
+                "detail": "Széllökés 46.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-20T06:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 72 óra",
@@ -3849,15 +3843,15 @@
             "key": "extreme_weather",
             "name": "Szélsőséges időjárás",
             "method": "Mért előrejelzési kitettség; nem eseményvalószínűség",
-            "score": 16,
+            "score": 12,
             "status": "estimated_index",
-            "peak_time": "2026-11-19T21:00:00+00:00",
+            "peak_time": "2026-11-20T06:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 23.4 km/h, csapadék 8.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-19T21:00:00+00:00"
+                "detail": "Széllökés 46.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-20T06:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 72 óra",
@@ -3890,16 +3884,19 @@
       }
     },
     "health": {
-      "checked_at": "2026-11-19T19:25:57.779200+00:00",
+      "checked_at": "2026-11-19T22:11:28.715566+00:00",
       "important_total": 6,
-      "important_fresh": 6,
-      "important_missing": [],
+      "important_fresh": 4,
+      "important_missing": [
+        "weather",
+        "europe_weather"
+      ],
       "items": [
         {
           "key": "weather",
           "required": true,
-          "status": "fresh",
-          "error": null,
+          "status": "failed",
+          "error": "<urlopen error _ssl.c:994: The handshake operation timed out>",
           "partial_error_count": 0,
           "updated_at": "2026-11-19T19:25:47Z"
         },
@@ -3909,7 +3906,7 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-19T19:25:48Z"
+          "updated_at": "2026-11-19T22:11:07Z"
         },
         {
           "key": "space_weather",
@@ -3917,21 +3914,21 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-19T19:25:47Z"
+          "updated_at": "2026-11-19T22:11:06Z"
         },
         {
           "key": "european_prices",
           "required": true,
           "status": "partial",
           "error": null,
-          "partial_error_count": 5,
-          "updated_at": "2026-11-19T19:25:49Z"
+          "partial_error_count": 6,
+          "updated_at": "2026-11-19T22:11:08Z"
         },
         {
           "key": "europe_weather",
           "required": true,
-          "status": "fresh",
-          "error": null,
+          "status": "failed",
+          "error": "<urlopen error _ssl.c:994: The handshake operation timed out>",
           "partial_error_count": 0,
           "updated_at": "2026-11-19T19:25:47Z"
         },
@@ -3941,7 +3938,7 @@
           "status": "partial",
           "error": null,
           "partial_error_count": 1,
-          "updated_at": "2026-11-19T19:25:57Z"
+          "updated_at": "2026-11-19T22:11:16Z"
         },
         {
           "key": "ews",
@@ -3949,7 +3946,7 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-19T19:25:47Z"
+          "updated_at": "2026-11-19T22:11:06Z"
         },
         {
           "key": "official_news",
@@ -3957,7 +3954,7 @@
           "status": "partial",
           "error": null,
           "partial_error_count": 1,
-          "updated_at": "2026-11-19T19:25:51Z"
+          "updated_at": "2026-11-19T22:11:09Z"
         },
         {
           "key": "gie_storage",
@@ -3992,7 +3989,7 @@
           "updated_at": null
         }
       ],
-      "degraded": false,
+      "degraded": true,
       "note": "Az adatgyűjtés hibája nem jelenti azt, hogy nincs veszély."
     },
     "validation": {
