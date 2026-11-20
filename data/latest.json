@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T07:43:04Z",
+  "generated_at": "2026-11-20T10:25:26Z",
   "location": "Nyíregyháza, Magyarország",
   "timezone": "Europe/Budapest",
   "feeds": {
     "space_weather": {
-      "updated_at": "2026-11-20T07:43:04Z",
+      "updated_at": "2026-11-20T10:25:27Z",
       "kp": [
         {
           "time": "2026-11-13T00:00:00Z",
@@ -240,7 +240,7 @@
         },
         {
           "time": "2026-11-20T06:00:00Z",
-          "kp": 2.67
+          "kp": 1.33
         },
         {
           "time": "2026-11-20T09:00:00Z",
@@ -333,7 +333,7 @@
       ]
     },
     "weather": {
-      "updated_at": "2026-11-20T07:43:04Z",
+      "updated_at": "2026-11-20T10:25:27Z",
       "hours": [
         {
           "time": "2026-11-20T00:00",
@@ -393,23 +393,23 @@
         },
         {
           "time": "2026-11-20T07:00",
-          "temperature_c": 7.5,
-          "gust_kmh": 45.4,
+          "temperature_c": 7.6,
+          "gust_kmh": 34.2,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T08:00",
-          "temperature_c": 7.6,
-          "gust_kmh": 38.9,
+          "temperature_c": 7.8,
+          "gust_kmh": 37.8,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T09:00",
-          "temperature_c": 8.3,
+          "temperature_c": 8.5,
           "gust_kmh": 43.2,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
@@ -417,112 +417,112 @@
         },
         {
           "time": "2026-11-20T10:00",
-          "temperature_c": 9.4,
-          "gust_kmh": 43.9,
+          "temperature_c": 9.6,
+          "gust_kmh": 45.7,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T11:00",
-          "temperature_c": 10.2,
-          "gust_kmh": 43.6,
+          "temperature_c": 10.5,
+          "gust_kmh": 42.1,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T12:00",
-          "temperature_c": 11.1,
-          "gust_kmh": 43.2,
+          "temperature_c": 11.5,
+          "gust_kmh": 42.1,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T13:00",
-          "temperature_c": 11.5,
-          "gust_kmh": 43.2,
+          "temperature_c": 12.1,
+          "gust_kmh": 41.0,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T14:00",
-          "temperature_c": 11.7,
-          "gust_kmh": 36.0,
+          "temperature_c": 12.1,
+          "gust_kmh": 37.4,
           "rain_probability_pct": 1,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T15:00",
-          "temperature_c": 11.4,
-          "gust_kmh": 32.0,
+          "temperature_c": 11.8,
+          "gust_kmh": 33.8,
           "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T16:00",
-          "temperature_c": 10.5,
-          "gust_kmh": 29.5,
+          "temperature_c": 11.0,
+          "gust_kmh": 26.3,
           "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T17:00",
-          "temperature_c": 10.2,
-          "gust_kmh": 25.9,
+          "temperature_c": 10.8,
+          "gust_kmh": 27.7,
           "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T18:00",
-          "temperature_c": 9.5,
-          "gust_kmh": 26.3,
+          "temperature_c": 10.3,
+          "gust_kmh": 28.4,
           "rain_probability_pct": 1,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T19:00",
-          "temperature_c": 8.9,
-          "gust_kmh": 27.0,
+          "temperature_c": 9.8,
+          "gust_kmh": 27.4,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T20:00",
-          "temperature_c": 8.6,
-          "gust_kmh": 27.7,
+          "temperature_c": 9.2,
+          "gust_kmh": 28.4,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T21:00",
-          "temperature_c": 8.2,
-          "gust_kmh": 23.0,
+          "temperature_c": 8.6,
+          "gust_kmh": 30.6,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T22:00",
-          "temperature_c": 7.8,
-          "gust_kmh": 30.6,
+          "temperature_c": 8.0,
+          "gust_kmh": 29.9,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-20T23:00",
-          "temperature_c": 7.5,
-          "gust_kmh": 30.6,
+          "temperature_c": 7.6,
+          "gust_kmh": 28.8,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
@@ -530,121 +530,121 @@
         {
           "time": "2026-11-21T00:00",
           "temperature_c": 7.4,
-          "gust_kmh": 32.0,
+          "gust_kmh": 34.9,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T01:00",
-          "temperature_c": 7.0,
-          "gust_kmh": 28.4,
+          "temperature_c": 7.2,
+          "gust_kmh": 34.9,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T02:00",
-          "temperature_c": 6.7,
-          "gust_kmh": 23.0,
+          "temperature_c": 7.4,
+          "gust_kmh": 31.7,
           "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T03:00",
-          "temperature_c": 6.7,
-          "gust_kmh": 25.2,
+          "temperature_c": 7.1,
+          "gust_kmh": 33.8,
           "rain_probability_pct": 4,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T04:00",
-          "temperature_c": 6.5,
-          "gust_kmh": 23.0,
+          "temperature_c": 6.7,
+          "gust_kmh": 27.0,
           "rain_probability_pct": 8,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T05:00",
-          "temperature_c": 6.3,
-          "gust_kmh": 24.1,
+          "temperature_c": 6.2,
+          "gust_kmh": 27.0,
           "rain_probability_pct": 13,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T06:00",
-          "temperature_c": 6.4,
-          "gust_kmh": 27.4,
+          "temperature_c": 6.2,
+          "gust_kmh": 29.5,
           "rain_probability_pct": 20,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T07:00",
-          "temperature_c": 6.2,
-          "gust_kmh": 26.6,
+          "temperature_c": 6.1,
+          "gust_kmh": 31.3,
           "rain_probability_pct": 29,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T08:00",
-          "temperature_c": 6.5,
-          "gust_kmh": 36.4,
+          "temperature_c": 6.4,
+          "gust_kmh": 34.9,
           "rain_probability_pct": 44,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T09:00",
-          "temperature_c": 7.9,
-          "gust_kmh": 37.1,
+          "temperature_c": 7.0,
+          "gust_kmh": 41.4,
           "rain_probability_pct": 62,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T10:00",
-          "temperature_c": 8.5,
-          "gust_kmh": 34.6,
+          "temperature_c": 7.6,
+          "gust_kmh": 34.2,
           "rain_probability_pct": 75,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T11:00",
-          "temperature_c": 7.8,
-          "gust_kmh": 25.2,
+          "temperature_c": 8.4,
+          "gust_kmh": 29.2,
           "rain_probability_pct": 81,
-          "precip_mm": 0.3,
+          "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T12:00",
-          "temperature_c": 7.4,
-          "gust_kmh": 15.5,
+          "temperature_c": 7.7,
+          "gust_kmh": 26.3,
           "rain_probability_pct": 83,
-          "precip_mm": 2.4,
+          "precip_mm": 1.1,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T13:00",
-          "temperature_c": 5.4,
-          "gust_kmh": 38.5,
+          "temperature_c": 6.1,
+          "gust_kmh": 34.9,
           "rain_probability_pct": 78,
-          "precip_mm": 0.9,
+          "precip_mm": 1.9,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T14:00",
           "temperature_c": 5.5,
-          "gust_kmh": 32.0,
+          "gust_kmh": 33.8,
           "rain_probability_pct": 62,
-          "precip_mm": 0.0,
+          "precip_mm": 0.1,
           "snow_cm": 0.0
         },
         {
@@ -657,136 +657,136 @@
         },
         {
           "time": "2026-11-21T16:00",
-          "temperature_c": 5.1,
-          "gust_kmh": 13.7,
+          "temperature_c": 5.6,
+          "gust_kmh": 17.6,
           "rain_probability_pct": 20,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T17:00",
-          "temperature_c": 4.3,
-          "gust_kmh": 7.6,
+          "temperature_c": 4.9,
+          "gust_kmh": 13.3,
           "rain_probability_pct": 10,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T18:00",
-          "temperature_c": 4.0,
-          "gust_kmh": 12.2,
+          "temperature_c": 4.2,
+          "gust_kmh": 9.0,
           "rain_probability_pct": 4,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T19:00",
-          "temperature_c": 3.9,
-          "gust_kmh": 10.4,
+          "temperature_c": 4.1,
+          "gust_kmh": 12.2,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T20:00",
-          "temperature_c": 3.8,
-          "gust_kmh": 13.0,
+          "temperature_c": 4.1,
+          "gust_kmh": 10.4,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T21:00",
-          "temperature_c": 3.7,
-          "gust_kmh": 15.5,
+          "temperature_c": 4.5,
+          "gust_kmh": 10.8,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T22:00",
-          "temperature_c": 3.6,
-          "gust_kmh": 15.5,
+          "temperature_c": 4.6,
+          "gust_kmh": 15.1,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-21T23:00",
-          "temperature_c": 2.6,
-          "gust_kmh": 13.3,
+          "temperature_c": 4.2,
+          "gust_kmh": 15.1,
           "rain_probability_pct": 1,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T00:00",
-          "temperature_c": 1.6,
-          "gust_kmh": 14.8,
+          "temperature_c": 3.5,
+          "gust_kmh": 13.7,
           "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T01:00",
-          "temperature_c": 0.9,
-          "gust_kmh": 13.3,
-          "rain_probability_pct": 2,
-          "precip_mm": 0.0,
-          "snow_cm": 0.0
-        },
-        {
-          "time": "2026-11-22T02:00",
-          "temperature_c": 0.6,
+          "temperature_c": 2.2,
           "gust_kmh": 15.1,
           "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
+          "time": "2026-11-22T02:00",
+          "temperature_c": 1.3,
+          "gust_kmh": 14.4,
+          "rain_probability_pct": 2,
+          "precip_mm": 0.0,
+          "snow_cm": 0.0
+        },
+        {
           "time": "2026-11-22T03:00",
-          "temperature_c": 0.4,
-          "gust_kmh": 16.9,
+          "temperature_c": 0.8,
+          "gust_kmh": 16.2,
           "rain_probability_pct": 1,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T04:00",
-          "temperature_c": 0.5,
-          "gust_kmh": 18.4,
+          "temperature_c": 0.4,
+          "gust_kmh": 17.3,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T05:00",
-          "temperature_c": 0.5,
-          "gust_kmh": 24.1,
+          "temperature_c": 0.4,
+          "gust_kmh": 18.4,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T06:00",
-          "temperature_c": 0.6,
-          "gust_kmh": 25.9,
+          "temperature_c": 0.5,
+          "gust_kmh": 21.2,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T07:00",
-          "temperature_c": 0.4,
-          "gust_kmh": 25.2,
+          "temperature_c": 0.5,
+          "gust_kmh": 26.3,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T08:00",
-          "temperature_c": 0.9,
-          "gust_kmh": 25.6,
+          "temperature_c": 1.0,
+          "gust_kmh": 26.3,
           "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
@@ -801,24 +801,24 @@
         },
         {
           "time": "2026-11-22T10:00",
-          "temperature_c": 3.5,
-          "gust_kmh": 22.7,
+          "temperature_c": 3.4,
+          "gust_kmh": 27.4,
           "rain_probability_pct": 8,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T11:00",
-          "temperature_c": 3.8,
-          "gust_kmh": 22.7,
+          "temperature_c": 4.1,
+          "gust_kmh": 24.5,
           "rain_probability_pct": 10,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T12:00",
-          "temperature_c": 4.4,
-          "gust_kmh": 20.5,
+          "temperature_c": 4.6,
+          "gust_kmh": 22.7,
           "rain_probability_pct": 10,
           "precip_mm": 0.0,
           "snow_cm": 0.0
@@ -826,49 +826,49 @@
         {
           "time": "2026-11-22T13:00",
           "temperature_c": 4.7,
-          "gust_kmh": 20.8,
+          "gust_kmh": 22.3,
           "rain_probability_pct": 10,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T14:00",
-          "temperature_c": 5.0,
-          "gust_kmh": 16.4,
+          "temperature_c": 5.2,
+          "gust_kmh": 15.1,
           "rain_probability_pct": 7,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T15:00",
-          "temperature_c": 5.1,
-          "gust_kmh": 11.4,
+          "temperature_c": 5.0,
+          "gust_kmh": 10.8,
           "rain_probability_pct": 2,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T16:00",
-          "temperature_c": 3.7,
-          "gust_kmh": 12.6,
+          "temperature_c": 4.3,
+          "gust_kmh": 14.2,
           "rain_probability_pct": 0,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T17:00",
-          "temperature_c": 4.0,
-          "gust_kmh": 15.5,
+          "temperature_c": 4.1,
+          "gust_kmh": 15.1,
           "rain_probability_pct": 4,
           "precip_mm": 0.0,
           "snow_cm": 0.0
         },
         {
           "time": "2026-11-22T18:00",
-          "temperature_c": 4.3,
-          "gust_kmh": 21.2,
+          "temperature_c": 4.2,
+          "gust_kmh": 20.2,
           "rain_probability_pct": 11,
-          "precip_mm": 0.0,
+          "precip_mm": 0.05,
           "snow_cm": 0.0
         },
         {
@@ -1682,7 +1682,7 @@
       ]
     },
     "europe_weather": {
-      "updated_at": "2026-11-20T07:43:04Z",
+      "updated_at": "2026-11-20T10:25:27Z",
       "countries": [
         {
           "code": "HU",
@@ -1696,25 +1696,25 @@
         {
           "code": "AT",
           "name": "Ausztria",
-          "peak_time": "2026-11-20T12:00:00Z",
-          "gust_kmh": 53.6,
+          "peak_time": "2026-11-20T13:00:00Z",
+          "gust_kmh": 57.2,
           "rain_mm": 0.0,
           "snow_cm": 0.0,
-          "peak_index": 23
+          "peak_index": 28
         },
         {
           "code": "SK",
           "name": "Szlovákia",
-          "peak_time": "2026-11-20T12:00:00Z",
-          "gust_kmh": 61.2,
+          "peak_time": "2026-11-20T13:00:00Z",
+          "gust_kmh": 66.2,
           "rain_mm": 0.0,
           "snow_cm": 0.0,
-          "peak_index": 33
+          "peak_index": 39
         },
         {
           "code": "RO",
           "name": "Románia",
-          "peak_time": "2026-11-20T08:00:00Z",
+          "peak_time": "2026-11-20T11:00:00Z",
           "gust_kmh": 45.0,
           "rain_mm": 0.0,
           "snow_cm": 0.0,
@@ -1723,20 +1723,20 @@
         {
           "code": "CZ",
           "name": "Csehország",
-          "peak_time": "2026-11-20T13:00:00Z",
-          "gust_kmh": 43.6,
+          "peak_time": "2026-11-23T10:00:00Z",
+          "gust_kmh": 40.7,
           "rain_mm": 0.0,
           "snow_cm": 0.0,
-          "peak_index": 11
+          "peak_index": 7
         },
         {
           "code": "PL",
           "name": "Lengyelország",
-          "peak_time": "2026-11-21T15:00:00Z",
-          "gust_kmh": 46.4,
-          "rain_mm": 0.0,
+          "peak_time": "2026-11-22T10:00:00Z",
+          "gust_kmh": 42.8,
+          "rain_mm": 0.1,
           "snow_cm": 0.0,
-          "peak_index": 14
+          "peak_index": 10
         },
         {
           "code": "DE",
@@ -1750,44 +1750,44 @@
         {
           "code": "FR",
           "name": "Franciaország",
-          "peak_time": "2026-11-20T15:00:00Z",
-          "gust_kmh": 48.6,
-          "rain_mm": 0.4,
+          "peak_time": "2026-11-20T14:00:00Z",
+          "gust_kmh": 52.2,
+          "rain_mm": 0.2,
           "snow_cm": 0.0,
-          "peak_index": 17
+          "peak_index": 22
         },
         {
           "code": "HR",
           "name": "Horvátország",
-          "peak_time": "2026-11-22T23:00:00Z",
+          "peak_time": "2026-11-22T21:00:00Z",
           "gust_kmh": 50.0,
-          "rain_mm": 4.2,
+          "rain_mm": 1.4,
           "snow_cm": 0.0,
           "peak_index": 19
         },
         {
           "code": "SI",
           "name": "Szlovénia",
-          "peak_time": "2026-11-22T21:00:00Z",
-          "gust_kmh": 10.8,
-          "rain_mm": 7.8,
+          "peak_time": "2026-11-22T20:00:00Z",
+          "gust_kmh": 7.6,
+          "rain_mm": 4.9,
           "snow_cm": 0.0,
-          "peak_index": 15
+          "peak_index": 4
         },
         {
           "code": "UA",
           "name": "Ukrajna",
-          "peak_time": "2026-11-22T13:00:00Z",
-          "gust_kmh": 44.6,
-          "rain_mm": 0.1,
+          "peak_time": "2026-11-20T14:00:00Z",
+          "gust_kmh": 43.6,
+          "rain_mm": 0.0,
           "snow_cm": 0.0,
-          "peak_index": 12
+          "peak_index": 11
         }
       ],
       "scope_note": "Representative city per country, not entire national grid"
     },
     "ews": {
-      "updated_at": "2026-11-20T07:43:04Z",
+      "updated_at": "2026-11-20T10:25:27Z",
       "level": 1.0,
       "airborne_count": null,
       "source_timestamp": null,
@@ -1796,8 +1796,17 @@
       "url": "https://ews.kylemcdonald.net/"
     },
     "european_prices": {
-      "updated_at": "2026-11-20T07:43:06Z",
+      "updated_at": "2026-11-20T10:25:28Z",
       "countries": [
+        {
+          "code": "AT",
+          "name": "Ausztria",
+          "zone": "AT",
+          "recent_eur_mwh": 182.65,
+          "latest_time": "2026-11-20T22:45:00Z",
+          "mean_eur_mwh": 224.8,
+          "sample_count": 192
+        },
         {
           "code": "CZ",
           "name": "Csehország",
@@ -1808,12 +1817,12 @@
           "sample_count": 192
         },
         {
-          "code": "FR",
-          "name": "Franciaország",
-          "zone": "FR",
+          "code": "DE",
+          "name": "Németország",
+          "zone": "DE-LU",
           "recent_eur_mwh": 182.65,
           "latest_time": "2026-11-20T22:45:00Z",
-          "mean_eur_mwh": 91.9,
+          "mean_eur_mwh": 219.7,
           "sample_count": 192
         },
         {
@@ -1826,13 +1835,13 @@
           "sample_count": 96
         },
         {
-          "code": "RO",
-          "name": "Románia",
-          "zone": "RO",
-          "recent_eur_mwh": 112.77,
-          "latest_time": "2026-11-19T22:45:00Z",
-          "mean_eur_mwh": 213.8,
-          "sample_count": 100
+          "code": "PL",
+          "name": "Lengyelország",
+          "zone": "PL",
+          "recent_eur_mwh": 104.09,
+          "latest_time": "2026-11-20T22:45:00Z",
+          "mean_eur_mwh": 199.1,
+          "sample_count": 192
         },
         {
           "code": "SK",
@@ -1845,19 +1854,24 @@
         }
       ],
       "partial_errors": [
-        "AT: HTTP Error 429: Too Many Requests",
-        "PL: HTTP Error 429: Too Many Requests",
-        "SI: HTTP Error 429: Too Many Requests",
-        "DE: HTTP Error 429: Too Many Requests",
-        "HR: HTTP Error 429: Too Many Requests"
+        "RO: HTTP Error 429: Too Many Requests",
+        "FR: HTTP Error 429: Too Many Requests",
+        "HR: HTTP Error 429: Too Many Requests",
+        "SI: HTTP Error 429: Too Many Requests"
       ],
       "metric": "Spot market price context, not shortage evidence"
     },
     "official_news": {
-      "updated_at": "2026-11-20T07:43:19Z",
+      "updated_at": "2026-11-20T10:25:31Z",
       "items": [
         {
-          "title": "Equal pay day; would you work for free until next year?",
+          "title": "Better protected for your next credit application",
+          "url": "https://commission.europa.eu/news-and-media/news/better-protected-your-next-credit-application-2026-11-20_en",
+          "published_at": "2026-11-20T00:00:00+01:00",
+          "source": "Európai Bizottság"
+        },
+        {
+          "title": "Equal Pay Day: Would you work for free until next year?",
           "url": "https://commission.europa.eu/news-and-media/news/equal-pay-day-would-you-work-free-until-next-year-2026-11-20_en",
           "published_at": "2026-11-20T00:00:00+01:00",
           "source": "Európai Bizottság"
@@ -1939,24 +1953,18 @@
           "url": "https://commission.europa.eu/news-and-media/news/results-04-11-2026-auction-eu-bills-2026-11-04_en",
           "published_at": "2026-11-04T00:00:00+01:00",
           "source": "Európai Bizottság"
-        },
-        {
-          "title": "Assessing candidate countries’ progress towards EU membership",
-          "url": "https://commission.europa.eu/news-and-media/news/assessing-candidate-countries-progress-towards-eu-membership-2026-11-04_en",
-          "published_at": "2026-11-04T00:00:00+01:00",
-          "source": "Európai Bizottság"
         }
       ],
       "sources_ok": [
         "Európai Bizottság"
       ],
       "partial_errors": [
-        "GDACS: <urlopen error timed out>"
+        "GDACS: No RSS/Atom items"
       ],
       "note": "Hivatalos hírek, nem riasztások; automatikusan nem kapnak kockázati pontot."
     },
     "meteoalarm": {
-      "updated_at": "2026-11-20T07:43:10Z",
+      "updated_at": "2026-11-20T10:25:39Z",
       "countries_checked": [
         "AT",
         "BE",
@@ -1989,459 +1997,459 @@
       ],
       "recent_entries": [
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Rain Warning issued for Portugal - Vila Real",
-          "published_at": "2026-11-20T06:52:35Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT007"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Yellow Coastalevent Warning issued for Spain - Costa - Gipuzkoa litoral",
+          "published_at": "2026-11-20T10:04:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES840"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Rain Warning issued for Portugal - Braga",
-          "published_at": "2026-11-20T06:52:35Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT022"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Orange Coastalevent Warning issued for Spain - Costa - Litoral cántabro",
+          "published_at": "2026-11-20T10:04:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES842"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Rain Warning issued for Portugal - Viana do Castelo",
-          "published_at": "2026-11-20T06:52:35Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT006"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Yellow Coastalevent Warning issued for Spain - Costa - Litoral cántabro",
+          "published_at": "2026-11-20T10:04:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES842"
         },
         {
-          "country": "PT",
-          "name": "Portugália",
-          "title": "Yellow Rain Warning issued for Portugal - Porto",
-          "published_at": "2026-11-20T06:52:35Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:PT009"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Yellow Coastalevent Warning issued for Spain - Costa - Bizkaia litoral",
+          "published_at": "2026-11-20T10:04:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES841"
+        },
+        {
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Orange Coastalevent Warning issued for Spain - Costa - Bizkaia litoral",
+          "published_at": "2026-11-20T10:04:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES841"
+        },
+        {
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Orange Coastalevent Warning issued for Spain - Costa - Gipuzkoa litoral",
+          "published_at": "2026-11-20T10:04:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES840"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Wind Warning issued for Austria - Wien Liesing",
+          "published_at": "2026-11-20T10:03:31Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT923"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Wind Warning issued for Austria - Wien Donaustadt",
+          "published_at": "2026-11-20T10:03:31Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT922"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Wind Warning issued for Austria - Wien Brigittenau",
+          "published_at": "2026-11-20T10:03:30Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT920"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Wind Warning issued for Austria - Wien Hernals",
+          "published_at": "2026-11-20T10:03:30Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT917"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Wind Warning issued for Austria - Wien Döbling",
+          "published_at": "2026-11-20T10:03:30Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT919"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Wind Warning issued for Austria - Wien Währing",
+          "published_at": "2026-11-20T10:03:30Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT918"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Wind Warning issued for Austria - Wien Ottakring",
+          "published_at": "2026-11-20T10:03:30Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT916"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Wind Warning issued for Austria - Wien Penzing",
+          "published_at": "2026-11-20T10:03:30Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT914"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Wind Warning issued for Austria - Wien Rudolfsheim-Fünfhaus",
+          "published_at": "2026-11-20T10:03:30Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT915"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Wind Warning issued for Austria - Wien Hietzing",
+          "published_at": "2026-11-20T10:03:30Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT913"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Wind Warning issued for Austria - Wien Meidling",
+          "published_at": "2026-11-20T10:03:30Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT912"
+        },
+        {
+          "country": "AT",
+          "name": "Ausztria",
+          "title": "Yellow Wind Warning issued for Austria - Wien Simmering",
+          "published_at": "2026-11-20T10:03:30Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:AT911"
+        },
+        {
+          "country": "GR",
+          "name": "Görögország",
+          "title": "Yellow Rain Warning issued for Greece - Epirus",
+          "published_at": "2026-11-20T09:48:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:GR008"
+        },
+        {
+          "country": "GR",
+          "name": "Görögország",
+          "title": "Yellow Rain Warning issued for Greece - West Sterea",
+          "published_at": "2026-11-20T09:48:00Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:GR002"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Orange Coastalevent Warning issued for Finland - Ahvenanmeri, Selkämeren eteläosa, Selkämeren pohjoisosa",
+          "published_at": "2026-11-20T09:43:22Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI802"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Orange Coastalevent Warning issued for Finland - Ahvenanmeri, Selkämeren eteläosa, Selkämeren pohjoisosa",
+          "published_at": "2026-11-20T09:43:22Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI807"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Orange Coastalevent Warning issued for Finland - Ahvenanmeri, Selkämeren eteläosa, Selkämeren pohjoisosa",
+          "published_at": "2026-11-20T09:43:22Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI813"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Wind Warning issued for Finland - Suomenlahden länsiosa, Pohjois-Itämeren itäosa",
+          "published_at": "2026-11-20T09:43:22Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI812"
+        },
+        {
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Wind Warning issued for Finland - Suomenlahden länsiosa, Pohjois-Itämeren itäosa",
+          "published_at": "2026-11-20T09:43:22Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI806"
         },
         {
           "country": "FI",
           "name": "Finnország",
           "title": "Yellow Wind Warning issued for Finland - Selkämeren pohjoisosa, Merenkurkku, Perämeren eteläosa",
-          "published_at": "2026-11-20T06:35:31Z",
+          "published_at": "2026-11-20T09:43:22Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:FI810"
         },
         {
           "country": "FI",
           "name": "Finnország",
           "title": "Yellow Wind Warning issued for Finland - Selkämeren pohjoisosa, Merenkurkku, Perämeren eteläosa",
-          "published_at": "2026-11-20T06:35:31Z",
+          "published_at": "2026-11-20T09:43:22Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:FI801"
         },
         {
           "country": "FI",
           "name": "Finnország",
           "title": "Yellow Wind Warning issued for Finland - Selkämeren pohjoisosa, Merenkurkku, Perämeren eteläosa",
-          "published_at": "2026-11-20T06:35:31Z",
+          "published_at": "2026-11-20T09:43:22Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:FI802"
-        },
-        {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Orange Coastalevent Warning issued for Finland - Ahvenanmeri, Selkämeren eteläosa, Selkämeren pohjoisosa",
-          "published_at": "2026-11-20T06:35:31Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI802"
-        },
-        {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Orange Coastalevent Warning issued for Finland - Ahvenanmeri, Selkämeren eteläosa, Selkämeren pohjoisosa",
-          "published_at": "2026-11-20T06:35:31Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI807"
-        },
-        {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Orange Coastalevent Warning issued for Finland - Ahvenanmeri, Selkämeren eteläosa, Selkämeren pohjoisosa",
-          "published_at": "2026-11-20T06:35:31Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI813"
-        },
-        {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Wind Warning issued for Finland - Pohjois-Itämeren länsiosa, Ahvenanmeri, Selkämeren eteläosa",
-          "published_at": "2026-11-20T06:35:31Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI807"
-        },
-        {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Wind Warning issued for Finland - Pohjois-Itämeren länsiosa, Ahvenanmeri, Selkämeren eteläosa",
-          "published_at": "2026-11-20T06:35:31Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI813"
-        },
-        {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Wind Warning issued for Finland - Pohjois-Itämeren länsiosa, Ahvenanmeri, Selkämeren eteläosa",
-          "published_at": "2026-11-20T06:35:31Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI803"
         },
         {
           "country": "FI",
           "name": "Finnország",
           "title": "Yellow Wind Warning issued for Finland - Perämeren pohjoisosa",
-          "published_at": "2026-11-20T06:35:31Z",
+          "published_at": "2026-11-20T09:43:22Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:FI809"
         },
         {
           "country": "FI",
           "name": "Finnország",
-          "title": "Yellow Wind Warning issued for Finland - Pohjois-Itämeren itäosa, Saaristomeri, Merenkurkku, Perämeren eteläosa, Perämeren pohjoisosa",
-          "published_at": "2026-11-20T06:35:31Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI809"
-        },
-        {
-          "country": "FI",
-          "name": "Finnország",
-          "title": "Yellow Wind Warning issued for Finland - Pohjois-Itämeren itäosa, Saaristomeri, Merenkurkku, Perämeren eteläosa, Perämeren pohjoisosa",
-          "published_at": "2026-11-20T06:35:31Z",
+          "title": "Yellow Wind Warning issued for Finland - Pohjois-Itämeren länsiosa, Ahvenanmeri, Selkämeren eteläosa, Selkämeren pohjoisosa, Merenkurkku, Perämeren eteläosa",
+          "published_at": "2026-11-20T09:43:22Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:FI810"
         },
         {
-          "country": "DE",
-          "name": "Németország",
-          "title": "Yellow Low-temperature Warning issued for Germany - Hansestadt Lübeck",
-          "published_at": "2026-11-20T06:25:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:DE265"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Wind Warning issued for Finland - Pohjois-Itämeren länsiosa, Ahvenanmeri, Selkämeren eteläosa, Selkämeren pohjoisosa, Merenkurkku, Perämeren eteläosa",
+          "published_at": "2026-11-20T09:43:22Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI801"
         },
         {
-          "country": "DE",
-          "name": "Németország",
-          "title": "Yellow Low-temperature Warning issued for Germany - Kreis Aurich - Küste",
-          "published_at": "2026-11-20T06:25:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:DE103"
+          "country": "FI",
+          "name": "Finnország",
+          "title": "Yellow Wind Warning issued for Finland - Pohjois-Itämeren länsiosa, Ahvenanmeri, Selkämeren eteläosa, Selkämeren pohjoisosa, Merenkurkku, Perämeren eteläosa",
+          "published_at": "2026-11-20T09:43:22Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:FI802"
         },
         {
-          "country": "DE",
-          "name": "Németország",
-          "title": "Yellow Low-temperature Warning issued for Germany - Stadt Emden",
-          "published_at": "2026-11-20T06:25:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:DE154"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Snow-ice Warning issued for Estonia - Rapla county",
+          "published_at": "2026-11-20T09:43:12Z",
+          "url": "https://meteoalarm.org?polygon=d9dff76d-6329-4a20-a077-01db2b5b7e69,0,14,0"
         },
         {
-          "country": "DE",
-          "name": "Németország",
-          "title": "Yellow Low-temperature Warning issued for Germany - Kreis Lüchow-Dannenberg",
-          "published_at": "2026-11-20T06:25:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:DE122"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Snow-ice Warning issued for Estonia - Jõgeva county",
+          "published_at": "2026-11-20T09:43:12Z",
+          "url": "https://meteoalarm.org?polygon=d9dff76d-6329-4a20-a077-01db2b5b7e69,0,13,0"
         },
         {
-          "country": "DE",
-          "name": "Németország",
-          "title": "Yellow Low-temperature Warning issued for Germany - Kreis Aurich - Binnenland",
-          "published_at": "2026-11-20T06:25:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:DE102"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Snow-ice Warning issued for Estonia - Lääne county",
+          "published_at": "2026-11-20T09:43:12Z",
+          "url": "https://meteoalarm.org?polygon=d9dff76d-6329-4a20-a077-01db2b5b7e69,0,12,2"
         },
         {
-          "country": "DE",
-          "name": "Németország",
-          "title": "Yellow Low-temperature Warning issued for Germany - Kreis Stormarn",
-          "published_at": "2026-11-20T06:25:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:DE400"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Snow-ice Warning issued for Estonia - Lääne county",
+          "published_at": "2026-11-20T09:43:12Z",
+          "url": "https://meteoalarm.org?polygon=d9dff76d-6329-4a20-a077-01db2b5b7e69,0,12,1"
         },
         {
-          "country": "DE",
-          "name": "Németország",
-          "title": "Yellow Low-temperature Warning issued for Germany - Kreis Pinneberg (ohne Helgoland)",
-          "published_at": "2026-11-20T06:25:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:DE058"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Snow-ice Warning issued for Estonia - Lääne county",
+          "published_at": "2026-11-20T09:43:12Z",
+          "url": "https://meteoalarm.org?polygon=d9dff76d-6329-4a20-a077-01db2b5b7e69,0,12,0"
         },
         {
-          "country": "DE",
-          "name": "Németország",
-          "title": "Yellow Low-temperature Warning issued for Germany - Kreis Stade",
-          "published_at": "2026-11-20T06:25:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:DE222"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Snow-ice Warning issued for Estonia - Saare county",
+          "published_at": "2026-11-20T09:43:12Z",
+          "url": "https://meteoalarm.org?polygon=d9dff76d-6329-4a20-a077-01db2b5b7e69,0,11,3"
         },
         {
-          "country": "DE",
-          "name": "Németország",
-          "title": "Yellow Low-temperature Warning issued for Germany - Kreis Leer (ohne Borkum)",
-          "published_at": "2026-11-20T06:25:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:DE069"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Snow-ice Warning issued for Estonia - Saare county",
+          "published_at": "2026-11-20T09:43:12Z",
+          "url": "https://meteoalarm.org?polygon=d9dff76d-6329-4a20-a077-01db2b5b7e69,0,11,2"
         },
         {
-          "country": "DE",
-          "name": "Németország",
-          "title": "Yellow Low-temperature Warning issued for Germany - Kreis Ostholstein - Küste",
-          "published_at": "2026-11-20T06:25:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:DE061"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Snow-ice Warning issued for Estonia - Saare county",
+          "published_at": "2026-11-20T09:43:12Z",
+          "url": "https://meteoalarm.org?polygon=d9dff76d-6329-4a20-a077-01db2b5b7e69,0,11,1"
         },
         {
-          "country": "DE",
-          "name": "Németország",
-          "title": "Yellow Low-temperature Warning issued for Germany - Stadt Flensburg",
-          "published_at": "2026-11-20T06:25:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:DE156"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Snow-ice Warning issued for Estonia - Saare county",
+          "published_at": "2026-11-20T09:43:12Z",
+          "url": "https://meteoalarm.org?polygon=d9dff76d-6329-4a20-a077-01db2b5b7e69,0,11,0"
         },
         {
-          "country": "DE",
-          "name": "Németország",
-          "title": "Yellow Low-temperature Warning issued for Germany - Kreis Ostholstein - Binnenland",
-          "published_at": "2026-11-20T06:25:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:DE073"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Snow-ice Warning issued for Estonia - Ida-Viru county",
+          "published_at": "2026-11-20T09:43:12Z",
+          "url": "https://meteoalarm.org?polygon=d9dff76d-6329-4a20-a077-01db2b5b7e69,0,10,0"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Fog Warning issued for Croatia - Koprivničko-križevačka",
-          "published_at": "2026-11-20T05:58:23Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR016"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Snow-ice Warning issued for Estonia - Järva county",
+          "published_at": "2026-11-20T09:43:12Z",
+          "url": "https://meteoalarm.org?polygon=d9dff76d-6329-4a20-a077-01db2b5b7e69,0,9,0"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Fog Warning issued for Croatia - Koprivničko-križevačka",
-          "published_at": "2026-11-20T05:58:23Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR016"
+          "country": "EE",
+          "name": "Észtország",
+          "title": "Yellow Snow-ice Warning issued for Estonia - Põlva county",
+          "published_at": "2026-11-20T09:43:12Z",
+          "url": "https://meteoalarm.org?polygon=d9dff76d-6329-4a20-a077-01db2b5b7e69,0,8,0"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Fog Warning issued for Croatia - Karlovačka",
-          "published_at": "2026-11-20T05:58:23Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR014"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Yellow Rain Warning issued for Spain - Norte de Cáceres",
+          "published_at": "2026-11-20T09:40:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES198"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Fog Warning issued for Croatia - Karlovačka",
-          "published_at": "2026-11-20T05:58:23Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR014"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Yellow Rain Warning issued for Spain - Meseta de Zamora",
+          "published_at": "2026-11-20T09:40:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES160"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Fog Warning issued for Croatia - Grad Zagreb",
-          "published_at": "2026-11-20T05:58:23Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR031"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Yellow Rain Warning issued for Spain - Meseta de Salamanca",
+          "published_at": "2026-11-20T09:40:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES150"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Fog Warning issued for Croatia - Grad Zagreb",
-          "published_at": "2026-11-20T05:58:23Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR031"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Yellow Rain Warning issued for Spain - Sanabria",
+          "published_at": "2026-11-20T09:40:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES159"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Fog Warning issued for Croatia - Krapinsko-zagorska",
-          "published_at": "2026-11-20T05:58:23Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR012"
+          "country": "ES",
+          "name": "Spanyolország",
+          "title": "Yellow Rain Warning issued for Spain - Bierzo de León",
+          "published_at": "2026-11-20T09:40:09Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:ES146"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Fog Warning issued for Croatia - Krapinsko-zagorska",
-          "published_at": "2026-11-20T05:58:23Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR012"
+          "country": "LT",
+          "name": "Litvánia",
+          "title": "Yellow Wind Warning issued for Lithuania - South Eastern Baltic, Curonian Lagoon",
+          "published_at": "2026-11-20T09:34:36Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:LT801"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Fog Warning issued for Croatia - Zagrebačka",
-          "published_at": "2026-11-20T05:58:23Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR011"
+          "country": "LT",
+          "name": "Litvánia",
+          "title": "Yellow Wind Warning issued for Lithuania - Tauragė county",
+          "published_at": "2026-11-20T09:34:36Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:LT007"
         },
         {
-          "country": "HR",
-          "name": "Horvátország",
-          "title": "Yellow Fog Warning issued for Croatia - Zagrebačka",
-          "published_at": "2026-11-20T05:58:23Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:HR011"
+          "country": "LT",
+          "name": "Litvánia",
+          "title": "Yellow Wind Warning issued for Lithuania - Marijampolė county",
+          "published_at": "2026-11-20T09:34:36Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:LT004"
+        },
+        {
+          "country": "LT",
+          "name": "Litvánia",
+          "title": "Yellow Wind Warning issued for Lithuania - Klaipėda county",
+          "published_at": "2026-11-20T09:34:36Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:LT003"
+        },
+        {
+          "country": "LT",
+          "name": "Litvánia",
+          "title": "Yellow Wind Warning issued for Lithuania - Klaipėda county",
+          "published_at": "2026-11-20T09:34:36Z",
+          "url": "https://meteoalarm.org?geocode=EMMA_ID:LT003"
+        },
+        {
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Snow-ice Warning issued for Switzerland - Glarus Nord-Mitte",
+          "published_at": "2026-11-20T09:10:00Z",
+          "url": "https://meteoalarm.org?polygon=55f2316f-1934-43c2-ab5d-826f16caf9a2,0,0,0"
+        },
+        {
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Snow-ice Warning issued for Switzerland - Glarus Süd-Grosstal",
+          "published_at": "2026-11-20T09:10:00Z",
+          "url": "https://meteoalarm.org?polygon=940f3850-7e0a-4a3d-924d-916a47c6d70b,0,0,0"
+        },
+        {
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Snow-ice Warning issued for Switzerland - Maderanertal",
+          "published_at": "2026-11-20T09:10:00Z",
+          "url": "https://meteoalarm.org?polygon=270d96f9-60ac-465b-adc9-4b50fb123518,0,0,0"
+        },
+        {
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Snow-ice Warning issued for Switzerland - Glarus Süd-Sernftal",
+          "published_at": "2026-11-20T09:10:00Z",
+          "url": "https://meteoalarm.org?polygon=8c5d6e06-7d88-4ec6-86a8-057e287d1672,0,0,0"
+        },
+        {
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Snow-ice Warning issued for Switzerland - Kerenzerberg-Seeztal",
+          "published_at": "2026-11-20T09:10:00Z",
+          "url": "https://meteoalarm.org?polygon=6fc1243f-2308-437e-80df-6aa7efcca502,0,0,0"
+        },
+        {
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Snow-ice Warning issued for Switzerland - Flüelen-Unterschächen",
+          "published_at": "2026-11-20T09:10:00Z",
+          "url": "https://meteoalarm.org?polygon=d39ca76c-cd3b-4c4d-985f-b792c353fb43,0,0,0"
+        },
+        {
+          "country": "CH",
+          "name": "Svájc",
+          "title": "Yellow Snow-ice Warning issued for Switzerland - Muotathal",
+          "published_at": "2026-11-20T09:10:00Z",
+          "url": "https://meteoalarm.org?polygon=dbec1ef1-9e4b-4aa9-a318-775e10716f35,0,0,0"
         },
         {
           "country": "FR",
           "name": "Franciaország",
           "title": "Yellow Avalanches Warning issued for France - Haute-Savoie",
-          "published_at": "2026-11-20T05:01:00Z",
+          "published_at": "2026-11-20T09:05:15Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:FR035"
         },
         {
           "country": "FR",
           "name": "Franciaország",
           "title": "Yellow Avalanches Warning issued for France - Savoie",
-          "published_at": "2026-11-20T05:01:00Z",
+          "published_at": "2026-11-20T09:05:15Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:FR036"
         },
         {
           "country": "FR",
           "name": "Franciaország",
           "title": "Yellow Avalanches Warning issued for France - Isère",
-          "published_at": "2026-11-20T05:01:00Z",
+          "published_at": "2026-11-20T09:05:15Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:FR034"
         },
         {
           "country": "FR",
           "name": "Franciaország",
           "title": "Yellow Avalanches Warning issued for France - Hautes Alpes",
-          "published_at": "2026-11-20T05:01:00Z",
+          "published_at": "2026-11-20T09:05:15Z",
           "url": "https://meteoalarm.org?geocode=EMMA_ID:FR033"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Flooding Warning issued for France - Nord",
-          "published_at": "2026-11-20T05:00:59Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR070"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Orange Flooding Warning issued for France - Pas-de-Calais",
-          "published_at": "2026-11-20T05:00:58Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR069"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Wind Warning issued for France - Haute-Corse",
-          "published_at": "2026-11-20T05:00:58Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR089"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Wind Warning issued for France - Corse-du-Sud",
-          "published_at": "2026-11-20T05:00:58Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR090"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Avalanches Warning issued for France - Haute-Savoie",
-          "published_at": "2026-11-20T05:00:55Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR035"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Avalanches Warning issued for France - Savoie",
-          "published_at": "2026-11-20T05:00:55Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR036"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Avalanches Warning issued for France - Isère",
-          "published_at": "2026-11-20T05:00:55Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR034"
-        },
-        {
-          "country": "FR",
-          "name": "Franciaország",
-          "title": "Yellow Avalanches Warning issued for France - Alpes-Maritimes",
-          "published_at": "2026-11-20T05:00:55Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:FR029"
-        },
-        {
-          "country": "NO",
-          "name": "Norvégia",
-          "title": "Yellow Wind Warning issued for Norway - Stad - Ona",
-          "published_at": "2026-11-20T04:59:27Z",
-          "url": "https://meteoalarm.org?polygon=a6ffeded-3afc-4171-86ef-d2d78b7f8548,1,0,1"
-        },
-        {
-          "country": "NO",
-          "name": "Norvégia",
-          "title": "Yellow Wind Warning issued for Norway - Stad - Ona",
-          "published_at": "2026-11-20T04:59:27Z",
-          "url": "https://meteoalarm.org?polygon=a6ffeded-3afc-4171-86ef-d2d78b7f8548,1,0,0"
-        },
-        {
-          "country": "BE",
-          "name": "Belgium",
-          "title": "Orange Rain Warning issued for Belgium - Namur",
-          "published_at": "2026-11-20T04:55:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE006"
-        },
-        {
-          "country": "BE",
-          "name": "Belgium",
-          "title": "Orange Rain Warning issued for Belgium - Luxembourg",
-          "published_at": "2026-11-20T04:55:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE001"
-        },
-        {
-          "country": "BE",
-          "name": "Belgium",
-          "title": "Orange Rain Warning issued for Belgium - Hainaut",
-          "published_at": "2026-11-20T04:55:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE005"
-        },
-        {
-          "country": "BE",
-          "name": "Belgium",
-          "title": "Orange Rain Warning issued for Belgium - Liège",
-          "published_at": "2026-11-20T04:55:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE008"
-        },
-        {
-          "country": "BE",
-          "name": "Belgium",
-          "title": "Yellow Rain Warning issued for Belgium - Brabant",
-          "published_at": "2026-11-20T04:55:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE004"
-        },
-        {
-          "country": "BE",
-          "name": "Belgium",
-          "title": "Yellow Rain Warning issued for Belgium - East Flanders",
-          "published_at": "2026-11-20T04:55:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE003"
-        },
-        {
-          "country": "BE",
-          "name": "Belgium",
-          "title": "Yellow Rain Warning issued for Belgium - Antwerp",
-          "published_at": "2026-11-20T04:55:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE002"
-        },
-        {
-          "country": "BE",
-          "name": "Belgium",
-          "title": "Yellow Rain Warning issued for Belgium - Limburg",
-          "published_at": "2026-11-20T04:55:00Z",
-          "url": "https://meteoalarm.org?geocode=EMMA_ID:BE007"
-        },
-        {
-          "country": "EE",
-          "name": "Észtország",
-          "title": "Yellow Wind Warning issued for Estonia - Northern Gulf of Riga",
-          "published_at": "2026-11-20T03:06:21Z",
-          "url": "https://meteoalarm.org?polygon=682afe8d-6b5e-42e1-afab-8c3d5dc439f8,0,0,0"
-        },
-        {
-          "country": "EE",
-          "name": "Észtország",
-          "title": "Yellow Wind Warning issued for Estonia - Northern Gulf of Riga",
-          "published_at": "2026-11-20T03:05:25Z",
-          "url": "https://meteoalarm.org?polygon=ab7f95ae-f631-457b-a2d3-a7ca25bf2a4d,0,0,0"
-        },
-        {
-          "country": "EE",
-          "name": "Észtország",
-          "title": "Yellow Snow-ice Warning issued for Estonia - Rapla county",
-          "published_at": "2026-11-20T03:02:26Z",
-          "url": "https://meteoalarm.org?polygon=37734469-066f-4c04-96ad-84c789af57bd,0,14,0"
-        },
-        {
-          "country": "EE",
-          "name": "Észtország",
-          "title": "Yellow Snow-ice Warning issued for Estonia - Jõgeva county",
-          "published_at": "2026-11-20T03:02:26Z",
-          "url": "https://meteoalarm.org?polygon=37734469-066f-4c04-96ad-84c789af57bd,0,13,0"
-        },
-        {
-          "country": "EE",
-          "name": "Észtország",
-          "title": "Yellow Snow-ice Warning issued for Estonia - Lääne county",
-          "published_at": "2026-11-20T03:02:26Z",
-          "url": "https://meteoalarm.org?polygon=37734469-066f-4c04-96ad-84c789af57bd,0,12,2"
         }
       ],
       "partial_errors": [],
@@ -2840,17 +2848,18 @@
   "errors": {
     "gie_storage": "GIE_API_KEY GitHub Secret nincs megadva (opcionális)",
     "entsoe_hu_load": "ENTSOE_API_TOKEN GitHub Secret nincs megadva (opcionális)",
-    "cap_warnings": "CAP Atom feeds not reachable: HU: HTTP Error 406: Not Acceptable; SK: HTTP Error 406: Not Acceptable; RO: HTTP Error 406: Not Acceptable; AT: HTTP Error 406: Not Acceptable",
-    "grid_context": "Európai villamosenergia kontextus nem elérhető: [{'key': 'hu_load_forecast', 'reason': 'V2 series/timestamps absent'}, {'key': 'hu_physical_flows', 'reason': 'V2 series/timestamps absent'}, "
+    "electricity": "HTTP Error 429: Too Many Requests",
+    "grid_context": "Európai villamosenergia kontextus nem elérhető: [{'key': 'hu_load_forecast', 'reason': 'V2 series/timestamps absent'}, {'key': 'hu_physical_flows', 'reason': 'V2 series/timestamps absent'}, ",
+    "cap_warnings": "CAP Atom feeds not reachable: HU: HTTP Error 406: Not Acceptable; SK: HTTP Error 406: Not Acceptable; RO: HTTP Error 406: Not Acceptable; AT: HTTP Error 406: Not Acceptable"
   },
   "assessment": {
-    "generated_at": "2026-11-20T07:43:19.631112+00:00",
+    "generated_at": "2026-11-20T10:25:40.028123+00:00",
     "horizon_hours": 24,
     "threshold": 50,
     "threshold_unit": "index_points_not_probability",
     "probability_note": "Nem számolunk validált bekövetkezési százalékot. 50/100 pont ≠ 50% eseményesély.",
     "overall": {
-      "score": 10,
+      "score": 8,
       "category": "local_power",
       "method": "Az elérhető jelzések legmagasabb, nem kalibrált intenzitásindexe. Az eltérő kategóriák nem összehasonlítható eseményvalószínűségek.",
       "coverage": 3,
@@ -2862,15 +2871,15 @@
         "key": "local_power",
         "name": "Helyi áramszünet",
         "method": "Időjárási hálózati kitettség, nem áramszünet-valószínűség",
-        "score": 10,
+        "score": 8,
         "status": "estimated_index",
-        "peak_time": "2026-11-20T09:00:00+00:00",
+        "peak_time": "2026-11-20T11:00:00+00:00",
         "evidence": [
           {
             "source": "Open-Meteo",
             "url": "https://open-meteo.com/en/docs",
-            "detail": "Széllökés 43.9 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
-            "time": "2026-11-20T09:00:00+00:00"
+            "detail": "Széllökés 42.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+            "time": "2026-11-20T11:00:00+00:00"
           }
         ],
         "scope": "Nyíregyháza / 24 óra",
@@ -3001,15 +3010,15 @@
         "key": "extreme_weather",
         "name": "Szélsőséges időjárás",
         "method": "Mért előrejelzési kitettség; nem eseményvalószínűség",
-        "score": 10,
+        "score": 8,
         "status": "estimated_index",
-        "peak_time": "2026-11-20T09:00:00+00:00",
+        "peak_time": "2026-11-20T11:00:00+00:00",
         "evidence": [
           {
             "source": "Open-Meteo",
             "url": "https://open-meteo.com/en/docs",
-            "detail": "Széllökés 43.9 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
-            "time": "2026-11-20T09:00:00+00:00"
+            "detail": "Széllökés 42.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+            "time": "2026-11-20T11:00:00+00:00"
           }
         ],
         "scope": "Nyíregyháza / 24 óra",
@@ -3041,13 +3050,13 @@
     "official_notices_rejected_count": 0,
     "windows": {
       "24": {
-        "generated_at": "2026-11-20T07:43:19.631112+00:00",
+        "generated_at": "2026-11-20T10:25:40.028123+00:00",
         "horizon_hours": 24,
         "threshold": 50,
         "threshold_unit": "index_points_not_probability",
         "probability_note": "Nem számolunk validált bekövetkezési százalékot. 50/100 pont ≠ 50% eseményesély.",
         "overall": {
-          "score": 10,
+          "score": 8,
           "category": "local_power",
           "method": "Az elérhető jelzések legmagasabb, nem kalibrált intenzitásindexe. Az eltérő kategóriák nem összehasonlítható eseményvalószínűségek.",
           "coverage": 3,
@@ -3059,15 +3068,15 @@
             "key": "local_power",
             "name": "Helyi áramszünet",
             "method": "Időjárási hálózati kitettség, nem áramszünet-valószínűség",
-            "score": 10,
+            "score": 8,
             "status": "estimated_index",
-            "peak_time": "2026-11-20T09:00:00+00:00",
+            "peak_time": "2026-11-20T11:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 43.9 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-20T09:00:00+00:00"
+                "detail": "Széllökés 42.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-20T11:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 24 óra",
@@ -3198,15 +3207,15 @@
             "key": "extreme_weather",
             "name": "Szélsőséges időjárás",
             "method": "Mért előrejelzési kitettség; nem eseményvalószínűség",
-            "score": 10,
+            "score": 8,
             "status": "estimated_index",
-            "peak_time": "2026-11-20T09:00:00+00:00",
+            "peak_time": "2026-11-20T11:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 43.9 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-20T09:00:00+00:00"
+                "detail": "Széllökés 42.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-20T11:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 24 óra",
@@ -3238,13 +3247,13 @@
         "official_notices_rejected_count": 0
       },
       "48": {
-        "generated_at": "2026-11-20T07:43:19.631112+00:00",
+        "generated_at": "2026-11-20T10:25:40.028123+00:00",
         "horizon_hours": 48,
         "threshold": 50,
         "threshold_unit": "index_points_not_probability",
         "probability_note": "Nem számolunk validált bekövetkezési százalékot. 50/100 pont ≠ 50% eseményesély.",
         "overall": {
-          "score": 10,
+          "score": 8,
           "category": "local_power",
           "method": "Az elérhető jelzések legmagasabb, nem kalibrált intenzitásindexe. Az eltérő kategóriák nem összehasonlítható eseményvalószínűségek.",
           "coverage": 3,
@@ -3256,15 +3265,15 @@
             "key": "local_power",
             "name": "Helyi áramszünet",
             "method": "Időjárási hálózati kitettség, nem áramszünet-valószínűség",
-            "score": 10,
+            "score": 8,
             "status": "estimated_index",
-            "peak_time": "2026-11-20T09:00:00+00:00",
+            "peak_time": "2026-11-20T11:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 43.9 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-20T09:00:00+00:00"
+                "detail": "Széllökés 42.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-20T11:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 48 óra",
@@ -3395,15 +3404,15 @@
             "key": "extreme_weather",
             "name": "Szélsőséges időjárás",
             "method": "Mért előrejelzési kitettség; nem eseményvalószínűség",
-            "score": 10,
+            "score": 8,
             "status": "estimated_index",
-            "peak_time": "2026-11-20T09:00:00+00:00",
+            "peak_time": "2026-11-20T11:00:00+00:00",
             "evidence": [
               {
                 "source": "Open-Meteo",
                 "url": "https://open-meteo.com/en/docs",
-                "detail": "Széllökés 43.9 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
-                "time": "2026-11-20T09:00:00+00:00"
+                "detail": "Széllökés 42.1 km/h, csapadék 0.0 mm/h, hó 0.0 cm; 24h csúcs",
+                "time": "2026-11-20T11:00:00+00:00"
               }
             ],
             "scope": "Nyíregyháza / 48 óra",
@@ -3435,7 +3444,7 @@
         "official_notices_rejected_count": 0
       },
       "72": {
-        "generated_at": "2026-11-20T07:43:19.631112+00:00",
+        "generated_at": "2026-11-20T10:25:40.028123+00:00",
         "horizon_hours": 72,
         "threshold": 50,
         "threshold_unit": "index_points_not_probability",
@@ -3633,10 +3642,12 @@
       }
     },
     "health": {
-      "checked_at": "2026-11-20T07:43:19.631112+00:00",
+      "checked_at": "2026-11-20T10:25:40.028123+00:00",
       "important_total": 6,
-      "important_fresh": 6,
-      "important_missing": [],
+      "important_fresh": 5,
+      "important_missing": [
+        "electricity"
+      ],
       "items": [
         {
           "key": "weather",
@@ -3644,13 +3655,13 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-20T07:43:04Z"
+          "updated_at": "2026-11-20T10:25:27Z"
         },
         {
           "key": "electricity",
           "required": true,
-          "status": "fresh",
-          "error": null,
+          "status": "failed",
+          "error": "HTTP Error 429: Too Many Requests",
           "partial_error_count": 0,
           "updated_at": "2026-11-20T07:43:04Z"
         },
@@ -3660,15 +3671,15 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-20T07:43:04Z"
+          "updated_at": "2026-11-20T10:25:27Z"
         },
         {
           "key": "european_prices",
           "required": true,
           "status": "partial",
           "error": null,
-          "partial_error_count": 5,
-          "updated_at": "2026-11-20T07:43:06Z"
+          "partial_error_count": 4,
+          "updated_at": "2026-11-20T10:25:28Z"
         },
         {
           "key": "europe_weather",
@@ -3676,7 +3687,7 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-20T07:43:04Z"
+          "updated_at": "2026-11-20T10:25:27Z"
         },
         {
           "key": "meteoalarm",
@@ -3684,7 +3695,7 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-20T07:43:10Z"
+          "updated_at": "2026-11-20T10:25:39Z"
         },
         {
           "key": "ews",
@@ -3692,7 +3703,7 @@
           "status": "fresh",
           "error": null,
           "partial_error_count": 0,
-          "updated_at": "2026-11-20T07:43:04Z"
+          "updated_at": "2026-11-20T10:25:27Z"
         },
         {
           "key": "official_news",
@@ -3700,7 +3711,7 @@
           "status": "partial",
           "error": null,
           "partial_error_count": 1,
-          "updated_at": "2026-11-20T07:43:19Z"
+          "updated_at": "2026-11-20T10:25:31Z"
         },
         {
           "key": "gie_storage",
